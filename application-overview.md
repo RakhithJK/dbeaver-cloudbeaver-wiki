@@ -37,12 +37,13 @@ After the connection has been established left application panel contains naviga
 3. Table viewer is opened on the right panel
 [[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/table-view.png|alt=Table view]]
 
-*Edit cell
+*Edit cell*
+
 Double-click cell to edit it. You can submit changes or cancel editing.
 *Note* Submitted changes will be immediately applied to database
 [[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/edit-cell.png|alt=Edit cell]]
 
-*Copy cells
+*Copy cells*
 * Use drag-n-drop to select range of cells
 * Press Ctrl to add new selection to existing one
 * Click index cell to select row
