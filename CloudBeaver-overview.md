@@ -16,8 +16,7 @@
 3. Set connection options and driver properties and press **Connect** button
 
 ![Select database](https://github.com/dbeaver/cloudbeaver/wiki/images/select-database.png)
-
-[[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/connection-options.png|alt=Connection options]]
+![Connection options](https://github.com/dbeaver/cloudbeaver/wiki/images/connection-options.png)
 
 ### Navigate database structure
 After the connection has been established left application panel contains navigation tree wth database structure
@@ -25,25 +24,27 @@ After the connection has been established left application panel contains naviga
 2. Double-click to open object details on the right application panel
 3. Hover element and click on burger icon to open a context menu of the element
 * context menu of a connection allows to close connection (**Disconnect**) or open SQL editor (**SQL**)
-[[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/navigation-tree.png|alt=Navigation tree]]
+![Navigation tree](https://github.com/dbeaver/cloudbeaver/wiki/images/navigation-tree.png)
 
 ### View properties of database object
 1. Open a new connection
 2. Select desired object in navigation tree, double-click it
 3. Object property viewer is opened on the right panel
-[[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/property-view.png|alt=Property view]]
+![Property view](https://github.com/dbeaver/cloudbeaver/wiki/images/property-view.png)
 
 ### View and edit table data
 1. Open a new connection
 2. Select a table element in navigation tree, double-click it
 3. Table viewer is opened on the right panel
-[[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/table-view.png|alt=Table view]]
+
+![Table view](https://github.com/dbeaver/cloudbeaver/wiki/images/table-view.png)
 
 **Edit cell**
 
 Double-click cell to edit it. You can submit changes or cancel editing.
 *Note* Submitted changes will be immediately applied to database
-[[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/edit-cell.png|alt=Edit cell]]
+
+![Edit cell](https://github.com/dbeaver/cloudbeaver/wiki/images/edit-cell.png)
 
 **Copy cells**
 * Use drag-n-drop to select range of cells
@@ -59,6 +60,6 @@ Double-click cell to edit it. You can submit changes or cancel editing.
 3. SQL editor with results panel is opened
 4. Write SQL query and press Ctrl-Enter or click **Execute** icon
 5. Query results will be shown in a tab on SQL results panel
-[[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/sql-editor.png|alt=SQL Editor]]
 
+![SQL Editor](https://github.com/dbeaver/cloudbeaver/wiki/images/sql-editor.png)
 
