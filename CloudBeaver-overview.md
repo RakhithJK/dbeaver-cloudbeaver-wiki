@@ -42,7 +42,8 @@ After the connection has been established left application panel contains naviga
 **Edit cell**
 
 Double-click cell to edit it. You can submit changes or cancel editing.
-*Note* Submitted changes will be immediately applied to database
+
+**Note** Submitted changes will be immediately applied to database
 
 ![Edit cell](https://github.com/dbeaver/cloudbeaver/wiki/images/edit-cell.png)
 
