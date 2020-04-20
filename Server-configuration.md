@@ -30,3 +30,7 @@ ContentRoot | Path to directory with static content
 DriversLocation | Optional path for driver jar files
 ProductConfiguration | Path to product (web interface) configuration file (json)
 DevelMode | When  set to true extra debug information is printed in logs and GraphQL console is enabled on server.
+
+## Datasources configuration 
+
+You can find detailed description [[here|Configuring-server-datasources]]
