@@ -7,6 +7,9 @@ This configuration is stored on server and cannot be changed by end-users.
 
 End-user may choose one of pre-configured connection in the main cloudbeaver toolbar. Then user must provide username/password in order to connect to such pre-configured datasource. No other parameters are needed.
 
-### Configuration file
+See [[Server configuration|Server-configuration]] for information about server and workspace configuration.
 
-All project-level configuration is stored in folder `${CLOUDBEAVER_WORKSPACE}/GlobalConfiguration/.dbeaver`
+### Datasources configuration file
+
+All project-level configuration is stored in folder `${CLOUDBEAVER_WORKSPACE}/GlobalConfiguration/.dbeaver`.
+Datasources are configured in file `data-sources.json`.
