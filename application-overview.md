@@ -14,6 +14,8 @@
 1. Select *Connection > New connection > custom* in main menu
 2. Select database
 3. Set connection options and driver properties and press *Connect* button
+[[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/select-database.png|alt=Select database]]
+[[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/connection-options.png|alt=Connection options]]
 
 ### Navigate database structure
 After the connection has been established left application panel contains navigation tree wth database structure
