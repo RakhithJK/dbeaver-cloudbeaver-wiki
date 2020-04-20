@@ -1,3 +1,5 @@
+<img src="https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png" align="right"/>
+
 # About Cloudbeaver
 
 Cloudbeaver is free and open source web-based database management tool.  
