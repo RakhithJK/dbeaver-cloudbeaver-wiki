@@ -14,7 +14,8 @@
 1. Select *Connection > New connection > custom* in main menu
 2. Select database
 3. Set connection options and driver properties and press **Connect** button
-![Select database](https://github.com/dbeaver/cloudbeaver.wiki/blob/master/images/select-database.png)
+
+![Select database](https://github.com/dbeaver/cloudbeaver/wiki/blob/master/images/select-database.png)
 
 [[https://github.com/dbeaver/cloudbeaver/blob/images/docs/img/connection-options.png|alt=Connection options]]
 
