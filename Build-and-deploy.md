@@ -2,10 +2,10 @@
 
 ### Prerequisites
 
-Java 8, 9, 10, 11 or 12
-Apache Maven
-Node.js
-Yarn
+* Java 8, 9, 10, 11 or 12
+* Apache Maven
+* Node.js
+* Yarn
 
 ### Build and deploy
 ```
