@@ -7,4 +7,4 @@ Cloudbeaver is free and open source database management tool
 
 # Contacts
 
-For technical support, feature suggestions and any other questions, please use our [[https://github.com/dbeaver/cloudbeaver/issues|GitHub Issue tracker]]
+For technical support, feature suggestions and any other questions, please use our <a href="https://github.com/dbeaver/cloudbeaver/issues">GitHub Issue tracker</a>.
