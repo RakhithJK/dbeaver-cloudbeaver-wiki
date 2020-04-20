@@ -22,7 +22,6 @@ DevelMode = false
 All paths can be absolute or are relative to the server start directory (or current directory).
 Parameters:
 
----|---
 Name|Description
 ---|---
 ServerPort | Port for Cloudbeaver web server
