@@ -23,13 +23,15 @@ After the connection has been established left application panel contains naviga
 1. Click element in the tree to open/close nested elements
 2. Double-click to open object details on the right application panel
 3. Hover element and click on burger icon to open a context menu of the element
-* context menu of a connection allows to close connection (**Disconnect**) or open SQL editor (**SQL**)
+  * context menu of a connection allows to close connection (**Disconnect**) or open SQL editor (**SQL**)
+
 ![Navigation tree](https://github.com/dbeaver/cloudbeaver/wiki/images/navigation-tree.png)
 
 ### View properties of database object
 1. Open a new connection
 2. Select desired object in navigation tree, double-click it
 3. Object property viewer is opened on the right panel
+
 ![Property view](https://github.com/dbeaver/cloudbeaver/wiki/images/property-view.png)
 
 ### View and edit table data
