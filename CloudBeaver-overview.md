@@ -51,14 +51,15 @@ Double-click cell to edit it. You can submit changes or cancel editing.
 * Press Ctrl to add new selection to existing one
 * Click index cell to select row
 * Click column cell to select column
-*Note* if the  data table is big and only part is downloaded only loaded cells will be selected
-* Press Ctrl-C to copy selected cells to clipboard in CSV format
+
+**Note** if the  data table is big and only part is downloaded only loaded cells will be selected
+* Press **Ctrl-C** to copy selected cells to clipboard in CSV format
 
 ### Execute SQL query
 1. Open a new connection
 2. Click **SQL** in main menu
 3. SQL editor with results panel is opened
-4. Write SQL query and press Ctrl-Enter or click **Execute** icon
+4. Write SQL query and press **Ctrl-Enter** or click **Execute** icon
 5. Query results will be shown in a tab on SQL results panel
 
 ![SQL Editor](https://github.com/dbeaver/cloudbeaver/wiki/images/sql-editor.png)
