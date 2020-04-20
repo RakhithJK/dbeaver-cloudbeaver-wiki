@@ -22,14 +22,14 @@ to run Webpack dev server
 ## Plugins
 The application consist of several plugins and submoduled located in `webapp\packages` folder
 * **core**
- * **app** - Base application folder
- * **assets** - Styles and translation
- * **blocks** - Low-level common visual components
- * **di** - Dependency injection related classes
- * **dialogs** - Main and context menues, modal windows
- * **eventsLog** - Logging
- * **sdk** - GraphQL related services
- * **theming** - Themisation related services and hooks
+  * **app** - Base application folder
+  * **assets** - Styles and translation
+  * **blocks** - Low-level common visual components
+  * **di** - Dependency injection related classes
+  * **dialogs** - Main and context menues, modal windows
+  * **eventsLog** - Logging
+  * **sdk** - GraphQL related services
+  * **theming** - Themisation related services and hooks
 * **ag-grid-plugin** - wrapper over Ag-Grid
 * **basic-connectio-plugin** - provides handling of preconfigured connections
 * **custom-connection-plugin** - provides handling of custom connections
