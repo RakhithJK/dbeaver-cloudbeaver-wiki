@@ -2,7 +2,7 @@ We host a demo server where you can see how CloudBeaver looks in real life.
 
 It is a simple server with a few sample databases.
 
-### [Demo Server](https://demo.cloudbeaver.io)
+### [Demo Server](https://demo.cloudbeaver.io) - https://demo.cloudbeaver.io
 
 #### Pre-configured databases access:
 
