@@ -9,10 +9,10 @@ This build process is relatively complicated (also consists of two parts).
 
 ### Prerequisites
 
-* Java 11 (https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot).
-* Apache Maven (https://maven.apache.org/download.cgi)
-* Node.js (https://nodejs.org/en/)
-* Yarn (https://classic.yarnpkg.com/en/docs/install#windows-stable)
+- [Java 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot).
+- [Apache Maven](https://maven.apache.org/download.cgi)
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
 #### Install prerequisites on Ubuntu:
 ```bash
@@ -22,6 +22,14 @@ sudo apt install maven
 sudo apt install cmdtest
 sudo apt install nodejs
 ```
+
+#### Install prerequisites on Windows:
+
+- Download and install [AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
+- Download and extract [Maven ](https://maven.apache.org/download.cgi). 
+- Add path to Maven bin folder in system PATH
+- Download and install [Node.js](https://nodejs.org/en/)
+- Download and install [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
 ### Build and deploy
 
