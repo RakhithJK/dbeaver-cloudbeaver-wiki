@@ -31,7 +31,7 @@ sudo npm install -g npx
 - Download and install [AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
 - Download and extract [Maven ](https://maven.apache.org/download.cgi). 
 - Add path to Maven bin folder in system PATH
-- Download and install [Node.js](https://nodejs.org/en/). NPM comes along with Node.js.
+- Download and install [Node.js](https://nodejs.org/en/). NPM and NPX come along with Node.js.
 - Download and install [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
 ### Build and deploy
