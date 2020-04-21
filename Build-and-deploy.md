@@ -13,7 +13,7 @@ This build process is relatively complicated (also consists of two parts).
 - [Apache Maven](https://maven.apache.org/download.cgi)
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
-- [NPM]()
+- [NPM](https://www.npmjs.com/get-npm)
 
 #### Install prerequisites on Ubuntu:
 ```bash
