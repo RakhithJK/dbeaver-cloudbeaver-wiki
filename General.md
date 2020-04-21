@@ -1,8 +1,8 @@
 <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png" align="right"/>
 
-# About Cloudbeaver
+# About CloudBeaver
 
-Cloudbeaver is free and open source web-based database management tool.  
+CloudBeaver is a free and open source web-based database management tool.  
 
 * Web-based application written in Java and Typescript (React)
 * Supports multiple databases: MariaDB, PestgreSQL, SQLite, Firebird, MySQL
