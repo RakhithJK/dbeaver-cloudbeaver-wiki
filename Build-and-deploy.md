@@ -9,7 +9,7 @@ This build process is relatively complicated (also consists of two parts).
 
 ### Prerequisites
 
-* Java 8, 9, 10, 11 or 12 (https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot).
+* Java 11 (https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot).
 * Apache Maven (https://maven.apache.org/download.cgi)
 * Node.js (https://nodejs.org/en/)
 * Yarn (https://classic.yarnpkg.com/en/docs/install#windows-stable)
