@@ -20,4 +20,7 @@ You could try to connect to some of your databases using Custom connection wizar
 *Warning: it is not secure to open direct access to your database so don't use this on any databases with sensitive data.  
 The Demo server is for testing only.*
 
+If you want to use CloudBeaver with your real databases then [[deploy it in your infrastructure|Build-and-deploy]].
+
+
 **Have fun!**
