@@ -13,7 +13,7 @@ This build process is relatively complicated (also consists of two parts).
 - [Apache Maven](https://maven.apache.org/download.cgi)
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
-- [NPM](https://www.npmjs.com/get-npm) + [NPX](https://www.npmjs.com/package/npx)
+- [NPM](https://www.npmjs.com/get-npm) + [Lerna](https://www.npmjs.com/package/lerna)
 
 #### Install prerequisites on Ubuntu:
 ```bash
@@ -23,7 +23,7 @@ sudo apt install maven
 sudo apt install cmdtest
 sudo apt install nodejs
 sudo apt install npm
-sudo npm install -g npx
+sudo npm install -g lerna
 ```
 
 #### Install prerequisites on Windows:
