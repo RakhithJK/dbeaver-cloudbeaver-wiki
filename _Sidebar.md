@@ -1,5 +1,5 @@
 **General User Guide**
-* [[General|]]
+* [[Home|]]
 * [[Build and deploy|build-and-deploy]]
 * [[Application overview|CloudBeaver-overview]]
 * [[Frontend technical overview|fronend]]
