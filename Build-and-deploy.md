@@ -13,6 +13,7 @@ This build process is relatively complicated (also consists of two parts).
 - [Apache Maven](https://maven.apache.org/download.cgi)
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+- [NPM]()
 
 #### Install prerequisites on Ubuntu:
 ```bash
@@ -21,6 +22,7 @@ sudo apt install openjdk-11-jdk
 sudo apt install maven
 sudo apt install cmdtest
 sudo apt install nodejs
+sudo apt install npm
 ```
 
 #### Install prerequisites on Windows:
@@ -28,12 +30,12 @@ sudo apt install nodejs
 - Download and install [AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
 - Download and extract [Maven ](https://maven.apache.org/download.cgi). 
 - Add path to Maven bin folder in system PATH
-- Download and install [Node.js](https://nodejs.org/en/)
+- Download and install [Node.js](https://nodejs.org/en/). NPM comes along with Node.js.
 - Download and install [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
 ### Build and deploy
 
-```sh
+```bash
 git clone https://github.com/dbeaver/cloudbeaver.git
 cd cloudbeaver/deploy
 ./build.sh
@@ -42,7 +44,7 @@ cd cloudbeaver/deploy
 Final artifacts can be found in deploy/cloudbeaver.
 
 ### Running server
-```sh
+```bash
 cd cloudbeaver
 ./run-server.sh
 ```
