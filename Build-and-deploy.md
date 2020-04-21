@@ -16,6 +16,13 @@ This build process is relatively complicated (also consists of two parts).
 - [NPM](https://www.npmjs.com/get-npm) + [Lerna](https://www.npmjs.com/package/lerna)
 
 #### Install prerequisites on Ubuntu:
+
+Add Yarn latest version repo:
+```bash
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+Install the rest:
 ```bash
 sudo apt update
 sudo apt install openjdk-11-jdk
