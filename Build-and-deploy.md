@@ -23,7 +23,7 @@ sudo apt install maven
 sudo apt install cmdtest
 sudo apt install nodejs
 sudo apt install npm
-npm install npx
+sudo npm install -g npx
 ```
 
 #### Install prerequisites on Windows:
