@@ -19,7 +19,9 @@ This build process is relatively complicated (also consists of two parts).
 
 Add Node.js and Yarn latest version repo:
 ```bash
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+  curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 ```
 Install packages:
 ```bash
