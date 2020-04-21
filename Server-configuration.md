@@ -1,4 +1,4 @@
-There are several configuration files in Cloudbeaver.
+There are several configuration files in CloudBeaver.
 
 ## Main server configuration 
 
@@ -24,12 +24,12 @@ Parameters:
 
 Name|Description
 ---|---
-ServerPort | Port for Cloudbeaver web server
+ServerPort | Port for CloudBeaver web server
 WorkspaceLocation | Root folder for projects
 ContentRoot | Path to directory with static content
 DriversLocation | Optional path for driver jar files
 ProductConfiguration | Path to product (web interface) configuration file (json)
-DevelMode | When  set to true extra debug information is printed in logs and GraphQL console is enabled on server.
+DevelMode | When set to true extra debug information is printed in logs and GraphQL console is enabled on server.
 
 ## Datasources configuration 
 
