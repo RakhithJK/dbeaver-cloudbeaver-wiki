@@ -1,7 +1,7 @@
 # Frontend technical overview
 
-Cloudbeaver frontend is single page application written in [React](https://reactjs.org).
-We use [InversifyJS](https://github.com/inversify/InversifyJS) for dependency injection and [MobX](https://mobx.js.org) as state management library. [GraphQL](https://graphql.org) is in use to communicate with the server.
+CloudBeaver frontend is a single page application written in [React](https://reactjs.org).
+We use [InversifyJS](https://github.com/inversify/InversifyJS) for dependency injection and [MobX](https://mobx.js.org) as a state management library. [GraphQL](https://graphql.org) is in use to communicate with the server.
 
 The application is written as a set of plugins organized in [Lerna](https://github.com/lerna/lerna) monorepo. Plugins can be developed independently and added to the final build through mentioning in the configuration file.
 
@@ -20,7 +20,7 @@ to run Webpack dev server
 3. Open `localhost:3100` in web browser
 
 ## Plugins
-The application consist of several plugins and submoduled located in `webapp\packages` folder
+The application consists of several plugins and submoduled located in `webapp\packages` folder
 * **core**
   * **app** - Base application folder
   * **assets** - Styles and translation
