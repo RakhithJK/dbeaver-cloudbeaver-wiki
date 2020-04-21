@@ -18,6 +18,7 @@ This build process is relatively complicated (also consists of two parts).
 ```sh
 sudo apt update
 sudo apt install openjdk-11-jdk
+sudo apt install maven
 sudo apt install cmdtest
 sudo apt install nodejs
 ```
