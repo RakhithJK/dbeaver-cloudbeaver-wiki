@@ -15,7 +15,7 @@ This build process is relatively complicated (also consists of two parts).
 * Yarn (https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
 #### Install prerequisites on Ubuntu:
-```sh
+```bash
 sudo apt update
 sudo apt install openjdk-11-jdk
 sudo apt install maven
