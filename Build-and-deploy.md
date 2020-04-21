@@ -22,7 +22,7 @@ Add Yarn latest version repo:
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ```
-Install the rest:
+Install packages:
 ```bash
 sudo apt update
 sudo apt install openjdk-11-jdk
