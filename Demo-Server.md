@@ -17,7 +17,7 @@ PostgreSQL | demo | demo
 CloudBeaver doesn't store/cache your credentials or any user data. 
 You could try to connect to some of your databases using Custom connection wizard.  
 
-Note: it is not secure to open direct access to your database so don't use this on any databases with sensitive data.  
-The Demo server is for testing only.
+*Warning: it is not secure to open direct access to your database so don't use this on any databases with sensitive data.  
+The Demo server is for testing only.*
 
 **Have fun!**
