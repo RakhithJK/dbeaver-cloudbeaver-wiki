@@ -2,7 +2,7 @@
 
 CloudBeaver is a web server which provides rich web interface.  
 It consists of two parts:
-- Server back-end. It is written on Java and reuses libraries of <a href="https://github/.com/dbeaver/dbeaver">.
+- Server back-end. It is written on Java and reuses "platform" libraries of <a href="https://github/.com/dbeaver/dbeaver">DBeaver</a>.
 - Front-end part. It is written on TypeScript and JavaScript.
 
 This build process is relatively complicated (also consists of two parts).
