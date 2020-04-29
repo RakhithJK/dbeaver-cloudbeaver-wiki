@@ -14,7 +14,7 @@ WorkspaceLocation = workspace
 ContentRoot = web
 DriversLocation = drivers
 
-ProductConfiguration = conf/product.js
+ProductConfiguration = conf/product.conf
 
 DevelMode = false
 ```
