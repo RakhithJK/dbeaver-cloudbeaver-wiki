@@ -60,3 +60,5 @@ cd cloudbeaver
 By default server listens port `8978` (you can change it in conf/cloudbeaver.conf). So just navigate to http://localhost:8978.
 You can configure [[Nginx|CloudBeaver-and-Nginx]], Apache or any other web server in front of it.
 
+*Note: you must be in the server root directory to run it.*  
+If you need to run it from some other directory then you can set environment variable `CLOUDBEAVER_HOME` to the server root directory.
