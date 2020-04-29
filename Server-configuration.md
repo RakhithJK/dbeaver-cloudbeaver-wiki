@@ -13,6 +13,7 @@ Typical configuration:
         serverPort: 8978,
         serverName: "CloudBeaver Sample Server",
 
+        // Paths are absolute or relative to the server root folder
         workspaceLocation: "workspace",
         contentRoot: "web",
         driversLocation: "drivers",
@@ -20,6 +21,7 @@ Typical configuration:
         rootURI: "/",
         serviceURI: "/dbeaver/",
 
+        // Webapp configuration file
         productConfiguration: "conf/product.conf",
 
         expireSessionAfterPeriod: 600000,
