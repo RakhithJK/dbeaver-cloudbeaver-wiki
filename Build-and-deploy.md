@@ -28,7 +28,7 @@ Install packages:
 sudo apt update
 sudo apt install openjdk-11-jdk
 sudo apt install maven
-sudo apt install cmdtest
+sudo apt install yarn
 sudo apt install nodejs
 sudo apt install npm
 sudo npm install -g lerna
