@@ -117,3 +117,6 @@ Define custom webpack dev server port. Default is 3100
 
 Define custom location of backend server. Default is http://localhost:8978
 
+**Note** If you are going to modify only certain plugins you don't need to serve all of them. 
+* Run 'yarn run serve-plugin' in a plugin folder to serve only this plugin
+* In webapp folder you can use Lerna filters to server only set of plugins
