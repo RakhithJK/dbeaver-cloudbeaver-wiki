@@ -42,6 +42,11 @@ sudo npm install -g lerna
 - Download and install [Node.js](https://nodejs.org/en/). NPM comes along with Node.js, NPX/Lerna will be installed in the build script.
 - Download and install [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
+If lerna isn't installed along with Node.js you can do it manually:
+```
+npm install -g lerna
+```
+
 ### Build and deploy
 
 ```bash
