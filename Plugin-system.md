@@ -22,9 +22,10 @@
 plugin builder expect certain folder structure:
 ```
 plugin_name
- |-dist # after the build will contain the artifact
+ |-dist         # after the build will contain the artifact
  |-node_modules # dependencies
- |-src # keep source files here
+ |-public       # put static assets to this folder
+ |-src          # keep source files here
  |-package.json
  |-tsconfig.json
 ```
@@ -37,7 +38,8 @@ plugin_name
  |-dist # it will contain the artifact after building
  |-module1
    |-package.json # see example in @dbeaver/core
- |-node_modules # dependencies
+ |-node_modules   # dependencies
+ |-public         # put static assets to this folder
  |-src
    |-module1
      |- ... # module source files
@@ -123,3 +125,8 @@ Define custom location of backend server. Default is http://localhost:8978
 **Note** If you are going to modify only certain plugins you don't need to serve all of them. 
 * Run 'yarn run serve-plugin' in a plugin folder to serve only this plugin
 * In webapp folder you can use Lerna filters to server only set of plugins
+
+## Static assets
+You can keep static asstes like images, fevicon, etc in `public` folder in plugin packages or app package
+
+All such assets will be copied to application distributive. Assets with same name will overwrite one another but it is known that Application public assets win.
