@@ -3,9 +3,11 @@
 |-cloudbeaver
   |-webapp # all frontend code is here
     |-packages      # yarn workspaces with lerna packages
-      |-builder     # package with build configs, provide a simple cli to build the plugins and the application
+      |-builder     # package with build configs, 
+      |               provides a simple cli to build the plugins and the application
       |-cloudbeaver # application package
-      |-core        # core package with common modules like GraphQL, dependency injection, and common app services
+      |-core        # core package with common modules like GraphQL, 
+        |             dependency injection, and common app services
         |-di        # dependency injection module
         |-blocks    # the module with basic components - buttons, tabs, tables, lists
         |-sdk       # GraphQL wrapping services
