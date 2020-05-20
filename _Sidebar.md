@@ -13,5 +13,6 @@ User Guide
 Development  
 
    - [[Frontend technical overview|Frontend-description]]
+   - [[Plugin system|Plugin system]]
    - [[Server architecture|Server-architecture]]
    - [[Server API explorer]]
