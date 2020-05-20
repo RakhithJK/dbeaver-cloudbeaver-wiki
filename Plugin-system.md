@@ -101,13 +101,13 @@ Allows to build application wuth custom plugins list. Please, include the full f
 `yarn run build` is the same as `yarn run build --pluginsList=./plugins-list.js`
 
 ## Development
-1. Run `yarn run serve-plugin` in `webapp` folder. It builds all plugins, put them in corresponding `/dist` folder and start to watch. When the code is changed the corresponding plugin will be rebuilt.
-2. execute `cd packages\cloudbeaver && yarn run serve-app`. It starts webpack-dev-server and server application with all packages. The application will be updated after any plugin rebuild.
+1. Run `yarn run serve-plugin` in `webapp` folder. It builds all plugins, put them in corresponding `/dist` folder and starts to watch. When the code is changed the corresponding plugin will be rebuilt.
+2. execute `cd packages\cloudbeaver && yarn run serve-app`. It starts webpack-dev-server and serves application with all packages. The application will be updated after any plugin rebuild.
 3. Navigate `localhost:3100` to open the application
 
 * `yarn run serve-app --pluginsList=../../custom/path/to/plugins-list.js` 
 
-serve application with custom plugin list
+serve application with custom plugins list
 
 * `yarn run serve-app --port=4200` 
 
