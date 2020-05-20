@@ -12,6 +12,7 @@
         |-blocks    # the module with basic components - buttons, tabs, tables, lists
         |-sdk       # GraphQL wrapping services
         |-dialogs   # menus, context menus, modal windows
+        |-...       # other modules
       |-_plugin-template  # empty plugin, use it if you want to create own plugin
       |-data-viewer-plugin # application plugins
       |-basic-connection-plugin 
