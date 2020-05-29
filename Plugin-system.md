@@ -23,6 +23,7 @@ plugin builder expect certain folder structure:
 ```
 plugin_name
  |-dist         # after the build will contain the artifact
+ |-locales      # put lang.json files here with translation tokens related to plugin
  |-node_modules # dependencies
  |-public       # put static assets to this folder
  |-src          # keep source files here
@@ -130,3 +131,7 @@ Define custom location of backend server. Default is http://localhost:8978
 You can keep static asstes like images, fevicon, etc in `public` folder in plugin packages or app package
 
 All such assets will be copied to application distributive. Assets with same name will overwrite one another but it is known that Application public assets win.
+
+## Localization
+See example in the core plugin. Put locale.json files with localization tokens to `plugin_name/locales` folder.
+All such files will be merged on application build stage and will be served from `cloudbeave/dist/locales`.
