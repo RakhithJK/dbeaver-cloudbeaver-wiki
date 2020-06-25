@@ -9,6 +9,7 @@ User Guide
 
    - [[Application overview|CloudBeaver-overview]]
    - [[Demo Server]]
+   - [[Configurable parameters]]
 
 Development  
 
