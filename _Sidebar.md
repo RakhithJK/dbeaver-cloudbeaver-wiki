@@ -3,7 +3,8 @@ General
    - [[Build and deploy|build-and-deploy]]
    - [[Server configuration]]
    - [[Configuring server datasources]]
-      - [[Connection configuration|Connection-configuration]] 
+      - [[Connection configuration]] 
+      - [[Driver managements]] 
    - [[CloudBeaver and Nginx]]
 
 User Guide  
