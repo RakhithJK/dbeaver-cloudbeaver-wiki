@@ -1,5 +1,7 @@
 ## Configuring server "predefined" connections
 
+See [[Connection configuration|Connection-configuration]] for different connection types description
+
 ### Overview 
 
 CloudBeaver server may have a set of pre-configured database connections. 
