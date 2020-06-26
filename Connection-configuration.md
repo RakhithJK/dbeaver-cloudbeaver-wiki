@@ -19,4 +19,5 @@ Custom connections can be created by users (Note: configuration parameter `suppo
 
 ### Cloud connections
 
-
+Cloud connections cannot be created or deleted by users explicitly. Their configuration is provided by cloud service provider (e.g. thru AWS API).
+Once CB will find such connections (by using cloud configuration specified by server administrator) they will become visible in navigator tree.
