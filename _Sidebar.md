@@ -3,6 +3,7 @@ General
    - [[Build and deploy|build-and-deploy]]
    - [[Server configuration]]
    - [[Configuring server datasources]]
+      - [[Connection configuration|Connection-configuration]] 
    - [[CloudBeaver and Nginx]]
 
 User Guide  
