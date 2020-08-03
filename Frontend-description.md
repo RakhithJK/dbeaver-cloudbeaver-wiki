@@ -13,8 +13,8 @@ We use [Ag-Grid](https://www.ag-grid.com) to display big and functionally rich t
 1. Run local server as it described in [Build and deploy](https://github.com/dbeaver/cloudbeaver/wiki/Build-and-deploy) section
 2. Execute
 ```
-cd webapp/packages/dbeaver
-yarn run dev --server=localhost:8978
+cd webapp/
+lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --server=localhost:8978
 ```
 to run Webpack dev server
 3. Open `localhost:3100` in web browser
@@ -30,7 +30,7 @@ The application consists of several plugins and submoduled located in `webapp\pa
   * **eventsLog** - Logging
   * **sdk** - GraphQL related services
   * **theming** - Themisation related services and hooks
-* **ag-grid-plugin** - wrapper over Ag-Grid
+* **plugin-data-spreadsheet** - wrapper over Ag-Grid
 * **basic-connectio-plugin** - provides handling of preconfigured connections
 * **custom-connection-plugin** - provides handling of custom connections
 * **data-viewer-plugin** - provides Data Table View
