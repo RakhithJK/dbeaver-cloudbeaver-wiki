@@ -22,20 +22,30 @@ to run Webpack dev server
 
 ## Plugins
 The application consists of several plugins and submoduled located in `webapp\packages` folder
-* **core**
-  * **app** - Base application folder
-  * **assets** - Styles and translation
-  * **blocks** - Low-level common visual components
-  * **di** - Dependency injection related classes
-  * **dialogs** - Main and context menues, modal windows
-  * **eventsLog** - Logging
-  * **sdk** - GraphQL related services
-  * **theming** - Themisation related services and hooks
-* **plugin-data-spreadsheet** - wrapper over Ag-Grid
-* **basic-connectio-plugin** - provides handling of preconfigured connections
-* **custom-connection-plugin** - provides handling of custom connections
-* **data-viewer-plugin** - provides Data Table View
-* **object-viewer-plugin** - provides Object Property View
-* **sql-editor** - provides SQL-editor tab
-* **dbeaver** - configure and build all plugins to the final application
+* **core-app** - Base application folder
+* **core-blocks** - Low-level common visual components
+* **core-bootstrap** - Common core plugin
+* **core-di** - Dependency injection related classes
+* **core-dialogs** - Main and context menues, modal windows
+* **core-events** - Logging
+* **core-extensions** - Extensions API
+* **core-localization** - Localization API
+* **core-plugin** - Plugin API
+* **core-product** - Product API
+* **core-root** - Permissions, server and session services
+* **core-sdk** - GraphQL related services
+* **core-theming** - Themisation related services and hooks
+* **core-utils** - Utilites
+* **core-view** - View API
+* **plugin-administration** - Administration API
+* **plugin-authentication** - Authentication and users administration
+* **plugin-connection-custom** - Provides handling of custom connections
+* **plugin-connection-preconfigured** - Provides handling of preconfigured connections
+* **plugin-data-export** - Data export from data view
+* **plugin-data-spreadsheet** - Wrapper over Ag-Grid
+* **plugin-data-viewer** - Provides Data Table View
+* **plugin-ddl-viewer** - Provides DDL for database objects
+* **plugin-object-viewer** - Provides Object Property View
+* **plugin-sql-editor** - Provides SQL-editor tab
+* **product-default** - Configure and build all plugins to the final application
 
