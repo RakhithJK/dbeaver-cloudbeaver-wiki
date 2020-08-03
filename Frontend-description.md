@@ -17,6 +17,7 @@ cd webapp/
 lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --server=localhost:8978
 ```
 to run Webpack dev server
+
 3. Open `localhost:3100` in web browser
 
 ## Plugins
