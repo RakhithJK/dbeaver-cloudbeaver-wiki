@@ -2,51 +2,34 @@
 ```
 |-cloudbeaver
   |-webapp # all frontend code is here
-    |-packages      # yarn workspaces with lerna packages
-      |-builder     # package with build configs, 
-      |               provides a simple cli to build the plugins and the application
-      |-cloudbeaver # application package
+    |-configs       # core/plugin/product build configs (webpack, babel)
+    |-packages      # yarn workspaces managed by lerna
       |-core        # core package with common modules like GraphQL, 
         |             dependency injection, and common app services
+        |-administration        # administration API
         |-di        # dependency injection module
         |-blocks    # the module with basic components - buttons, tabs, tables, lists
         |-sdk       # GraphQL wrapping services
         |-dialogs   # menus, context menus, modal windows
         |-...       # other modules
-      |-_plugin-template  # empty plugin, use it if you want to create own plugin
-      |-data-viewer-plugin
-      |-basic-connection-plugin 
-      |-etc... # other plugins
+      |-plugin
+        |-authentication
+        |-connection-custom
+        |-connection-template
+        |-data-export
+        |-etc... # other plugins
+      |-product-default # default application product package (with all plugins)
 ```
 ### Plugin folder structure
-plugin builder expect certain folder structure:
+common folder structure:
 ```
-plugin_name
- |-dist         # after the build will contain the artifact
- |-locales      # put lang.json files here with translation tokens related to plugin
+package_name
  |-node_modules # dependencies
+ |-lib          # after the build will contain the artifact
  |-public       # put static assets to this folder
  |-src          # keep source files here
  |-package.json
  |-tsconfig.json
-```
-
-
-Plugin can consist of several modules (see @dbeaver/core plugin, for example)
-In this case the folder structure should be next:
-```
-plugin_name
- |-dist # it will contain the artifact after building
- |-module1
-   |-package.json # see example in @dbeaver/core
- |-node_modules   # dependencies
- |-public         # put static assets to this folder
- |-src
-   |-module1
-     |- ... # module source files
- |-package.json
- |-tsconfig.json
- |-modules.js # list of modules in order of dependency (see example in @dbeaver/core)
 ```
 
 ## Commands
@@ -58,80 +41,52 @@ load all dependencies and init workspaces
 
 * ```yarn run build```
 
-build all packages (plugins and the application) the result will be placed in `packages/{package-name}/dist` folder
+build all packages (plugins and the application) the result will be placed in `packages/{package-name}/lib` folder
 
-* ```yarn run clean-dist```
+* ```yarn run lint```
 
-delete `dist` folder in all packages
+lint all code
 
-* ```yarn serve-plugin```
+* ```yarn run lint-fix```
 
-build all plugins and start to watch it - rebuild after any code changes
-
-* ```yarn builder-help```
-
-list of available builder commands (DEV only)
+lint all code and fix
 
 ## Build plugin
 To build a single plugin execute
 ```
-cd packages/plugin-name
-yarn run build
+lerna run build --stream --scope=@cloudbeaver/plugin-name
 ```
 
-## Build application
-### Application folder structure
+## Build product
+### Product folder structure is the same as for plugin
 ```
 |-packages
   |-cloudbeaver
-    |-dist
-    |-node_modules
-    |-index.html.ejs  # application template
-    |-plugins-list.js # list of all plugins that should be included into the build
+    |-node_modules # dependencies
+    |-lib          # after the build will contain the artifact
+    |-public       # put static assets to this folder
+    |-src          # keep source files here
     |-package.json
+    |-tsconfig.json
 ```
+only difference in build command: `"build": "webpack --config ../../configs/webpack.product.config",` it uses product config, also contains `dev` command for starting development local build `"dev": "webpack-dev-server --progress --config=../../configs/webpack.product.dev.config --port=3100",`
+
 The application package simple defines the list of plugins that should be included into the build
 ### Commands
-Execute commands in packages/cloudbeaver folder to build only application without rebuilding plugins
-* `yarn run build`
-
-Build application only. All plugins should have been built before execution of this command
-
-* `yarn run build --mode=development`
-
-Build application with sourcemaps and without minification
-
-* `yarn run build --pluginsList=../../custom/path/to/plugins-list.js`
-
-Allows to build application wuth custom plugins list. Please, include the full filename into the path. 
-`yarn run build` is the same as `yarn run build --pluginsList=./plugins-list.js`
+Execute command to build only application without rebuilding plugins
+* `lerna run build --stream --scope=@cloudbeaver/product-name`
 
 ## Development
-1. Run `yarn run serve-plugin` in `webapp` folder. It builds all plugins, put them in corresponding `/dist` folder and starts to watch. When the code is changed the corresponding plugin will be rebuilt.
-2. execute `cd packages\cloudbeaver && yarn run serve-app`. It starts webpack-dev-server and serves application with all packages. The application will be updated after any plugin rebuild.
-3. Navigate `localhost:3100` to open the application
+1. To run development build that watches file changed and rebuilds you can use the `dev` command:
+`lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --server=http://backend.server:8095`
+it starts dev server for `product-default` and proxies backend requests to `http://backend.server:8095`
 
-* `yarn run serve-app --pluginsList=../../custom/path/to/plugins-list.js` 
-
-serve application with custom plugins list
-
-* `yarn run serve-app --port=4200` 
-
-Define custom webpack dev server port. Default is 3100
-
-* `yarn run serve-app --server=http://localhost:8080`
-
-Define custom location of backend server. Default is http://localhost:8978
-
-**Note** If you are going to modify only certain plugins you don't need to serve all of them. 
-* Run 'yarn run serve-plugin' in a plugin folder to serve only this plugin
-* In webapp folder you can use Lerna filters to server only set of plugins
+2. Navigate `localhost:3100` to open the application
 
 ## Static assets
-You can keep static asstes like images, fevicon, etc in `public` folder in plugin packages or app package
+You can keep static assets like images, favicon, etc in `public` folder in plugin packages or app package
 
-All such assets will be copied to application distributive. Assets with same name will overwrite one another but it is known that Application public assets win.
+All such assets will be copied to application distributive. Assets with the same name will overwrite one another but it is known that Application public assets win.
 
 ## Localization
-See example in the core plugin. Put locale.json files with localization tokens to `plugin_name/locales` folder.
-All such files will be merged on application build stage and will be served from `cloudbeave/dist/locales`.
+See the example in the `core-administration` `AdministrationLocaleService.ts` and `locales` folder
