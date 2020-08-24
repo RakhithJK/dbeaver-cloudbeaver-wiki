@@ -1,33 +1,33 @@
 ## Folder structure
 ```
 |-cloudbeaver
-  |-webapp # all frontend code is here
-    |-configs       # core/plugin/product build configs (webpack, babel)
-    |-packages      # yarn workspaces managed by lerna
-      |-core        # core package with common modules like GraphQL, 
-        |             dependency injection, and common app services
-        |-administration        # administration API
-        |-di        # dependency injection module
-        |-blocks    # the module with basic components - buttons, tabs, tables, lists
-        |-sdk       # GraphQL wrapping services
-        |-dialogs   # menus, context menus, modal windows
-        |-...       # other modules
+  |-webapp                 # all frontend code is here
+    |-configs              # core/plugin/product build configs (webpack, babel)
+    |-packages             # yarn workspaces managed by lerna
+      |-core               # core package with common modules like GraphQL, 
+        |                    dependency injection, and common app services
+        |-administration   # administration API
+        |-di               # dependency injection module
+        |-blocks           # the module with basic components - buttons, tabs, tables, lists
+        |-sdk              # GraphQL wrapping services
+        |-dialogs          # menus, context menus, modal windows
+        |-...              # other modules
       |-plugin
         |-authentication
         |-connection-custom
         |-connection-template
         |-data-export
-        |-etc... # other plugins
-      |-product-default # default application product package (with all plugins)
+        |-etc...            # other plugins
+      |-product-default     # default application product package (with all plugins)
 ```
 ### Plugin folder structure
 common folder structure:
 ```
 package_name
- |-node_modules # dependencies
- |-lib          # after the build will contain the artifact
- |-public       # put static assets to this folder
- |-src          # keep source files here
+ |-node_modules    # dependencies
+ |-lib             # after the build will contain the artifact
+ |-public          # put static assets to this folder
+ |-src             # keep source files here
  |-package.json
  |-tsconfig.json
 ```
@@ -62,10 +62,10 @@ lerna run build --stream --scope=@cloudbeaver/plugin-name
 ```
 |-packages
   |-cloudbeaver
-    |-node_modules # dependencies
-    |-lib          # after the build will contain the artifact
-    |-public       # put static assets to this folder
-    |-src          # keep source files here
+    |-node_modules     # dependencies
+    |-lib              # after the build will contain the artifact
+    |-public           # put static assets to this folder
+    |-src              # keep source files here
     |-package.json
     |-tsconfig.json
 ```
