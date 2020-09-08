@@ -7,3 +7,6 @@ sudo docker pull dbeaver/cloudbeaver:latest
 sudo docker run -d -ti 8978:8978 dbeaver/cloudbeaver:latest
 ```
 
+Then switch to the browser and open http://localhost:8978/
+
+That's it.
