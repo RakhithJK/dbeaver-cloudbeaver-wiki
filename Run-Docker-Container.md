@@ -4,6 +4,6 @@ So to install the latest version of CloudBeaver use following script:
 
 ```sh
 sudo docker pull dbeaver/cloudbeaver:latest
-sudo docker run -d -p 8978:8978 dbeaver/cloudbeaver:latest
+sudo docker run -d -ti 8978:8978 dbeaver/cloudbeaver:latest
 ```
 
