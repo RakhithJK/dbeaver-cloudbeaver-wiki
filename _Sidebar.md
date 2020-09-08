@@ -1,5 +1,6 @@
 General  
 
+   - [[Running from Docker|run-docker-container]]
    - [[Build and deploy|build-and-deploy]]
    - [[Server configuration]]
    - [[Configuring server datasources]]
