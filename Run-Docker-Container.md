@@ -9,4 +9,6 @@ sudo docker run -ti -p 8978:8978 dbeaver/cloudbeaver:latest
 
 Then switch to the browser and open http://localhost:8978/
 
+Note: use image `dbeaver/cloudbeaver:dev` to get the latest developer build.
+
 That's it.
