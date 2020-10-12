@@ -1,6 +1,6 @@
 CloudBeaver container image is on DockerHub: https://hub.docker.com/r/dbeaver/cloudbeaver.  
-`dbeaver/cloudbeaver:latest` - latest release build.
-`dbeaver/cloudbeaver:dev` - latest developer build.
+- `dbeaver/cloudbeaver:latest` - latest release build.
+- `dbeaver/cloudbeaver:dev` - latest developer build.
 
 #### Installation 
 So to install the latest version of CloudBeaver use the following script:
