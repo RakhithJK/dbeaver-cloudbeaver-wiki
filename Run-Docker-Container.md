@@ -13,18 +13,18 @@ sudo docker pull dbeaver/cloudbeaver:latest
 
 To run cloudbaver in terminal:
 ```sh
-sudo docker run --name cloudbeaver --rm -ti -p 80:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver:latest
+sudo docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver:latest
 ```
 
-Then switch to the browser and open http://localhost:8978/
+Then switch to the browser and open http://localhost:8080/
 
-Details:
+Explanation:
 Parameter | Explanation
 ---|---
 --name cloudbeaver | Assign container ID (`cloudbeaver`)
 --rm | Removes container on stop
 -ti | Enables terminal mode (allows to stop container with `CTRL+C`)
--p 80:8978 | Maps CloudBeaver public port (8978) to the host machine port (e.g. 80, default HTTP port)
+-p 8080:8978 | Maps CloudBeaver public port (8978) to the host machine port (e.g. 8080)
 -v local_path:/opt/cloudbeaver/workspace | Mounts local folder `/var/cloudbeaver/workspace' to the server workspace. Required to keep CloudBeaver data after container restart.
 dbeaver/cloudbeaver:latest | Container ID
 
