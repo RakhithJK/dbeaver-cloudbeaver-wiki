@@ -25,7 +25,7 @@ Add following parameters:
 -d --restart unless-stopped 
 ```
 
-#### Accessing databases on the localhost
+### Accessing databases on the localhost
 
 If you need to access database server on the host machine add the following parameter in docker run: (on Linux only)
 ```
@@ -33,15 +33,16 @@ If you need to access database server on the host machine add the following para
 ```
 
 Thus cloudbeaver will work in host machine network.  
-This mode is not suitable for your network environment then you can run container the following way:
+If this mode is not suitable for your network environment then you can run container the following way:
 ```
 export CB_LOCAL_HOST_ADDR=$(ifconfig | grep -E "([0-9]{1,3}\.){3}[0-9]{1,3}" | grep -v 127.0.0.1 | awk '{ print $2 }' | cut -f2 -d: | head -n1)
 
 docker run --name cloudbeaver --rm -ti -p 8080:8978 --add-host=host.docker.internal:${CB_LOCAL_HOST_ADDR} -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver:dev
 ```
 or just run script `deploy/docker/run-docker-container.sh`.
+It passes IP address of host machine to the container.
 
-#### Docker parameters explanation
+### Docker parameters explanation
 
 Parameters explanation:
 Parameter | Explanation
