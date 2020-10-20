@@ -47,6 +47,9 @@ contentRoot | Path to directory with static content
 driversLocation | Optional path for driver jar files
 productConfiguration | Path to product (web interface) configuration file (json)
 develMode | When set to true extra debug information is printed in logs and GraphQL console is enabled on server.
+anonymousAccessEnabled | Allows anonymous access. Anonymous users work with role 'User'.
+authenticationEnabled | Enables users authentication. If disabled then only anonymous access is allowed.
+supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only CB administrator can create/edit connections.
 
 ## Datasources configuration 
 
