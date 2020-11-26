@@ -1,6 +1,15 @@
 User Guide  
 
 - [[Application overview|CloudBeaver-overview]]
+- [[Administration]]
+- [[Supported databases]]
+- Features
+   - [[Data editor]]
+   - [[Data export]]
+   - [[Entity Diagrams]]
+   - [[Document viewer]]
+   - [[SQL Editor]]
+   - [[Cloud Explorer]]
 
 Installation  
 
