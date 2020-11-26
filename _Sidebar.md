@@ -15,7 +15,7 @@ Configuration
    - [[Connection configuration]] 
    - [[Driver managements]] 
 - [[CloudBeaver and Nginx]]
-- [[Configurable parameters]]
+- [[Product configuration parameters]]
 
 Development  
 
