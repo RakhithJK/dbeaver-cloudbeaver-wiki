@@ -1,22 +1,25 @@
-General  
-
-   - [[Running from Docker|run-docker-container]]
-   - [[Build and deploy|build-and-deploy]]
-   - [[Server configuration]]
-   - [[Configuring server datasources]]
-      - [[Connection configuration]] 
-      - [[Driver managements]] 
-   - [[CloudBeaver and Nginx]]
-
 User Guide  
 
-   - [[Application overview|CloudBeaver-overview]]
-   - [[Demo Server]]
-   - [[Configurable parameters]]
+- [[Application overview|CloudBeaver-overview]]
+- [[Demo Server]]
+- [[Configurable parameters]]
+
+Installation  
+
+- [[Running from Docker|run-docker-container]]
+- [[Build and deploy|build-and-deploy]]
+
+Configuration   
+
+- [[Server configuration]]
+- [[Configuring server datasources]]
+   - [[Connection configuration]] 
+   - [[Driver managements]] 
+- [[CloudBeaver and Nginx]]
 
 Development  
 
-   - [[Frontend technical overview|Frontend-description]]
-   - [[Plugin system|Plugin system]]
-   - [[Server architecture|Server-architecture]]
-   - [[Server API explorer]]
+- [[Frontend technical overview|Frontend-description]]
+- [[Plugin system|Plugin system]]
+- [[Server architecture|Server-architecture]]
+- [[Server API explorer]]
