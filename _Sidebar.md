@@ -4,6 +4,7 @@ User Guide
 - [[Administration]]
 - [[Supported databases]]
 - Features
+   - [[Database browser]]
    - [[Data editor]]
    - [[Data export]]
    - [[Entity Diagrams]]
