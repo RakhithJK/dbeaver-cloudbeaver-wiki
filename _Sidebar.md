@@ -1,12 +1,12 @@
 User Guide  
 
 - [[Application overview|CloudBeaver-overview]]
-- [[Demo Server]]
 
 Installation  
 
 - [[Running from Docker|run-docker-container]]
 - [[Build and deploy|build-and-deploy]]
+- [[Demo Server]]
 
 Configuration   
 
