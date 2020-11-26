@@ -2,7 +2,6 @@ User Guide
 
 - [[Application overview|CloudBeaver-overview]]
 - [[Demo Server]]
-- [[Configurable parameters]]
 
 Installation  
 
@@ -16,6 +15,7 @@ Configuration
    - [[Connection configuration]] 
    - [[Driver managements]] 
 - [[CloudBeaver and Nginx]]
+- [[Configurable parameters]]
 
 Development  
 
