@@ -6,8 +6,8 @@ CloudBeaver is a free and open source web-based database management tool.
 
 * Web-based application written in Java and Typescript (React)
 * Supports [[multiple databases|Supported Databases]]
-* Allows to manipulate with data like in a regular spreadsheet
-* Supports data export/migration in multiple formats
+* Allows to [[manipulate with data|Data Editor]] like in a regular spreadsheet
+* Supports [[data export]]/migration in multiple formats
 * Written in modular architecture and allows to extend with own plugins
 
 # Contacts
