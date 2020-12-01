@@ -1,6 +1,7 @@
 Some variables can be configured via product.conf (server), or in source files in webapp, we planned to add a configuration file for products in the future (for webapp).
 
 List of configurable variables:
+
 | Variable                             | Value | Description                                      |
 |--------------------------------------|-------|--------------------------------------------------|
 | core.app.logViewer.refreshInterval   | 3000  | Log viewer refresh interval in ms                |
