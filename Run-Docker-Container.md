@@ -45,6 +45,7 @@ It passes IP address of host machine to the container.
 ### Docker parameters explanation
 
 Parameters explanation:
+
 Parameter | Explanation
 ---|---
 --name cloudbeaver | Assign container ID (`cloudbeaver`)
