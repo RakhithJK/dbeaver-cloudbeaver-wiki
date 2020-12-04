@@ -82,6 +82,7 @@ In administration page select *Users* tab. On *Users* tab you can create or dele
    ![User list](https://github.com/dbeaver/cloudbeaver/wiki/images/administration-users.png)
 
 2. User creation
+
    Click on plus icon in tools bar to open user creation form:
    
    ![User creation](https://github.com/dbeaver/cloudbeaver/wiki/images/administration-users-creation.png)
