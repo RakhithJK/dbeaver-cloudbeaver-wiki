@@ -4,4 +4,4 @@ GraphQL console can be accessed by URL http://localhost:${serverPort}/${contentR
 
 See [[Server configuration|Server-configuration]] for variables description.
 
-Note: API explorer is enabled only in Development mode (see [[Server-configuration]]).
+Note: API explorer is enabled only in Development mode (`develMode: true`).
