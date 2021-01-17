@@ -18,7 +18,7 @@ Administrator may grant different roles (including Administrator role) to the an
 
 ## Required IAM permissions
 
-CloudBeaver uses following AWS service in order to operate with databases:
+CloudBeaver uses following AWS services in order to operate with databases:
 
 - STS (required)
 - RDS
