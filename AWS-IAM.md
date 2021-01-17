@@ -16,9 +16,9 @@ After server configuration finish current AWS account (the account to which admi
 You cannot create new users in "CloudBeaver for AWS" as it works only with real AWS users.  
 Administrator may grant different roles (including Administrator role) to the another AWS users in this account after they will authenticate in this CloudBeaver instance.  
 
-## Required IAM permissions
+## IAM permissions
 
-CloudBeaver uses following AWS services in order to operate with databases:
+CloudBeaver uses following AWS services in order to operate with databases (most of them are optional):
 
 - STS (required)
 - RDS
