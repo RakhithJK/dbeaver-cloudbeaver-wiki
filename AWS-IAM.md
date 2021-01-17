@@ -1,6 +1,6 @@
 ## AWS Authentication
 
-CloudBeaver for AWS requires AWS IAM authentication to work with databases.  
+"CloudBeaver for AWS" requires AWS IAM authentication to work with databases.  
 You must enter valid Access Key and Secret Key in order to login.  
 
 CloudBeaver doesn't keep your access/secret keys on the server-side. They are not saved in a database or in configuration files.  
@@ -8,8 +8,13 @@ Once your session will expire you will need to authenticate again. Authenticatio
 
 ## Server configuration
 
-When you open CloudBeaver for the first time you must enter your access/secret keys. 
-AWS user who configures CloudBeaver will become an administrator in CloudBeaver (it will have administrator permissions).  
+When you open CloudBeaver for the first time you must enter your access/secret keys.  
+AWS user who configures CloudBeaver will become an administrator in this CloudBeaver instance (it will have administrator permissions).  
+
+After server configuration finish a certain AWS account will be associated with CloudBeaver server (the account to which administrator belongs). Only AWS users from this account can authenticate in this CloudBeaver instance.  
+
+You cannot create new users in "CloudBeaver for AWS" as it works only with real AWS users. 
+Administrator may grant different roles (including Administrator role) to the another AWS users in this account after they will authenticate in this CloudBeaver instance.  
 
 
 ## Database authentication
