@@ -14,7 +14,7 @@ We use [Ag-Grid](https://www.ag-grid.com) to display big and functionally rich t
 2. Execute
 ```
 cd webapp/
-lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --server=localhost:8978
+lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --env server=localhost:8978
 ```
 to run Webpack dev server
 
