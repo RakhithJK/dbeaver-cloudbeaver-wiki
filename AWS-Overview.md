@@ -12,4 +12,4 @@ Not yet supported. We are working on new docker image for AWS version of CloudBe
 
 You can use embedded cloud explorer in order to find and add existing AWS databases:
 
-![](images/ug/aws-explorer.png)
+![](images/aws-explorer.png)
