@@ -20,17 +20,18 @@ Administrator may grant different roles (including Administrator role) to the an
 
 CloudBeaver uses following AWS services in order to operate with databases (most of them are optional):
 
-- STS (required)
-- RDS
-- Redshift
-- DynamoDB
-- DocumentDB
+- STS (required): used for user authentication
+- RDS: list RDS/Aurora instances for cloud databases explorer (describeDBInstances)
+- Redshift: list Redshift clusters for cloud databases explorer (describeClusters)
+- DynamoDB: all DynamoDB services for DynamoDB operating. Can be read-only for read-only DynamoDB access.
+- DocumentDB: list DocumentDB clusters for cloud databases explorer (describeDBClusters)
+- IAM (optional): additional user/organization information read (like account organization name)
+
+DBeaver uses native database clients to connect and operate with most databases (see below). It uses AWS services only to find and database instances and configure database connection.  
+The only exception is DynamoDB service which is a database driver by itself. You can limit DynamoDB access directly in AWS console.
 
 ## Database authentication
 
-Besides general AWS user authorization particular databases may require additional authentication.
-
-- RDS
-   - PostgreSQL
-   - MySQL
-- DocumentDB
+As most AWS databases have their own authorization system (excluding DynamoDB) each database may require additional authentication parameters.  
+Usually it is a username/password pair.  
+If you use IAM authentication for RDS/Aurora databases then only database username may be required and you can leave password field empty.
