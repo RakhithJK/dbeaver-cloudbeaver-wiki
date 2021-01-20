@@ -27,7 +27,7 @@ Configuration
 - [[CloudBeaver and Nginx]]
 - [[Product configuration parameters]]
 
-CloudBeaver for AWS
+CloudBeaver EE for AWS
 - [[Overview|AWS-Overview]]
 - [[Authentication / IAM|AWS-IAM]]
 
