@@ -1,24 +1,24 @@
 ## AWS Authentication
 
-"CloudBeaver for AWS" requires AWS IAM authentication to work with databases.  
+CloudBeaver Enterprise for AWS requires AWS IAM authentication to work with databases.  
 You must enter valid Access Key and Secret Key in order to login.  
 
-CloudBeaver doesn't keep your access/secret keys on the server-side. They are not saved in a database or in configuration files.  
+CloudBeaver Enterprise for AWS doesn't keep your access/secret keys on the server-side. They are not saved in a database or in configuration files.  
 Once your session will expire you will need to authenticate again. Authentication always performed thru remote AWS services.  
 
 ## Server configuration
 
-When you open CloudBeaver for the first time you must enter your access/secret keys.  
+When you open CloudBeaver EE in AWS for the first time you must enter your access/secret keys.  
 AWS user who configures CloudBeaver will become an administrator in this CloudBeaver instance (it will have administrator permissions).  
 
 After server configuration finish current AWS account (the account to which administrator belongs) will be associated with this CloudBeaver instance. Only AWS users from this account can authenticate in this CloudBeaver instance.  
 
-You cannot create new users in "CloudBeaver for AWS" as it works only with real AWS users.  
+You cannot create new users in CloudBeaver EE for AWS as it works only with real AWS users.  
 Administrator may grant different roles (including Administrator role) to the another AWS users in this account after they will authenticate in this CloudBeaver instance.  
 
 ## IAM permissions
 
-CloudBeaver uses following AWS services in order to operate with databases (most of them are optional):
+CloudBeaver EE uses following AWS services in order to operate with databases (most of them are optional):
 
 - STS (required): used for user authentication
 - RDS: list RDS/Aurora instances for cloud databases explorer (describeDBInstances)
@@ -27,7 +27,7 @@ CloudBeaver uses following AWS services in order to operate with databases (most
 - DocumentDB: list DocumentDB clusters for cloud databases explorer (describeDBClusters)
 - IAM (optional): additional user/organization information read (like account organization name)
 
-DBeaver uses native database clients to connect and operate with most databases (see below). It uses AWS services only to find and database instances and configure database connection.  
+CloudBeaver EE uses native database clients to connect and operate with most databases. It uses AWS services only to find  database instances and configure database connection.  
 The only exception is DynamoDB service which is a database driver by itself. You can limit DynamoDB access directly in AWS console.
 
 ## Database authentication
