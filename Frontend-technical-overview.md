@@ -1,5 +1,3 @@
-# Frontend technical overview
-
 CloudBeaver frontend is a single page application written in [React](https://reactjs.org).
 We use [InversifyJS](https://github.com/inversify/InversifyJS) for dependency injection and [MobX](https://mobx.js.org) as a state management library. [GraphQL](https://graphql.org) is in use to communicate with the server.
 
