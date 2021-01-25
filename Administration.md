@@ -1,5 +1,3 @@
-# Administration
-
 ## Features
 * Initial server configuration
   1. Server configuration
