@@ -1,5 +1,3 @@
-# Application overview
-
 ## Features
 * Open connection to remote database
 * Support for preconfigured connections described in deploy config file
