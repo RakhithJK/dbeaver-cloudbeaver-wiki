@@ -1,18 +1,8 @@
 ## Features
-* Initial server configuration
-  1. Server configuration
-  2. Database connection 
-* Connection management
-  1. Connection list
-  2. Connection creation
-  3. Connection edit
-  4. Connection deletion
-* User management
-  1. User list
-  2. User creation
-  3. User edit
-  4. User deletion
-* Server configuration
+* [Initial server configuration](#Initial-server-configuration)
+* [Connection management](#Entering-administration-page)
+* [User management](#User-management)
+* [Server configuration](#Server-configuration)
 
 ## Overview
 
