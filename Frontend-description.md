@@ -27,10 +27,12 @@ The application consists of several plugins and submoduled located in `webapp\pa
 * **core-authentication** - Authentication API
 * **core-blocks** - Low-level common visual components
 * **core-bootstrap** - Common core package
+* **core-cli** - Command line tools for building & dev
 * **core-connections** - Connections API
 * **core-di** - Dependency injection related classes
 * **core-dialogs** - Main and context menues, modal windows
 * **core-events** - Logging
+* **core-executor** - Task scheduling API
 * **core-extensions** - Extensions API
 * **core-localization** - Localization API
 * **core-notifications** - Popup notification components
@@ -43,9 +45,10 @@ The application consists of several plugins and submoduled located in `webapp\pa
 * **core-theming** - Themisation related services and hooks
 * **core-utils** - Utilites
 * **core-view** - View API
+* **plugin-administration** - Application configuration wizard
 * **plugin-authentication** - Authentication and users administration
 * **plugin-connection-custom** - Provides handling of custom connections
-* **plugin-connection-preconfigured** - Provides handling of preconfigured connections
+* **plugin-connection-template** - Provides handling of template connections
 * **plugin-data-export** - Data export from data view
 * **plugin-data-spreadsheet** - Wrapper over Ag-Grid
 * **plugin-data-viewer** - Provides Data Table View
