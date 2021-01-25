@@ -1,5 +1,3 @@
-# Entity Diagrams
-
 ## Features
 * Display entities with attributes
 * Display relations
