@@ -33,7 +33,7 @@ CloudBeaver EE for AWS
 
 Development  
 
-- [[Frontend technical overview|Frontend-description]]
+- [[Frontend technical overview|Frontend-technical-overview]]
 - [[Plugin system|Plugin system]]
 - [[Server architecture|Server-architecture]]
 - [[Server API explorer]]
