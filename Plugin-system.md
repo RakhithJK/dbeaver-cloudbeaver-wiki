@@ -74,7 +74,7 @@ only difference in build command: `"build": "core-cli-build --mode=production --
 The application package simple defines the list of plugins that should be included in the build
 ### Commands
 Execute command to build only application without rebuilding plugins
-* `lerna run build --stream --scope=@cloudbeaver/product-name`
+`lerna run build --stream --scope=@cloudbeaver/product-name`
 
 ## Development
 1. To run a development build that watches file changed and rebuilds you can use the `dev` command:
