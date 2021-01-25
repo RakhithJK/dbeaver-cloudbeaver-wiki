@@ -35,19 +35,19 @@ package_name
 ## Commands
 execute from `cloudbeaver/webapp`
 
-* ```yarn run bootstrap```
+```yarn run bootstrap```
 
 load all dependencies and init workspaces
 
-* ```yarn run build```
+```yarn run build```
 
 build all packages (plugins and the application) the result will be placed in `packages/{package-name}/lib` folder
 
-* ```yarn run lint```
+```yarn run lint```
 
 lint all code
 
-* ```yarn run lint-fix```
+```yarn run lint-fix```
 
 lint all code and fix
 
