@@ -46,9 +46,8 @@ Like this:
                     propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
                     description="%driver.postgresql.description"
                     categories="sql">
-                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.5]">
-                    <file type="jar" path="maven:/net.postgis:postgis-jdbc:RELEASE[2.2.1]" ignore-dependencies="true" optional="true"/>
-                    <file type="jar" path="maven:/net.postgis:postgis-geometry:RELEASE[2.5.0]" ignore-dependencies="true" optional="true"/>
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.5]" bundle="!drivers.postgresql"/>
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
 
                     <parameter name="serverType" value="postgresql"/>
                     <property name="loginTimeout" value="20"/>
@@ -61,6 +60,7 @@ Like this:
 ```
 It is actual PostgreSQL driver definition (irrelevant configuration elements were skipped).  
 Full driver ID is `postgresql.postgres-jdbc`. It is combined from two parts: data source provider ID and driver definition ID.   
+
 Note: for most non-standard driver you must add new driver definition to Generic plugin (`org.jkiss.dbeaver.ext.generic`) because it works with plain JDBC API only.
 
 ### Adding driver definition in UI.
@@ -77,10 +77,61 @@ For CloudBeaver 3rd party jars must be in some public Maven repository (Maven Ce
 ```
 refers to external Maven artifact which must contain driver jar files.
 
+### Drivers and bundles
+
+In the driver definition example (see above) you can see two lines: 
+```xml
+<file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.5]" bundle="!drivers.postgresql"/>
+<file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+```
+First one refers to the actual Maven artifact. Second one refers to some weird path `drivers/postgresql`. What does it mean?  
+DBeaver Community doesn't contain any drivers' jars, it downloads them on demand. But DBeaver EE and CloudBeaver and other products may contain drivers out of the box so users won't need to download them.  
+These two line configure driver for these two different situations. If you don't plan to include your driver configuration in DBeaver then you may skip first line.
+
 ### Testing and contributing
 
 After you added your new driver in plugin.xml you must be able to connect to your database in DBeaver UI by choosing your new driver in the new connection wizard.  
 
 If everything is fine then you can create a Pull Request and contribute your changes in the main DBeaver repository. This part is optional, you can leave everything in your local version or your forked version of DBeaver. In this case you will need to fix CloudBeaver build script (default build script uses main dbeaver repository as platform source code).
 
-## Adding driver in CloudBeaver
+## Adding drivers in CloudBeaver
+
+You need to configure driver in CloudBeaver separately. Because it doesn't include all existing drivers from DBeaver.
+
+### Adding Maven artifact(s)
+
+You must include driver in the server build. All 3rd party jars must be available to the server during startup. By default CB buidl script downloads 3rd party jars from Maven Central but you can add some custom logic there.
+
+- Explore directory [[server/drivers|https://github.com/dbeaver/cloudbeaver/tree/devel/server/drivers]].  
+- Create new sub-folder `new-driver-id`. You can copy-paste some existing driver directory for simplification.
+- Add `pom.xml` file in the new directory. It is a standard Maven pom, it can look like this:
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>drivers.postgresql</artifactId>
+    <version>1.0.0</version>
+    <parent>
+        <groupId>io.cloudbeaver</groupId>
+        <artifactId>drivers</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../</relativePath>
+    </parent>
+    <properties>
+        <deps.output.dir>new-driver-id</deps.output.dir>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>new.driver.vendor/groupId>
+            <artifactId>new-driver-artifact.id</artifactId>
+            <version>new-driver-artifact-version</version>
+        </dependency>
+    </dependencies>
+</project>
+```
+- Add you new driver id (equals to the new directory name) to the main [[server/drivers/pom.xml|https://github.com/dbeaver/cloudbeaver/blob/devel/server/drivers/pom.xml]] in the `<modules>` section.  
+
+### Include driver in server configuration
+
+- Open file [[server/bundles/io.cloudbeaver.resources.drivers.base/plugin.xml|https://github.com/dbeaver/cloudbeaver/blob/devel/server/bundles/io.cloudbeaver.resources.drivers.base/plugin.xml]]
+- Add line `<resource name="drivers/new-driver-id"/>` in the end of other resource references. It will tell CloudBeaver where to find your new driver's jars.
+- Add line `<bundle id="drivers.new-driver-id" label="New driver files"/>` in the end of bundle list. See <a href="#Drivers-and-bundles">bundle configuration description</a>
