@@ -86,7 +86,7 @@ In the driver definition example (see above) you can see two lines:
 ```
 First one refers to the actual Maven artifact. Second one refers to some weird path `drivers/postgresql`. What does it mean?  
 DBeaver Community doesn't contain any drivers' jars, it downloads them on demand. But DBeaver EE and CloudBeaver and other products may contain drivers out of the box so users won't need to download them.  
-These two line configure driver for these two different situations. If you don't plan to include your driver configuration in DBeaver then you may skip first line.
+These two line configure driver for these two different situations. If you don't plan to include your driver configuration in DBeaver then you may skip the first line.
 
 ### Testing and contributing
 
@@ -134,4 +134,12 @@ You must include driver in the server build. All 3rd party jars must be availabl
 
 - Open file [[server/bundles/io.cloudbeaver.resources.drivers.base/plugin.xml|https://github.com/dbeaver/cloudbeaver/blob/devel/server/bundles/io.cloudbeaver.resources.drivers.base/plugin.xml]]
 - Add line `<resource name="drivers/new-driver-id"/>` in the end of other resource references. It will tell CloudBeaver where to find your new driver's jars.
-- Add line `<bundle id="drivers.new-driver-id" label="New driver files"/>` in the end of bundle list. See <a href="#Drivers-and-bundles">bundle configuration description</a>
+- Add line `<bundle id="drivers.new-driver-id" label="New driver files"/>` in the end of bundle list. See <a href="#Drivers-and-bundles">bundle configuration description</a> for explanation.
+- Add line `<driver id="full-driver-id"/>` in the end of enabled drivers list. Usually your full driver id will be something like `generic.new-driver-id`.
+
+That's it.
+
+## Deploy and test
+
+See [[Build and deploy|https://github.com/dbeaver/cloudbeaver/wiki/Build-and-deploy]]. Then just run `deploy.sh` script in the folder `deploy`. You will get your brand new driver included in the CloudBeaver server configuration.  
+Start the server. Examine log files - if something went wrong then you will see warnings or error messages in the server log.  
