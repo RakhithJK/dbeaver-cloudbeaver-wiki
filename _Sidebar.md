@@ -37,3 +37,4 @@ Development
 - [[Plugin system|Plugin system]]
 - [[Server architecture|Server-architecture]]
 - [[Server API explorer]]
+- [[Adding new database drivers]]
