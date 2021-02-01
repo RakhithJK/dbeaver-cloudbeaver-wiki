@@ -92,7 +92,10 @@ These two lines configure driver for these two different situations. If you don'
 
 ### Testing and contributing (optional)
 
-After you added your new driver in plugin.xml you must be able to connect to your database in DBeaver UI by choosing your new driver in the new connection wizard.  
+After you added your new driver in plugin.xml you must be able to connect to your database in DBeaver UI by choosing your new driver in the new connection wizard:
+- Build DBeaver desktop app (run `mvn clean package` in the root folder).
+- Run dbeaver executable in product/standalone/target/products/.../dbeaver folder (path differs for different OSes).
+- Open "New Connection" wizard. Configure your connection and click the "Test Connection" button.
 
 If everything is fine then you can create a Pull Request and contribute your changes in the main DBeaver repository. This part is optional, you can leave everything in your local version or your forked version of DBeaver. In this case you will need to fix CloudBeaver build script (default build script uses main dbeaver repository as platform source code).
 
