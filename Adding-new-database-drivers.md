@@ -17,7 +17,7 @@ If driver already included in DBeaver then you can skip the first step.
 
 ### What is special about CloudBeaver comparing to DBeaver?
 
-DBeaver downloads database drivers (JDBC) on demand (on first attempt to connect to the database). This approach doesn't work in case of CloudBeaver. Mostly because driver download may require some user interactions + access to external resources + some local file system permissions.  
+DBeaver downloads database drivers (JDBC) on demand (after the first attempt to connect to the database). This approach doesn't work in case of CloudBeaver. Mostly because driver download may require some user interactions + access to external resources + some local file system permissions.  
 CloudBeaver must have all driver jars pre-downloaded in the folder set as `driversLocation` in the [[Server configuration]].  By default is is a directory `drivers` in the root of CloudBeaver deployment.
 
 ## Configuring drivers in DBeaver
