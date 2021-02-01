@@ -88,7 +88,7 @@ In the driver definition example (see above) you can see two lines:
 ```
 First one refers to the actual Maven artifact. Second one refers to some weird path `drivers/postgresql`. What does it mean?  
 DBeaver Community doesn't contain any drivers' jars, it downloads them on demand. But DBeaver EE and CloudBeaver and other products may contain drivers out of the box so users won't need to download them.  
-These two line configure driver for these two different situations. If you don't plan to include your driver configuration in DBeaver then you may skip the first line.
+These two lines configure driver for these two different situations. If you don't plan to include your driver configuration in DBeaver then you may skip the first line.
 
 ### Testing and contributing
 
