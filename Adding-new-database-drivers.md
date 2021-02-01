@@ -70,3 +70,9 @@ After that you can find you driver definition in the `drivers.xml` (see [[Admini
 
 ## Maven
 
+All drivers need some 3rd party jar files (actual driver executable code).  
+For CloudBeaver 3rd party jars must be in some public Maven repository (Maven Central is preferred). Line
+```xml
+<file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.5]">
+```
+refers to external Maven artifact which must contain driver jar files.
