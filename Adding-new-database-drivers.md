@@ -63,9 +63,9 @@ Full driver ID is `postgresql.postgres-jdbc`. It is combined from two parts: dat
 
 Note: for most non-standard driver you must add new driver definition to Generic plugin (`org.jkiss.dbeaver.ext.generic`) because it works with plain JDBC API only.
 
-### Adding driver definition in UI.
+### Adding driver definition in UI (optional).
 
-Custom drivers configuration in UI is described in the [[Database Drivers|https://github.com/dbeaver/dbeaver/wiki/Database-drivers]] article.  
+Adding of custom drivers configuration in the UI is described here: [[Database Drivers|https://github.com/dbeaver/dbeaver/wiki/Database-drivers]].  
 After that you can find you driver definition in the `drivers.xml` (see [[Administering drivers|https://github.com/dbeaver/dbeaver/wiki/Admin-Manage-Drivers]]). Then you can copy it into the appropriate plugin.xml file.
 
 ### Maven
