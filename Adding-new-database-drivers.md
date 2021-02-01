@@ -59,9 +59,14 @@ Like this:
         </datasource>
     </extension>
 ```
-It is actual PostgreSQL driver definition (irrelevant configuration elements were skipped).
+It is actual PostgreSQL driver definition (irrelevant configuration elements were skipped).  
+Full driver ID is `postgresql.postgres-jdbc`. It is combined from two parts: data source provider ID and driver definition ID.   
+Note: for most non-standard driver you must add new driver definition to Generic plugin (`org.jkiss.dbeaver.ext.generic`) because it works with plain JDBC API only.
 
-Custom drivers configuration is described in the [[Database Drivers|https://github.com/dbeaver/dbeaver/wiki/Database-drivers]] article.
+### Adding driver definition in UI.
+
+Custom drivers configuration in UI is described in the [[Database Drivers|https://github.com/dbeaver/dbeaver/wiki/Database-drivers]] article.  
+After that you can find you driver definition in the `drivers.xml` (see [[Administering drivers|https://github.com/dbeaver/dbeaver/wiki/Admin-Manage-Drivers]]). Then you can copy it into the appropriate plugin.xml file.
 
 ## Maven
 
