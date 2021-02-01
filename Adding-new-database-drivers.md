@@ -90,7 +90,7 @@ First one refers to the actual Maven artifact. Second one refers to some weird p
 DBeaver Community doesn't contain any drivers' jars, it downloads them on demand. But DBeaver EE and CloudBeaver and other products may contain drivers out of the box so users won't need to download them.  
 These two lines configure driver for these two different situations. If you don't plan to include your driver configuration in DBeaver then you may skip the first line.
 
-### Testing and contributing
+### Testing and contributing (optional)
 
 After you added your new driver in plugin.xml you must be able to connect to your database in DBeaver UI by choosing your new driver in the new connection wizard.  
 
