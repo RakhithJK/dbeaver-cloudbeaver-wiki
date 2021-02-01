@@ -22,7 +22,46 @@ CloudBeaver must have all driver jars pre-downloaded in the folder set as `drive
 
 ## Configuring drivers in DBeaver
 
+Usually driver descriptions are located in DBeaver's `plugin.xml` files. You can search string `<driver` there and find a bunch of examples. 
+Like this:
+```xml
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+        <datasource id="postgresql" label="PostgreSQL" ...>
+            ....
 
+            <drivers managable="true">
+                ...
+                <driver
+                    id="postgres-jdbc"
+                    label="PostgreSQL"
+                    icon="icons/postgresql_icon.png"
+                    iconBig="icons/postgresql_icon_big.png"
+                    class="org.postgresql.Driver"
+                    sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+                    useURL="true"
+                    defaultPort="5432"
+                    defaultDatabase="postgres"
+                    defaultUser="postgres"
+                    webURL="https://jdbc.postgresql.org/"
+                    propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+                    description="%driver.postgresql.description"
+                    categories="sql">
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.5]">
+                    <file type="jar" path="maven:/net.postgis:postgis-jdbc:RELEASE[2.2.1]" ignore-dependencies="true" optional="true"/>
+                    <file type="jar" path="maven:/net.postgis:postgis-geometry:RELEASE[2.5.0]" ignore-dependencies="true" optional="true"/>
+
+                    <parameter name="serverType" value="postgresql"/>
+                    <property name="loginTimeout" value="20"/>
+                    <property name="connectTimeout" value="20"/>
+                </driver>
+                ...
+            </drivers>
+        </datasource>
+    </extension>
+```
+It is actual PostgreSQL driver definition (irrelevant configuration elements were skipped).
+
+Custom drivers configuration is described in the [[Database Drivers|https://github.com/dbeaver/dbeaver/wiki/Database-drivers]] article.
 
 ## Maven
 
