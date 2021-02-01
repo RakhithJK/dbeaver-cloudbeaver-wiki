@@ -65,6 +65,8 @@ Note: for most non-standard driver you must add new driver definition to Generic
 
 ### Adding driver definition in UI (optional).
 
+You can add new driver configuration manually in the plugin.xml. But you also can generate this configuration in DBeaver user interface.  
+
 Adding of custom drivers configuration in the UI is described here: [[Database Drivers|https://github.com/dbeaver/dbeaver/wiki/Database-drivers]].  
 After that you can find you driver definition in the `drivers.xml` (see [[Administering drivers|https://github.com/dbeaver/dbeaver/wiki/Admin-Manage-Drivers]]). Then you can copy it into the appropriate plugin.xml file.
 
