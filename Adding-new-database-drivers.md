@@ -68,7 +68,7 @@ Note: for most non-standard driver you must add new driver definition to Generic
 Custom drivers configuration in UI is described in the [[Database Drivers|https://github.com/dbeaver/dbeaver/wiki/Database-drivers]] article.  
 After that you can find you driver definition in the `drivers.xml` (see [[Administering drivers|https://github.com/dbeaver/dbeaver/wiki/Admin-Manage-Drivers]]). Then you can copy it into the appropriate plugin.xml file.
 
-## Maven
+### Maven
 
 All drivers need some 3rd party jar files (actual driver executable code).  
 For CloudBeaver 3rd party jars must be in some public Maven repository (Maven Central is preferred). Line
@@ -76,3 +76,11 @@ For CloudBeaver 3rd party jars must be in some public Maven repository (Maven Ce
 <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.5]">
 ```
 refers to external Maven artifact which must contain driver jar files.
+
+### Testing and contributing
+
+After you added your new driver in plugin.xml you must be able to connect to your database in DBeaver UI by choosing your new driver in the new connection wizard.  
+
+If everything is fine then you can create a Pull Request and contribute your changes in the main DBeaver repository. This part is optional, you can leave everything in your local version or your forked version of DBeaver. In this case you will need to fix CloudBeaver build script (default build script uses main dbeaver repository as platform source code).
+
+## Adding driver in CloudBeaver
