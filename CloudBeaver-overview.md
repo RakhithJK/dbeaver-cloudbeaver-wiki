@@ -1,5 +1,5 @@
 ## Features
-* [Open connection to remote database](#Open-connection-to-remote-database)
+* [Open connection to remote database](#open-connection-to-remote-database)
 * Support for preconfigured connections described in deploy config file
 * [Navigate and observe database structure: schemas, tables, views indexes, etc](#Navigate-database-structure)
 * [View properties of database objects](#View-properties-of-database-object)
