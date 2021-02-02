@@ -4,7 +4,7 @@
 * [Navigate and observe database structure: schemas, tables, views indexes, etc](#navigate-database-structure)
 * [View properties of database objects](#view-properties-of-database-object)
 * [View and edit table data](#view-and-edit-table-data)
-* [Execute SQL queries](#execute-SQL-query)
+* [Execute SQL queries](#execute-sql-query)
 ## Overview
 
 ### Open connection to remote database
