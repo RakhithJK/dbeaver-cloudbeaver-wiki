@@ -5,6 +5,7 @@
 * [View properties of database objects](#view-properties-of-database-object)
 * [View and edit table data](#view-and-edit-table-data)
 * [Execute SQL queries](#execute-sql-query)
+
 ## Overview
 
 ### Open connection to remote database
