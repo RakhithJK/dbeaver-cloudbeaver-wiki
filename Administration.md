@@ -1,8 +1,8 @@
 ## Features
-* [Initial server configuration](#Initial-server-configuration)
-* [Connection management](#Entering-administration-page)
-* [User management](#User-management)
-* [Server configuration](#Server-configuration)
+* [Initial server configuration](#initial-server-configuration)
+* [Connection management](#entering-administration-page)
+* [User management](#user-management)
+* [Server configuration](#server-configuration)
 
 ## Overview
 
