@@ -1,13 +1,15 @@
 ## Connection types in CB
 
-### Provided connections
-Configuration is located in `${WORKSPACE}/GlobalConfiguration/.dbeaver/provided-connections.json`.  
-Provided connections are always visible in the database navigator. Users can't delete or change them.
-
-### Preconfigured connections
-
+### Pre-configured connections
 Configuration is located in `${WORKSPACE}/GlobalConfiguration/.dbeaver/data-sources.json`.  
-Preconfigured connections are similar to provided connections, main difference is that they are not present in the database navigator by default. Users can add them to the navigator tree using main toolbar Connection->New Connection->Preconfigured.
+Preconfigured connections are always visible in the database navigator. Users can't delete or change them.  
+Only administrator can edit them.  
+
+### Template connections
+
+Template connections are similar to provided connections, main difference is that they are not present in the database navigator by default.  
+Users can add them to the navigator tree using main toolbar Connection->New Connection->From template. 
+Only administrator can edit template connections.  
 
 ### Custom connections
 
