@@ -38,3 +38,4 @@ Development
 - [[Server architecture|Server-architecture]]
 - [[Server API explorer]]
 - [[Adding new database drivers]]
+- [[Code of Conduct]]
