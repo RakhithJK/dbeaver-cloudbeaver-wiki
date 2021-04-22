@@ -20,9 +20,7 @@ sudo docker run --name cloudbeaver-ee --rm -ti -p 8080:8978 -v /var/cloudbeaver/
 
 Then switch to the browser and open http://localhost:8080/
 
-#### Daemon mode
-
-Add following parameters:
+To run server in daemon mode add following parameters:
 ```
 -d --restart unless-stopped 
 ```
