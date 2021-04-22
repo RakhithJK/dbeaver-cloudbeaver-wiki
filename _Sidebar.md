@@ -32,7 +32,7 @@ CloudBeaver EE for AWS
 - [[Authentication / IAM|AWS-IAM]]
 
 CloudBeaver Enterprise Edition
-- [[Overview|AWS-Overview]]
+- [[Overview|EE-Overview]]
 - [[Deployment|EE-Deployment]]
 
 Development  
