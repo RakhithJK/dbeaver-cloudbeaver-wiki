@@ -1,4 +1,4 @@
-CloudBeaver EE is advanced version of CloudBeaver product.  
+CloudBeaver EE is an advanced version of the CloudBeaver product.  
 It contains all features of CloudBeaver Community plus:
 - Enterprise database drivers
 - [[Cloud Authentication support|AWS-IAM]]
