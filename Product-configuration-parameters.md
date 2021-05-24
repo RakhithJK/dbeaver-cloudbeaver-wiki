@@ -1,4 +1,4 @@
-Some variables can be configured via product.conf (server), or in source files in webapp, we planned to add a configuration file for products in the future (for webapp).
+Some variables can be configured via product.conf (server), or via config.json5 (for webapp).
 
 List of configurable variables:
 
@@ -12,3 +12,5 @@ List of configurable variables:
 | core.app.navigationTree.childrenLimit| 500   | Maximum children in navigation tree              |
 | core_events.notificationsPool        | 5     | Maximum notifications                            |
 | plugin_erd_viewer.maxColumnsToDisplay| 7500  | Maximum columns in ERD                           |
+| plugin_data_export.disabled          | false | Disable data export functionality                |
+
