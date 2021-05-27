@@ -14,3 +14,4 @@ List of configurable variables:
 | plugin_erd_viewer.maxColumnsToDisplay| 7500  | Maximum columns in ERD                           |
 | plugin_data_export.disabled          | false | Disable data export functionality                |
 
+Youi also can specify these parameters in the config file `/workspace/.data/.product.runtime.conf`. These properties have higher priority than in `product.conf`.
