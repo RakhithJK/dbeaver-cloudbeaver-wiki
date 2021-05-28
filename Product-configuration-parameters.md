@@ -17,7 +17,7 @@ List of configurable variables:
 You also can specify these parameters in the config file `/workspace/.data/.product.runtime.conf`. These properties have higher priority than in `product.conf`.
 
 For example, if you want to disable data export functionality, you can do it this way.
-1. Open or create .product.runtime.conf
+1. Open or create .product.runtime.conf in folder .data
 2. Paste following code
 ```javascript
 {
