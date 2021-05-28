@@ -12,7 +12,7 @@ List of configurable variables:
 | core.app.navigationTree.childrenLimit| 500   | Maximum children in navigation tree              |
 | core_events.notificationsPool        | 5     | Maximum notifications                            |
 | plugin_erd_viewer.maxColumnsToDisplay| 7500  | Maximum columns in ERD                           |
-| plugin_data_export.disabled          | false | Disable data export functionality                |
+| plugin_data_export.disabled          | true  | Disable data export functionality                |
 
 You also can specify these parameters in the config file `/workspace/.data/.product.runtime.conf`. These properties have higher priority than in `product.conf`.
 
