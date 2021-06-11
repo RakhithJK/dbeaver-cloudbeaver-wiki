@@ -6,6 +6,7 @@ User Guide
 - Features
    - [[Database browser]]
    - [[Data editor]]
+     - [[Data Filters]]
    - [[Data export]]
    - [[Entity Diagrams]]
    - [[Document viewer]]
