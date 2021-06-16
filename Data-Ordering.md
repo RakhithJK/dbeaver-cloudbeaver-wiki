@@ -8,9 +8,9 @@ You can order data in columns in one of the following ways:
    * Clicking a second time changes the order to descending ![Descending Order](https://github.com/dbeaver/cloudbeaver/wiki/images/Order-descending.png)  
    * Clicking a third time removes the ordering from the column ![Ordering Icon](https://github.com/dbeaver/cloudbeaver/wiki/images/Order-unknown.png)  
 
-To order data by several columns, go column by column, holding the <kbd>ctrl</kbd> (windows) or <kbd>cmd</kbd> (mac) button, setting the order with the Ordering icon, starting from the column by which you want to order data first.
+To order data by multiple columns, go column by column, holding the <kbd>ctrl</kbd> (windows) or <kbd>cmd</kbd> (mac) button, setting the order with the Ordering icon, starting from the column by which you want to order data first.
 
-2. Open context menu, click **Sorting**. Choose from several ordering states we've mentioned before.
+2. Open context menu, click **Sorting**. Choose from ordering states we've mentioned before.
 When we choose ordering state from the context menu, there is no need to hold <kbd>ctrl</kbd> or <kbd>cmd</kbd> button to order data by multiple columns. 
 
 ![Ordering states](https://github.com/dbeaver/cloudbeaver/wiki/images/Context-order-states.png)
