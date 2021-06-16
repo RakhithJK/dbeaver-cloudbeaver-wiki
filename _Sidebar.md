@@ -7,6 +7,7 @@ User Guide
    - [[Database browser]]
    - [[Data editor]]
      - [[Data Filters]]
+     - [[Data Ordering]]
    - [[Data export]]
    - [[Entity Diagrams]]
    - [[Document viewer]]
