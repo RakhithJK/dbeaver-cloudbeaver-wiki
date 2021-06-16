@@ -4,7 +4,7 @@ One of the ways is to use the filter field above the table next to the top toolb
 
 ![Filter Top Bar](https://github.com/dbeaver/cloudbeaver/wiki/images/Filter-criteria.png)
  
-You can apply ready-to-use SQL expressions or SQL expression templates via the context menu. To select a ready SQL expression or a template, select or focus cell and press Cell context button ![Context Button](https://github.com/dbeaver/cloudbeaver/wiki/images/Context-button.png), then click **Filters** -> **Cell value** on the context menu and then choose one of the expressions.
+You can apply ready-to-use SQL expressions or SQL expression templates via the context menu. To select a ready SQL expression or a template, select or focus cell and press Cell context button ![Context Button](https://github.com/dbeaver/cloudbeaver/wiki/images/Context-button.png), then click **Filters** -> **Cell value** in the context menu and choose one of the expressions.
 
 ![Filter Expressions](https://github.com/dbeaver/cloudbeaver/wiki/images/Context-constructed-filters.png)
 
