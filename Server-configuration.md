@@ -45,6 +45,8 @@ serverPort | Port for CloudBeaver web server
 workspaceLocation | Root folder for projects
 contentRoot | Path to directory with static content
 driversLocation | Optional path for driver jar files
+rootURI | Web application URI prefix. `/` by default
+serviceURI | Services API URI prefix (relative to rootURI). `/api/` by default.
 productConfiguration | Path to product (web interface) configuration file (json)
 develMode | When set to true extra debug information is printed in logs and GraphQL console is enabled on server.
 anonymousAccessEnabled | Allows anonymous access. Anonymous users work with role 'User'.
