@@ -19,7 +19,7 @@ Typical configuration:
         driversLocation: "drivers",
 
         rootURI: "/",
-        serviceURI: "/dbeaver/",
+        serviceURI: "/api/",
 
         // Webapp configuration file
         productConfiguration: "conf/product.conf",
