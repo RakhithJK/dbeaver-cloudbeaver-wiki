@@ -12,6 +12,7 @@ User Guide
    - [[Entity Diagrams]]
    - [[Document viewer]]
    - [[SQL Editor]]
+     - [[Query Execution Plan]]
    - [[Cloud Explorer]]
 
 Installation  
