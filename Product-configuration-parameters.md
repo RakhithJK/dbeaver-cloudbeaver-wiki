@@ -1,6 +1,6 @@
 Some variables can be configured via product.conf (server), or via config.json5 (for webapp).
 
-List of configurable variables:
+The list of configurable variables are:
 
 | Variable                             | Value | Description                                      |
 |--------------------------------------|-------|--------------------------------------------------|
@@ -14,11 +14,11 @@ List of configurable variables:
 | plugin_erd_viewer.maxColumnsToDisplay| 7500  | Maximum columns in ERD                           |
 | plugin_data_export.disabled          | true  | Disable data export functionality                |
 
-You also can specify these parameters in the config file `/workspace/.data/.product.runtime.conf`. These properties have higher priority than in `product.conf`.
+You can also specify these parameters in the config file `/workspace/.data/.product.runtime.conf`. These properties have a higher priority than `product.conf`.
 
-For example, if you want to disable data export functionality, you can do it this way.
+For example, if you want to disable the data export functionality, you can do it this way.
 1. Open or create .product.runtime.conf in folder .data
-2. Paste following code
+2. Paste the following code
 ```javascript
 {
  "plugin_data_export": {
