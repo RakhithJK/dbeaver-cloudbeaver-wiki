@@ -1,11 +1,11 @@
 ## Intruduction
 
-CloudBeaver is a web server which provides rich web interface.  
+CloudBeaver is a web server which provides a rich web interface.  
 It consists of two parts:
 - Server back-end. It is written on Java and reuses "platform" libraries of <a href="https://github/.com/dbeaver/dbeaver">DBeaver</a>.
 - Front-end part. It is written on TypeScript and JavaScript.
 
-This build process is relatively complicated (also consists of two parts).
+This build process is relatively complicated (and also consists of two parts).
 
 ### Prerequisites
 
@@ -42,7 +42,7 @@ sudo npm install -g lerna
 - Download and install [Node.js](https://nodejs.org/en/). NPM comes along with Node.js, NPX/Lerna will be installed in the build script.
 - Download and install [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
-If lerna isn't installed along with Node.js you can do it manually:
+If lerna is not installed along with Node.js you can do it manually:
 ```
 npm install -g lerna
 ```
@@ -55,15 +55,15 @@ cd cloudbeaver/deploy
 ./build.sh
 ```
 
-Final artifacts can be found in deploy/cloudbeaver.
+The final artifacts can be found in deploy/cloudbeaver.
 
 ### Running server
 ```bash
 cd cloudbeaver
 ./run-server.sh
 ```
-By default server listens port `8978` (you can change it in conf/cloudbeaver.conf). So just navigate to http://localhost:8978.
+By default, the server listens to port `8978` (you can change it in conf/cloudbeaver.conf). So just navigate to http://localhost:8978.
 You can configure [[Nginx|CloudBeaver-and-Nginx]], Apache or any other web server in front of it.
 
 *Note: you must be in the server root directory to run it.*  
-If you need to run it from some other directory then you can set environment variable `CLOUDBEAVER_HOME` to the server root directory.
+If you need to run it from some other directory, then you can set the environment variable `CLOUDBEAVER_HOME` to the server root directory.
