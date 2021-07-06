@@ -16,15 +16,18 @@
 
 ![Entity Diagram](https://github.com/dbeaver/cloudbeaver/wiki/images/erd.png)
 
-You can click on diagram entity to get highlight:
+You can click on an entity to highlight it:
 
 ![Entity Diagram entity relations highlight](https://github.com/dbeaver/cloudbeaver/wiki/images/erd-relation.png)
 
-Also you can click on relation to get highlight:
+You can click on a relation to get highlight it:
 
 ![Entity Diagram highlight](https://github.com/dbeaver/cloudbeaver/wiki/images/erd-highlight.png)
 
-You can open the entity in the metadata editor by double-clicking on the entity or entity attribute, or by clicking on the link in the tooltip.
+You can open the entity in the metadata editor by:
+- double-clicking on the entity
+- double-clicking on the entity attribute
+- clicking on the link in the entity tooltip
 
 On the bottom toolbar you can find some tools to act with diagram:
 1. Layout - auto layout
