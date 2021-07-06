@@ -11,8 +11,8 @@
 ## Overview
 
 ### Display entities with attributes
-1. Navigate to your connection and open some table or schema
-2. Select tab "Diagram" (if tab is not presented than the object doesn't support diagram presentation)
+1. Navigate to your connection and open a table or schema
+2. Select the "Diagram" tab (if the tab is not presented then the object does not support the diagram presentation)
 
 ![Entity Diagram](https://github.com/dbeaver/cloudbeaver/wiki/images/erd.png)
 
@@ -24,9 +24,9 @@ Also you can click on relation to get highlight:
 
 ![Entity Diagram highlight](https://github.com/dbeaver/cloudbeaver/wiki/images/erd-highlight.png)
 
-You can open entity in metadata editor by double-click on entity or entity attribute or by click on link in tooltip.
+You can open the entity in the metadata editor by double-clicking on the entity or entity attribute, or by clicking on the link in the tooltip.
 
-In bottom toolbar you can find some tools to act with diagram:
+On the bottom toolbar you can find some tools to act with diagram:
 1. Layout - auto layout
 2. Zoom in/out
 3. Export - export to png or svg file
