@@ -1,4 +1,4 @@
-## Intruduction
+## Introduction
 
 CloudBeaver is a web server which provides a rich web interface.  
 It consists of two parts:
