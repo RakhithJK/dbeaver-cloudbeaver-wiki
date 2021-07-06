@@ -4,14 +4,14 @@ User Guide
 - [[Administration]]
 - [[Supported databases]]
 - Features
-   - [[Database browser]]
-   - [[Data editor]]
+   - Database browser
+   - Data editor
      - [[Data Filters]]
      - [[Data Ordering]]
    - [[Data export]]
    - [[Entity Diagrams]]
    - [[Document viewer]]
-   - [[SQL Editor]]
+   - SQL Editor
      - [[Query Execution Plan]]
    - [[Cloud Explorer]]
 
