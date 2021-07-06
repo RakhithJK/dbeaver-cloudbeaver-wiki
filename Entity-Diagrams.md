@@ -29,9 +29,9 @@ You can open the entity in the metadata editor by:
 - double-clicking on the entity attribute
 - clicking on the link in the entity tooltip
 
-On the bottom toolbar you can find some tools to act with diagram:
-1. Layout - auto layout
+On the bottom toolbar you can find different buttons:
+1. Layout - diagram auto layout
 2. Zoom in/out
-3. Export - export to png or svg file
+3. Export - export diagram in a `png` or `svg` format
 
    ![Entity Diagram export to file](https://github.com/dbeaver/cloudbeaver/wiki/images/erd-export.png)
