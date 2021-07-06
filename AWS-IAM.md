@@ -9,9 +9,9 @@ Once your session expires, you will need to authenticate again. Authentication i
 ## Server configuration
 
 When you open CloudBeaver EE in AWS for the first time you must enter your access/secret keys.  
-The AWS user who configures CloudBeaver will become an administrator in this CloudBeaver instance (this user will have administrator permissions).  
+The AWS user who configures CloudBeaver will become an administrator in this CloudBeaver EE instance (this user will have administrator permissions).  
 
-After server configuration finish current AWS account (the account to which administrator belongs) will be associated with this CloudBeaver instance. Only AWS users from this account can authenticate in this CloudBeaver instance.  
+After server configuration finish current AWS account (the account to which administrator belongs) will be associated with this CloudBeaver EE instance. Only AWS users from this account can authenticate in this CloudBeaver EE instance.  
 
 You cannot create new users in CloudBeaver EE for AWS as it only works with real AWS users.  
 The Administrator may grant different roles (including Administrator role) to the other AWS users in this account after they authenticate in this CloudBeaver instance.  
