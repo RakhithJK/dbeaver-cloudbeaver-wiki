@@ -1,15 +1,15 @@
-CloudBeaver supports almost any database which has JDBC driver.  
-Generally it support all drivers supported by DBeaver.  
+CloudBeaver supports almost any database which has a JDBC driver.  
+It generally supports all drivers supported by DBeaver.  
 
-By default e do not enable all DBeaver drivers in CloudBeaver. They must be added to server configuration on demand.  
+By default, do not enable all DBeaver drivers in CloudBeaver. They must be added to the server configuration on demand.  
 
 #### Adding new driver dependencies
 
 Driver dependencies are configured in the folder `server/drivers`.  
-In order to add new driver: 
+In order to add a new driver: 
 - Create new folder for a new driver
-- Copy POM file from any other driver config to the new directory
-- Change module name and driver dependencies in the new POM file
+- Copy the POM file from any another driver config to the new directory
+- Change the module name and driver dependencies in the new POM file
 
 Example of PostgreSQL driver config:
 ```xml
@@ -45,13 +45,13 @@ Example of PostgreSQL driver config:
 </project>
 ```
 
-#### Adding new driver to the server
+#### Adding a new driver to the server
 
-Enabled drivers are configured in file `server/bundles/io.cloudbeaver.resources.drivers.base/plugin.xml`.  
-You can copy some existing driver configuration to add a new one.
+Enabled drivers are configured in the file, `server/bundles/io.cloudbeaver.resources.drivers.base/plugin.xml`.  
+You can copy an existing driver configuration to add a new one.
 
 There are 3 configuration lines for each driver:
-1. `<resource name="drivers/driver-name"/>` - says that file-system folder `drivers/driver-name` can be used to load driver jars.
-1. `<bundle id="drivers.driver-name"/>` - needed for driver configuration enable in DBeaver platform
-1. `<driver id="generic:driver-name"/>` - enabled DBeaver driver in CloudBeaver. Driver ID can be found in DBeaver platform (in one of database-specific `plugin.xml` files).
+1. `<resource name="drivers/driver-name"/>` - says that the file-system folder `drivers/driver-name` can be used to load driver jars.
+1. `<bundle id="drivers.driver-name"/>` - needed for driver configuration enable in the DBeaver platform
+1. `<driver id="generic:driver-name"/>` - enabled the DBeaver driver in CloudBeaver. The driver ID can be found in the DBeaver platform (in one of the database-specific `plugin.xml` files).
 
