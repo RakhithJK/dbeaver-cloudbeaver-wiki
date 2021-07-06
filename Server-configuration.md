@@ -2,9 +2,9 @@ There are several configuration files in CloudBeaver.
 
 ## Main server configuration 
 
-Primary configuration file is `cloudbeaver.conf`. By default it is placed in folder `/etc/cloudbeaver/`.  
-But in most cases it is redefined for each server by command line parameter `-web-config <config-file-path>`.  
-Server configuration is in JSONC format (JSON with comments and without redundant quotes). It can be parsed by the most of JSON parsers in lenient mode.  
+The primary configuration file is `cloudbeaver.conf`. By default it is placed in folder `/etc/cloudbeaver/`.  
+But in most cases it is redefined for each server by the command line parameter `-web-config <config-file-path>`.  
+The server configuration is in JSONC format (JSON with comments and without redundant quotes). It can be parsed by most of the JSON parsers in lenient mode.  
 
 Typical configuration:
 ```js
@@ -48,11 +48,11 @@ driversLocation | Optional path for driver jar files
 rootURI | Web application URI prefix. `/` by default
 serviceURI | Services API URI prefix (relative to rootURI). `/api/` by default.
 productConfiguration | Path to product (web interface) configuration file (json)
-develMode | When set to true extra debug information is printed in logs and GraphQL console is enabled on server.
-anonymousAccessEnabled | Allows anonymous access. Anonymous users work with role 'User'.
-authenticationEnabled | Enables users authentication. If disabled then only anonymous access is allowed.
-supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only CB administrator can create/edit connections.
+develMode | When set to true extra debug, the information is printed in logs and GraphQL console is enabled on the server.
+anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role, 'User'.
+authenticationEnabled | Enables users' authentication. If disabled, then only anonymous access is allowed.
+supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only the CB administrator can create/edit connections.
 
 ## Datasources configuration 
 
-You can find detailed description [[here|Configuring-server-datasources]]
+You can find a detailed description [[here|Configuring-server-datasources]]
