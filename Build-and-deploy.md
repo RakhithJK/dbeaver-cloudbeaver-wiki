@@ -2,8 +2,8 @@
 
 CloudBeaver is a web server which provides a rich web interface.  
 It consists of two parts:
-- Server back-end. It is written on Java and reuses "platform" libraries of <a href="https://github/.com/dbeaver/dbeaver">DBeaver</a>.
-- Front-end part. It is written on TypeScript and JavaScript.
+- Server back-end. It is written in Java and reuses "platform" libraries of <a href="https://github/.com/dbeaver/dbeaver">DBeaver</a>.
+- Front-end part. It is written in TypeScript and JavaScript.
 
 This build process is relatively complicated (and also consists of two parts).
 
@@ -55,7 +55,7 @@ cd cloudbeaver/deploy
 ./build.sh
 ```
 
-The final artifacts can be found in deploy/cloudbeaver.
+The final artifacts can be found in `deploy/cloudbeaver`.
 
 ### Running server
 ```bash
