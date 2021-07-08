@@ -5,6 +5,8 @@ There are several configuration files in CloudBeaver.
 The primary configuration file is `cloudbeaver.conf`. By default it is placed in folder `/etc/cloudbeaver/`.  
 But in most cases it is redefined for each server by the command line parameter `-web-config <config-file-path>`.  
 The server configuration is in JSONC format (JSON with comments and without redundant quotes). It can be parsed by most of the JSON parsers in lenient mode.  
+Additionally configuration parameters can be specified in the file `workspace/.data/.cloudbeaver.runtime.conf`. It is convenient because workspace can be deployed as a shared docker volume. `.cloudbeaver.runtime.conf` has the same structure as `cloudbeaver.conf` but it has higher priority than `cloudbeaver.conf`.   
+
 
 Typical configuration:
 ```js
