@@ -52,6 +52,8 @@ develMode | When set to true extra debug, the information is printed in logs and
 anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role, 'User'.
 authenticationEnabled | Enables users' authentication. If disabled, then only anonymous access is allowed.
 supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only the CB administrator can create/edit connections.
+publicCredentialsSaveEnabled | Allows to save user database credentials in local cache
+adminCredentialsSaveEnabled | Allows to save global database credentials in local cache
 
 ## Datasources configuration 
 
