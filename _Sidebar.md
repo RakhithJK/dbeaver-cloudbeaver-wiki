@@ -38,11 +38,11 @@ CloudBeaver Enterprise Edition
 - [[Overview|CloudBeaver-EE-Overview]]
 - [[Deployment|CloudBeaver-EE-Deployment]]
 
-Development  
+Development <!--CMD:SKIP-->
 
-- [[Frontend technical overview|Frontend-technical-overview]]
-- [[Plugin system|Plugin system]]
-- [[Server architecture|Server-architecture]]
-- [[Server API explorer]]
-- [[Adding new database drivers]]
-- [[Code of Conduct]]
+- [[Frontend technical overview|Frontend-technical-overview]] <!--CMD:SKIP-->
+- [[Plugin system|Plugin system]] <!--CMD:SKIP-->
+- [[Server architecture|Server-architecture]] <!--CMD:SKIP-->
+- [[Server API explorer]] <!--CMD:SKIP-->
+- [[Adding new database drivers]] <!--CMD:SKIP-->
+- [[Code of Conduct]] <!--CMD:SKIP-->
