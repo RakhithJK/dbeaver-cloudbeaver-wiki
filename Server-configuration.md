@@ -57,6 +57,23 @@ supportsCustomConnections | Allows users to create custom connections to any dat
 publicCredentialsSaveEnabled | Allows to save user database credentials in local cache
 adminCredentialsSaveEnabled | Allows to save global database credentials in local cache
 
+# Automatic server configuration
+
+On the first start CloudBeaver server will show administrator interface for server configuration.  
+In some cases server must be configured automatically (e.g. when it is run in Kubernetes environment).  
+Following parameters which must be specified in the configuration:
+
+Name|Description|Example
+---|---|---
+CB_SERVER_NAME | Server name | `Test Server`
+CB_SERVER_URL | Server base URL | `https://cloudbeaver.domain.com:10000/`
+CB_ADMIN_NAME | Administrator user name | `admin`
+CB_ADMIN_PASSWORD | Administrator user password | `S0mePazzworD`
+
+These parameters can be specified in:
+- OS environment variables 
+- configuration file `.cloudbeaver.auto.conf` which must be placed in the same location as `cloudbeaver.conf` file.  
+
 ## Datasources configuration 
 
 You can find a detailed description [[here|Configuring-server-datasources]]
