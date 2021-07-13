@@ -1,7 +1,7 @@
 ## Folder structure
 ```
 |-cloudbeaver
-  |-webapp                 # all frontend code is here
+  |-webapp                 # all frontend codes are here
     |-packages             # yarn workspaces managed by lerna
       |-core               # core package with common modules like GraphQL, 
         |                    dependency injection, and common app services
@@ -41,7 +41,7 @@ load all dependencies and init workspaces
 
 ```yarn run build```
 
-build all packages (plugins and the application) the result will be placed in `packages/{package-name}/lib` folder
+build all packages (plugins and the application) and the result will be placed in the `packages/{package-name}/lib` folder
 
 ```yarn run lint```
 
@@ -69,25 +69,25 @@ lerna run build --stream --scope=@cloudbeaver/plugin-name
     |-package.json
     |-tsconfig.json
 ```
-only difference in build command: `"build": "core-cli-build --mode=production --config ../core-cli/configs/webpack.product.config.js",` it uses product config, also contains `dev` command for starting development local build `"dev": "core-cli-build serve --mode=development --progress --config=../core-cli/configs/webpack.product.dev.config.js --port=3100",`
+The only difference in the build command is: `"build": "core-cli-build --mode=production --config ../core-cli/configs/webpack.product.config.js",` it uses product config, also contains `dev` command for starting development local build `"dev": "core-cli-build serve --mode=development --progress --config=../core-cli/configs/webpack.product.dev.config.js --port=3100",`
 
 The application package simple defines the list of plugins that should be included in the build
 ### Commands
-Execute command to build only application without rebuilding plugins
+Execute the command to only build the application without rebuilding the plugins
 
 `lerna run build --stream --scope=@cloudbeaver/product-name`
 
 ## Development
-1. To run a development build that watches file changed and rebuilds you can use the `dev` command:
+1. To run a development build that watches file changed and rebuilds, you can use the `dev` command:
 `lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --env server=http://backend.server:8095`
-it starts dev server for `product-default` and proxies backend requests to `http://backend.server:8095`
+It starts the dev server for `product-default` and proxies backend requests to `http://backend.server:8095`
 
 2. Navigate `localhost:3100` to open the application
 
 ## Static assets
-You can keep static assets like images, favicon, etc in `public` folder in plugin packages or app package
+You can keep static assets like images, favicon, etc in the `public` folder in the plugin packages or app package.
 
-All such assets will be copied to application distributive. Assets with the same name will overwrite one another but it is known that Application public assets win.
+Assets such as these will be copied to the application distributive. Assets with the same name will overwrite one another, but the Application public assets win.
 
 ## Localization
 See the example in the `core-administration` `AdministrationLocaleService.ts` and `locales` folder
