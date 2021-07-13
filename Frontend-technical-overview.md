@@ -1,14 +1,14 @@
 CloudBeaver frontend is a single page application written in [React](https://reactjs.org).
-We use [InversifyJS](https://github.com/inversify/InversifyJS) for dependency injection and [MobX](https://mobx.js.org) as a state management library. [GraphQL](https://graphql.org) is in use to communicate with the server.
+We use [InversifyJS](https://github.com/inversify/InversifyJS) for dependency injection and [MobX](https://mobx.js.org) as a state management library. [GraphQL](https://graphql.org) is used to communicate with the server.
 
-The application is written as a set of plugins organized in [Lerna](https://github.com/lerna/lerna) monorepo. Plugins can be developed independently and added to the final build by mentioning in the configuration file.
+The application is written as a set of plugins organized in [Lerna](https://github.com/lerna/lerna) monorepo. The plugins can be developed independently and added to the final build by mentioning it in the configuration file.
 
 The application uses [Reshadow](https://reshadow.dev) library and CSS modules for style incapsulation and supports light and dark themes.
 
 We use [Ag-Grid](https://www.ag-grid.com) to display big and functionally rich tables and [Codemirror](https://codemirror.net/2/) to edit SQL queries.
 
 ## Development
-1. Run local server as it described in [Build and deploy](https://github.com/dbeaver/cloudbeaver/wiki/Build-and-deploy) section
+1. Run the local server as described in the [Build and deploy](https://github.com/dbeaver/cloudbeaver/wiki/Build-and-deploy) section
 2. Execute
 ```
 cd webapp/
@@ -19,7 +19,7 @@ to run Webpack dev server
 3. Open `localhost:3100` in web browser
 
 ## Plugins
-The application consists of several plugins and submoduled located in `webapp\packages` folder
+The application consists of several plugins and submoduled located in the `webapp\packages` folder
 * **core-administration** - Administration API
 * **core-app** - Base application folder
 * **core-authentication** - Authentication API
@@ -45,8 +45,8 @@ The application consists of several plugins and submoduled located in `webapp\pa
 * **core-view** - View API
 * **plugin-administration** - Application configuration wizard
 * **plugin-authentication** - Authentication and users administration
-* **plugin-connection-custom** - Provides handling of custom connections
-* **plugin-connection-template** - Provides handling of template connections
+* **plugin-connection-custom** - Provides the handling of custom connections
+* **plugin-connection-template** - Provides the handling of template connections
 * **plugin-data-export** - Data export from data view
 * **plugin-data-spreadsheet** - Wrapper over Ag-Grid
 * **plugin-data-viewer** - Provides Data Table View
