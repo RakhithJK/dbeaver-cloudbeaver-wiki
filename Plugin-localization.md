@@ -1,0 +1,21 @@
+In Cloudbeaver all translatable resources reside in the **locales** folder. The path to the folder is **[plugin-name]\src\locales\[locale-code].ts**.
+
+Not all localization comes from our source code, some of it comes from the backend side. So, if you want to, for example, change or create localization for metadata editor objects, you need to do it in another repository, that is https://github.com/dbeaver/dbeaver. Here is a guide how you can contribute to dbeaver localization https://github.com/dbeaver/dbeaver/wiki/Localization.
+
+To create or improve the localization for Cloudbeaver follow these steps.
+
+- Prepare for changes.
+  - Fork repository https://github.com/dbeaver/cloudbeaver.
+  - Clone it to your local system.
+  - Make a new branch (for example, **italian-localization**).
+- Make changes
+  - Find the plugin you want to change localization in (for example, basic UI language tokens are located in the **core-localization\src\locales\[locale-code].ts** file).
+  - Create localization file (for example, if you want to add localization for the Italian language create **it.ts** file next to the **en.ts** file in the directory we have discussed before. After that, copy all content from the **en.ts** file to the **it.ts** file).
+  - Translate tokens to your language.<br/>
+Here is the structure of the language tokens: **['token-name', 'token-value']**. You need to change only the second part, **'token-value'**.
+For example, if you wanted to translate the **Loading...** token, which is **['ui_processing_loading', 'Loading...']**, it would look like this: **['ui_processing_loading', 'Caricamento in corso...']**.
+  - Commit and Push your changes back to your repo.
+  - Click the Compare & pull request button (in branch `devel`) https://help.github.com/articles/creating-a-pull-request-from-a-fork/.
+  - Click Create pull request to open a new pull request.
+
+To find the right localization files, you can go to https://github.com/dbeaver/cloudbeaver -> press **Go to file** -> paste **en.** in the input and you should see all available localization files.
