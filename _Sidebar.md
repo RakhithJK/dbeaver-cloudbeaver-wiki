@@ -42,6 +42,7 @@ Development <!--CMD:SKIP-->
 
 - [[Frontend technical overview|Frontend-technical-overview]] <!--CMD:SKIP-->
 - [[Plugin system|Plugin system]] <!--CMD:SKIP-->
+- [[Plugin localization|Plugin localization]] <!--CMD:SKIP-->
 - [[Server architecture|Server-architecture]] <!--CMD:SKIP-->
 - [[Server API explorer]] <!--CMD:SKIP-->
 - [[Adding new database drivers]] <!--CMD:SKIP-->
