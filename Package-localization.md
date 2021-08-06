@@ -13,7 +13,7 @@ In Cloudbeaver all translatable resources are located in the **locales** folder.
 For example, if you want to add localization for the Italian language create ```it.ts``` file next to the ```en.ts``` file in the directory we have discussed before. After that, copy all content from the ```en.ts``` file to the ```it.ts``` file.
   6. Translate tokens to your language.<br/>
 Here is the structure of the language tokens: ```['token-name', 'token-value']```. You need to change only the second part, **'token-value'**.<br/>
-For example, if you wanted to translate the **Loading...** token, which is ```['ui_processing_loading', 'Loading...']```, it would look like this:<br/> ```['ui_processing_loading', 'Caricamento in corso...']```.
+For example, if you wanted to translate the **Loading...** token, which is ```['ui_processing_loading', 'Loading...']```, it would look like this:  ```['ui_processing_loading', 'Caricamento in corso...']```.
   7. Commit and Push your changes back to your repo.
   8. Click the Compare & pull request button.
   9. Click Create pull request to open a new pull request (in branch `devel`) https://help.github.com/articles/creating-a-pull-request-from-a-fork/.
