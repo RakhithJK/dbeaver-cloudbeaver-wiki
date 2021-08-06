@@ -1,4 +1,4 @@
-In Cloudbeaver all translatable resources reside in the **locales** folder. The path to the folder is **[package-name]\src\locales\[locale-code].ts**.
+In Cloudbeaver all translatable resources reside in the **locales** folder. The path to the folder is **[package-name]\src\locales\\[locale-code].ts**.
 
 Not all localization comes from our source code, some of it comes from the backend side. So, if you want to, for example, change or create localization for database objects, you need to do it in another repository, that is https://github.com/dbeaver/dbeaver. Here is a guide how you can contribute to dbeaver localization https://github.com/dbeaver/dbeaver/wiki/Localization.
 
