@@ -4,7 +4,7 @@ Not all localization comes from our source code, some of it comes from the backe
 
 To create or improve the localization for Cloudbeaver follow these steps.
 
-- Prepare for changes.
+- Prepare for changes
   - Fork repository https://github.com/dbeaver/cloudbeaver.
   - Clone it to your local system.
   - Make a new branch (for example, **italian-localization**).
