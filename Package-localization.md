@@ -9,7 +9,7 @@ To create or improve the localization for Cloudbeaver follow these steps:
   - Clone it to your local system.
   - Make a new branch (for example, **italian-localization**).
 - Make changes
-  - Find the package you want to change localization in (for example, basic UI language tokens are located in the **core-localization\src\locales\[locale-code].ts** file).
+  - Find the package you want to change localization in (for example, basic UI language tokens are located in the **core-localization\src\locales\\[locale-code].ts** file).
   - Create localization file (for example, if you want to add localization for the Italian language create **it.ts** file next to the **en.ts** file in the directory we have discussed before. After that, copy all content from the **en.ts** file to the **it.ts** file).
   - Translate tokens to your language.<br/>
 Here is the structure of the language tokens: **['token-name', 'token-value']**. You need to change only the second part, **'token-value'**.
