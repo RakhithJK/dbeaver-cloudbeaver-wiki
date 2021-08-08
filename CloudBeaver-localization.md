@@ -1,72 +1,63 @@
-Not all localization comes from the Cloudbeaver source code, some of it comes from the backend side. So, if you want to, for example, change or create localization for database objects, you need to do it in another repository, that is https://github.com/dbeaver/dbeaver. Here is a guide how you can contribute to DBeaver localization https://github.com/dbeaver/dbeaver/wiki/Localization.
+Not all localization comes from the Cloudbeaver source code, some of it comes from the backend side. So, if you want to, for example, change or create localization for database objects, you need to do it in another repository, that is https://github.com/dbeaver/dbeaver. Here is a guide how you can contribute to DBeaver localization https://github.com/dbeaver/dbeaver/wiki/Localization.   To create or improve localization for Cloudbeaver interface follow these steps:
 
-To create or improve localization for Cloudbeaver interface follow these steps:
-1. Open Eclipse https://www.eclipse.org/downloads/ or another IDE. The next steps describe how to do it in Eclipse:
-2. Open File - Import - Projects from Git
+1. Open https://github.com/dbeaver/cloudbeaver and hit _Fork_ to clone repository
 
-![Screenshot 2021-08-08 at 18 01 51](https://user-images.githubusercontent.com/51405061/128636541-543ad94c-a918-4248-abcc-08a616096d63.png)
+![1](https://user-images.githubusercontent.com/51405061/128645751-a4671c5d-d644-4e2b-84a8-ae9e9cc169a5.png)
 
-![2_1](https://user-images.githubusercontent.com/51405061/128636362-9003dc4f-e5f9-4b35-879d-350bf1c942c9.png)
+2. Open [Fork](https://git-fork.com/) and go to _File - Clone_
 
-3. Select clone URI
+![2](https://user-images.githubusercontent.com/51405061/128645749-ab0b56c6-c9aa-4c8d-a8f6-4f839b96d8a2.png)
 
-![3](https://user-images.githubusercontent.com/51405061/128636361-cdc58986-89f8-49c8-b7ba-0a9f03b5ea5d.png)
+3. Enter your Github repository https://github.com/user_name/cloudbeaver to _URL_ and hit _Clone_ to clone repository to your local system
 
-4. Paste https://github.com/dbeaver/cloudbeaver to URI field
+![3](https://user-images.githubusercontent.com/51405061/128645747-5d9ebd7b-1a3f-4357-adf0-01b2b82a6299.png)
 
-![4](https://user-images.githubusercontent.com/51405061/128636360-d497c3ca-a76a-449c-a951-ce57cfea3677.png)
+4. Right click on _devel_ branch and select _New Branch_
 
-5. Select devel branch
+![4](https://user-images.githubusercontent.com/51405061/128645746-9581157f-3baa-44c7-a6b3-a25a2aa992b5.png)
 
-![5](https://user-images.githubusercontent.com/51405061/128636359-ba602e70-0825-4a36-ac2b-4a14ba46863e.png)
+5. Enter a new branch name (for example, italian-localization) and hit _Create and Checkout_
 
-6. Enter local directory
+![5](https://user-images.githubusercontent.com/51405061/128645745-9951d367-614a-4c82-ba97-9ee7fe1611ce.png)
 
-![6](https://user-images.githubusercontent.com/51405061/128636357-3ff96119-7698-4952-b916-ac4ea86608ba.png)
+6. Go to local repository files ../repository_name//webapp/packages/core-localization/src/locales
 
-7. Select Import as general project 
+![6](https://user-images.githubusercontent.com/51405061/128645743-e9e5ae96-3ef1-4f3b-8ca6-280fc9f362a7.png)
 
-![7](https://user-images.githubusercontent.com/51405061/128636356-29cd50a2-e69b-44b0-b982-959542c205d9.png)
+7. Duplicate en.ts file in the directory and name it as [locale-code].ts (e.g. it.ts for Italian)
 
-8. Create project name and hit Finish
+8. Open the created file and translate tokens to your language
 
-![8](https://user-images.githubusercontent.com/51405061/128636355-68ca5317-4a9e-465a-b065-7c8244daae08.png)
+Here is the structure of the language tokens: ['token-name', 'token-value']. You need to change only the second part: 'token-value'. For example, if you want to translate the Loading... token, which is ['ui_processing_loading', 'Loading...'], it will look like this: ['ui_processing_loading', 'Caricamento in corso...']. 
 
-9. Open Window - Show view - Navigator
+9. Go back to Fork, open _Local Changes_, select your created file, then hit _Stage_
 
-![9](https://user-images.githubusercontent.com/51405061/128636353-1d85c2c8-8657-4d21-aa96-cf555776dd9b.png)
+![9](https://user-images.githubusercontent.com/51405061/128645741-5a75f4ac-f3bc-483b-9488-3ae9e91993bc.png)
 
-10. Expand the project in Navigator tree and open webapp - packages - core-localization - src - locales, copy-paste _en.ts_ file and rename it to e.g. _it.ts_
+10. Press _Push_ on the top toolbar and in the pop up
 
-![10](https://user-images.githubusercontent.com/51405061/128636352-2705936c-fc1b-423e-934d-932d041492d4.png)
+![10](https://user-images.githubusercontent.com/51405061/128645740-90d93cde-4496-4403-9454-592381d19254.png)
 
-11. Open the pasted file with a text editor and translate text to your language.
+11. Fill _Commit Subject_ field and hit _Commit_
 
-Here is the structure of the language tokens: ['token-name', 'token-value']. You need to change only the second part, 'token-value'. For example, if you want to translate the Loading... token, which is ['ui_processing_loading', 'Loading...'], it will look like this: ['ui_processing_loading', 'Caricamento in corso...']. Save changes
+![11](https://user-images.githubusercontent.com/51405061/128645738-1da0e8f7-bb6c-4ef5-9221-15bd6742c439.png)
 
-![11](https://user-images.githubusercontent.com/51405061/128636350-05bb111b-5d1c-45aa-85b6-d8cf647e98e1.png)
+12. Open context menu for your branch and select _Push to origin_
 
-12. Select in the context menu Team - Commit
+![12_correct](https://user-images.githubusercontent.com/51405061/128645737-c92e25f6-1880-4ada-8a01-e6b97d594ec5.png)
 
-![12](https://user-images.githubusercontent.com/51405061/128636349-a95ad47d-0040-4f09-be9c-1e0b2a5f24a9.png)
+![12_correct2](https://user-images.githubusercontent.com/51405061/128645736-ca7ca0bf-433e-4ea4-aa80-2f30d8217ec3.png)
 
-13. Hit Push HEAD in the opened panel
+13. Enter your Github credentials
 
-![13](https://user-images.githubusercontent.com/51405061/128636348-78900eba-d350-42ed-a7b5-9bd16f7aea57.png)
+![13_creds](https://user-images.githubusercontent.com/51405061/128645739-63be3074-ade9-4256-a1ed-80999f27c2e1.png)
 
-14. Create a branch name, e.g. Italian_translation
+14. Go to Github and press _Compare & pull request_ in your repository
 
-![14](https://user-images.githubusercontent.com/51405061/128636347-06ad4ff2-113e-4d20-8a59-295e83031df8.png)
+![14](https://user-images.githubusercontent.com/51405061/128645735-44ca4c14-df8d-439b-befd-d6972f1afbe3.png)
 
-15. Enter your Github credentials
+15. Write a description and create pull request
 
-![15](https://user-images.githubusercontent.com/51405061/128636346-e8bbae8b-35f6-4e2b-937f-fb7bf18ebd20.png)
+![15](https://user-images.githubusercontent.com/51405061/128645733-4dff533a-8f98-4065-aec0-1043ee52c346.png)
 
-16. Hit Push and enter your Github credentials again
-
-![16](https://user-images.githubusercontent.com/51405061/128636345-9feeaead-1d2e-4c66-b4e3-92a0353e8de6.png)
-
-Pull request is created.
-
-![17](https://user-images.githubusercontent.com/51405061/128636343-80959c54-30ff-46ea-a052-9a56777ee78b.png)
-
+Here is [Github instruction](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). You can use different IDEs to create pull requests.
