@@ -36,28 +36,27 @@ To create or improve localization for Cloudbeaver interface follow these steps:
 
 ![9](https://user-images.githubusercontent.com/51405061/128636353-1d85c2c8-8657-4d21-aa96-cf555776dd9b.png)
 
-10. Expand the project in Navigator tree and open webapp - packages - core-localization - src - locales, copy-paste en.ts file and rename it to e.g. it.ts.
+10. Expand the project in Navigator tree and open webapp - packages - core-localization - src - locales, copy-paste _en.ts_ file and rename it to e.g. _it.ts_
 
 ![10](https://user-images.githubusercontent.com/51405061/128636352-2705936c-fc1b-423e-934d-932d041492d4.png)
 
-11. Open the pasted file with a text editor and translate text to your language. 
-Here is the structure of the language tokens: ['token-name', 'token-value']. You need to change only the second part, 'token-value'. For example, if you want to translate the Loading... token, which is ['ui_processing_loading', 'Loading...'], it will look like this: ['ui_processing_loading', 'Caricamento in corso...']. Save changes.
+11. Open the pasted file with a text editor and translate text to your language.
+
+Here is the structure of the language tokens: ['token-name', 'token-value']. You need to change only the second part, 'token-value'. For example, if you want to translate the Loading... token, which is ['ui_processing_loading', 'Loading...'], it will look like this: ['ui_processing_loading', 'Caricamento in corso...']. Save changes
 
 ![11](https://user-images.githubusercontent.com/51405061/128636350-05bb111b-5d1c-45aa-85b6-d8cf647e98e1.png)
 
-12. Select in the context menu Team - Commit.
+12. Select in the context menu Team - Commit
 
 ![12](https://user-images.githubusercontent.com/51405061/128636349-a95ad47d-0040-4f09-be9c-1e0b2a5f24a9.png)
 
-13. Hit Push HEAD in the opened panel.
+13. Hit Push HEAD in the opened panel
 
 ![13](https://user-images.githubusercontent.com/51405061/128636348-78900eba-d350-42ed-a7b5-9bd16f7aea57.png)
 
-14. Create a branch name, e.g. Italian_translation.
+14. Create a branch name, e.g. Italian_translation
 
 ![14](https://user-images.githubusercontent.com/51405061/128636347-06ad4ff2-113e-4d20-8a59-295e83031df8.png)
-
-
 
 15. Enter your Github credentials
 
