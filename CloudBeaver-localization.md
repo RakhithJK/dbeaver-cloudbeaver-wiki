@@ -4,7 +4,7 @@ Not all localization comes from the Cloudbeaver source code, some of it comes fr
 
 ![1](https://user-images.githubusercontent.com/51405061/128645751-a4671c5d-d644-4e2b-84a8-ae9e9cc169a5.png)
 
-2. Open [Fork](https://git-fork.com/) and go to _File - Clone_
+2. Open [Fork](https://git-fork.com/) and go to _File - Clone_ (you can use another application)
 
 3. Enter your Github repository https://github.com/user_name/cloudbeaver and clone it to your local system
 
