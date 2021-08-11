@@ -36,8 +36,6 @@ Here is the structure of the language tokens: ['token-name', 'token-value']. You
 
 11. Go to Github and press _Compare & pull request_ in your repository
 
-![14](https://user-images.githubusercontent.com/51405061/128645735-44ca4c14-df8d-439b-befd-d6972f1afbe3.png)
-
 12. Write a description and create pull request
 
 Here is [Github instruction](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). You can use different IDEs to create pull requests.
