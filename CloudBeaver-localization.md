@@ -14,7 +14,7 @@ Not all localization comes from the Cloudbeaver source code, some of it comes fr
 
 4. Go to local repository files ../repository_name/webapp/packages/core-localization/src/locales. Duplicate _en.ts_ file in the directory and name it as [locale-code].ts (e.g. it.ts for Italian)
 
-5. Open the created file and translate tokens to your language. Change _en_ on [locale-code] in the file here `export const default**EN**Locale`.
+5. Open the created file and translate tokens to your language. Change _en_ on [locale-code] in the file here `export const defaultENLocale`.
 
 Here is the structure of the language tokens: ['token-name', 'token-value']. You need to change only the second part: 'token-value'. For example, if you want to translate the Loading... token, which is ['ui_processing_loading', 'Loading...'], it will look like this: ['ui_processing_loading', 'Caricamento in corso...']. 
 
