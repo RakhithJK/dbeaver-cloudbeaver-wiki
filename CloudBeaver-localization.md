@@ -40,6 +40,4 @@ Here is the structure of the language tokens: ['token-name', 'token-value']. You
 
 12. Write a description and create pull request
 
-![15](https://user-images.githubusercontent.com/51405061/128645733-4dff533a-8f98-4065-aec0-1043ee52c346.png)
-
 Here is [Github instruction](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). You can use different IDEs to create pull requests.
