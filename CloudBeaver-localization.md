@@ -20,7 +20,7 @@ Not all localization comes from the Cloudbeaver source code, some of it comes fr
 
 Here is the structure of the language tokens: ['token-name', 'token-value']. You need to change only the second part: 'token-value'. For example, if you want to translate the Loading... token, which is ['ui_processing_loading', 'Loading...'], it will look like this: ['ui_processing_loading', 'Caricamento in corso...']. 
 
-7. Go back to Fork, open _Local Changes_, select your created file and press _Stage_
+7. Go back to Fork, open the branch changes and press _Stage_
 
 ![9](https://user-images.githubusercontent.com/51405061/128645741-5a75f4ac-f3bc-483b-9488-3ae9e91993bc.png)
 
