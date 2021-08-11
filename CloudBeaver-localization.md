@@ -1,6 +1,6 @@
 Not all localization comes from the Cloudbeaver source code, some of it comes from the backend side. So, if you want to, for example, change or create localization for database objects, you need to do it in another repository, that is https://github.com/dbeaver/dbeaver. Here is a guide how you can contribute to DBeaver localization https://github.com/dbeaver/dbeaver/wiki/Localization.   To create or improve localization for Cloudbeaver interface follow these steps:
 
-1. Open https://github.com/dbeaver/cloudbeaver and hit _Fork_ to clone repository
+1. Open https://github.com/dbeaver/cloudbeaver and _Fork_ repository
 
 ![1](https://user-images.githubusercontent.com/51405061/128645751-a4671c5d-d644-4e2b-84a8-ae9e9cc169a5.png)
 
