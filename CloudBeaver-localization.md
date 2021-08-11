@@ -4,11 +4,11 @@ Not all localization comes from the Cloudbeaver source code, some of it comes fr
 
 ![1](https://user-images.githubusercontent.com/51405061/128645751-a4671c5d-d644-4e2b-84a8-ae9e9cc169a5.png)
 
-2. Open [Fork](https://git-fork.com/) (you can use another application) and clone the forked repository https://github.com/.../cloudbeaver to local system
+2. Open [Fork](https://git-fork.com/) (you can use another application) and clone the forked repository https://github.com/.../cloudbeaver to local system. This and next screenshots  are from Fork application. They can differ depending on your application.
 
 ![3](https://user-images.githubusercontent.com/51405061/128645747-5d9ebd7b-1a3f-4357-adf0-01b2b82a6299.png)
 
-3. Create new branch from _devel_ branch (name it, for example, italian-localization)
+3. Create new branch from _devel_ branch (name it, for example, italian-localization).
 
 ![4](https://user-images.githubusercontent.com/51405061/128645746-9581157f-3baa-44c7-a6b3-a25a2aa992b5.png)
 
