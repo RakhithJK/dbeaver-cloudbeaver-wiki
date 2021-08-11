@@ -15,11 +15,12 @@ _Note_: The images below are taken from [Fork](https://git-fork.com/). You can u
 
 ![4](https://user-images.githubusercontent.com/51405061/128645746-9581157f-3baa-44c7-a6b3-a25a2aa992b5.png)
 
-4. Go to local repository files ../repository_name/webapp/packages/core-localization/src/locales. Duplicate _en.ts_ file in the directory and name it as [locale-code].ts (e.g. it.ts for Italian)
+4. Go to local repository files and find the localisation file you want to translate. Create a copy of `en.ts` file in the directory and name it as [locale-code].ts (e.g. `it.ts` for Italian)
+  Example: `../repository_name/webapp/packages/core-localization/src/locales`
 
 5. Open the created file and translate tokens to your language. Change _EN_ on [locale-code] in the file here `export const defaultENLocale`.
 
-Here is the structure of the language tokens: ['token-name', 'token-value']. You need to change only the second part: 'token-value'. For example, if you want to translate the Loading... token, which is ['ui_processing_loading', 'Loading...'], it will look like this: ['ui_processing_loading', 'Caricamento in corso...']. 
+Here is the structure of the language tokens: `['token-name', 'token-value']`. You need to change only the second part: `'token-value'`. For example, if you want to translate the _Loading..._ token, which is `['ui_processing_loading', 'Loading...']`, it will look like this: `['ui_processing_loading', 'Caricamento in corso...']`. 
 
 6. Open the branch changes and _stage_ them
 
