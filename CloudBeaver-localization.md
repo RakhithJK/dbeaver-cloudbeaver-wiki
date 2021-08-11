@@ -25,22 +25,18 @@ Here is the structure of the language tokens: `['token-name', 'token-value']`. Y
 
 6. Open the branch changes and _stage_ them
 
-![9](https://user-images.githubusercontent.com/51405061/128645741-5a75f4ac-f3bc-483b-9488-3ae9e91993bc.png)
+![6](https://user-images.githubusercontent.com/51405061/129053618-7195a786-1e23-4c57-bfaa-c989515408f5.png)
 
-7. Push the changes
+7. Push and Commit the changes
 
-![10](https://user-images.githubusercontent.com/51405061/128645740-90d93cde-4496-4403-9454-592381d19254.png)
+![7](https://user-images.githubusercontent.com/51405061/129054875-d90504a4-7903-4af2-a1ba-49422d8c5c9f.png)
 
-8. Commit the changes
-
-![11](https://user-images.githubusercontent.com/51405061/128645738-1da0e8f7-bb6c-4ef5-9221-15bd6742c439.png)
-
-9. Push to origin
+8. Push to origin
 
 ![12_correct](https://user-images.githubusercontent.com/51405061/128645737-c92e25f6-1880-4ada-8a01-e6b97d594ec5.png)
 
-10. Go to Github and press _Compare & pull request_ in your repository
+9. Go to Github and press _Compare & pull request_ in your repository
 
-11. Write a description and create pull request
+10. Write a description and create pull request
 
 Here is [Github instruction](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). You can use different IDEs to create pull requests.
