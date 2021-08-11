@@ -8,7 +8,7 @@ Not all localization comes from the Cloudbeaver source code, some of it comes fr
 
 ![3](https://user-images.githubusercontent.com/51405061/128645747-5d9ebd7b-1a3f-4357-adf0-01b2b82a6299.png)
 
-3. Create new branch from _devel_ (name it, for example, italian-localization)
+3. Create new branch from _devel_ branch (name it, for example, italian-localization)
 
 ![4](https://user-images.githubusercontent.com/51405061/128645746-9581157f-3baa-44c7-a6b3-a25a2aa992b5.png)
 
