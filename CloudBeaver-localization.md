@@ -4,7 +4,7 @@ _Note_: The images below are taken from [Fork](https://git-fork.com/). You can u
 
 1. Open https://github.com/dbeaver/cloudbeaver and fork repository
 
-![1](https://user-images.githubusercontent.com/51405061/128645751-a4671c5d-d644-4e2b-84a8-ae9e9cc169a5.png)
+![Screenshot 2021-08-12 at 15 14 33](https://user-images.githubusercontent.com/51405061/129194932-622192b0-a718-4575-ba8d-b4c526293932.png)
 
 2. Clone the forked repository https://github.com/.../cloudbeaver to your local system.
 
@@ -25,15 +25,19 @@ Here is the structure of the language tokens: `['token-name', 'token-value']`. Y
 
 6. Open the branch changes and _stage_ them
 
-![6](https://user-images.githubusercontent.com/51405061/129053618-7195a786-1e23-4c57-bfaa-c989515408f5.png)
+![Screenshot 2021-08-12 at 15 16 59](https://user-images.githubusercontent.com/51405061/129195225-f18201dc-4323-43cb-b521-eb7a48d18152.png)
 
-7. Push and Commit the changes
+7. Push 
 
-![7](https://user-images.githubusercontent.com/51405061/129054875-d90504a4-7903-4af2-a1ba-49422d8c5c9f.png)
+![Screenshot 2021-08-12 at 15 18 44](https://user-images.githubusercontent.com/51405061/129195503-71d05c1b-f684-4fc5-8d17-bced00e20669.png)
+
+and Commit the changes
+
+![Screenshot 2021-08-12 at 15 19 08](https://user-images.githubusercontent.com/51405061/129195517-dfc52cef-e9a2-46d1-81a5-4e176f5265ac.png)
 
 8. Push to origin
 
-![12_correct](https://user-images.githubusercontent.com/51405061/128645737-c92e25f6-1880-4ada-8a01-e6b97d594ec5.png)
+![Screenshot 2021-08-12 at 15 21 39](https://user-images.githubusercontent.com/51405061/129195949-f78f9be0-1631-4a19-840c-265a1e1e1292.png)
 
 9. Go to Github and press _Compare & pull request_ in your repository
 
