@@ -1,4 +1,4 @@
-**CloudBeaver 21.1.0 - 2021-07-15**
+**Release - 2021-07-15**
 
 Changes since 21.0.0
 - Navigation tree:
