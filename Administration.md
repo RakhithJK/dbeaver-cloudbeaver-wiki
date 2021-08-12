@@ -39,13 +39,13 @@ In administration page select *Connection Management* tab. On *Connection Manage
 
 1. Connection list
 
-   ![Connection list](https://github.com/dbeaver/cloudbeaver/wiki/images/administration-connection-management.png)
+   ![Screenshot 2021-08-12 at 12 56 22](https://user-images.githubusercontent.com/51405061/129177762-bcf6dd45-6987-4355-ae81-cf85dad30d4f.png)
 
 2. Connection creation
 
-   Click on plus icon in tools bar to open connection creation wizard:
+   Click on Add icon in tools bar to open connection creation wizard:
 
-   ![Connection creation](https://github.com/dbeaver/cloudbeaver/wiki/images/administration-connection-managment-creation.png)
+   ![Screenshot 2021-08-12 at 13 01 48](https://user-images.githubusercontent.com/51405061/129178401-5874f1c9-b737-4b0e-a24a-1f3dcb0cc51c.png)
 
    Connection can be created from database driver or from databases searched in entered hosts (hosts can be divided by spaces or comma).
 
@@ -71,9 +71,9 @@ In administration page select *Users* tab. On *Users* tab you can create or dele
 
 2. User creation
 
-   Click on plus icon in tools bar to open user creation form:
+   Click on Add icon in tools bar to open user creation form:
    
-   ![User creation](https://github.com/dbeaver/cloudbeaver/wiki/images/administration-users-creation.png)
+   ![Screenshot 2021-08-12 at 13 05 30](https://user-images.githubusercontent.com/51405061/129178948-bd566239-0247-4fcb-9157-9a1a97a035ed.png)
 
    You can set user credentials and roles, also you can configure connections access.
 
@@ -90,5 +90,4 @@ In administration page select *Users* tab. On *Users* tab you can create or dele
 ### Server configuration
 In administration page select *Server configuration* tab. On *Server configuration* tab you can edit base application settings
 
-![Server configuration](https://github.com/dbeaver/cloudbeaver/wiki/images/administration-server-configuration.png)
-
+   ![Screenshot 2021-08-12 at 13 08 13](https://user-images.githubusercontent.com/51405061/129179301-3ff86420-8521-4a53-ad47-ac48901cd9d2.png)
