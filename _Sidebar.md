@@ -14,7 +14,7 @@ User Guide
    - SQL Editor
      - [[Query Execution Plan]]
    - [[Cloud Explorer]]
-- Releases
+- [[Releases]]
 
 Installation  
 
