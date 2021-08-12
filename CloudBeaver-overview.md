@@ -9,12 +9,13 @@
 ## Overview
 
 ### Open connection to remote database
-1. Select *Connection > New connection > custom* in a main menu
+1. Select *Connection > Manual > Custom* in a main menu
 2. Select database
 3. Set connection options and driver properties and press **Connect** button
 
-![Select database](https://github.com/dbeaver/cloudbeaver/wiki/images/select-database.png)
-![Connection options](https://github.com/dbeaver/cloudbeaver/wiki/images/connection-options.png)
+![Screenshot 2021-08-12 at 14 02 11](https://user-images.githubusercontent.com/51405061/129186197-b7dd3e15-83d7-4e2c-84a3-241874c7dda5.png)
+
+![Screenshot 2021-08-12 at 14 00 38](https://user-images.githubusercontent.com/51405061/129186034-96040db1-0755-4805-89dd-2db9e42d4ac2.png)
 
 ### Navigate database structure
 After the connection has been established left application panel contains a navigation tree with a database structure
@@ -45,7 +46,7 @@ Double-click cell to edit it. You can submit changes or cancel editing.
 
 **Note** Submitted changes will be immediately applied to the database
 
-![Edit cell](https://github.com/dbeaver/cloudbeaver/wiki/images/edit-cell.png)
+![Screenshot 2021-08-12 at 14 05 37](https://user-images.githubusercontent.com/51405061/129186636-508691e7-e7dc-4e63-b35d-67644f36d540.png)
 
 **Copy cells**
 * Use drag-n-drop to select range of cells
