@@ -1,48 +1,15 @@
-### CloudBeaver 21.1.2 - 2021-08-11
+### [The latest CloudBeaver 21.1.2 - 2021-08-11](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.2)
 - Option to run SQL Scripts is implemented.
 - Radio buttons are added to the Value panel to edit Boolean values.
 - Minor UI fixes and improvements are made.
 
 ### [CloudBeaver 21.1.1 - 2021-08-02](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.1)
 
-### CloudBeaver 21.1.0 - 2021-07-15
+### [CloudBeaver 21.1.0 - 2021-07-15](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.0)
 
-Changes since 21.0.0
-- Navigation tree:
-  - User's and shared connections are divided into different groups.
-- Connection form:
-  - Read-only connections are marked in the connection form.
-  - It is possible to show and hide password in the connection dialog.
-- Data editor:
-  - New actions are available from the context menu:
-    - filtering
-    - ordering
-    - cell editing.
-  - Support for different formats is added to the Value panel.
-  - Work with links is improved:
-    - Links to the web pages can be opened from the tables
-    - Links to the pictures are automatically transformed to the pictures on the Value panel.
-  - It is possible to edit Boolean values as checkboxes in the tables.
-  - Read-only columns and tables are marked in the result set.
-- SQL editor:
-  - Query execution plan is added.
-  - Database logos are displayed in the top menu selector.
-  - Auto-complete for the SQL dialects works automatically.
-- Log viewer:
-  - Detailed information for errors is opened on the panel.
-- Administration part:
-  - Access management for users and connections is improved.
-- It is possible to change the user password from the public part of CloudBeaver.
-- New design for dialogs is implemented.
-- Possibility to export data for users can be configured.
-- A lot of UI fixes, enhancements and improvements are made.
+### [CloudBeaver 21.0.5 - 2021-06-30](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.0.5)
 
-### CloudBeaver 21.0.5 - 2021-06-30
-- Query execution plan was added.
-- Option to show/hide password in the connection dialog was added.
-- Minor UI fixes and improvements.
-
-### CloudBeaver 21.0.3 - 2021-06-11
+### [CloudBeaver 21.0.3 - 2021-06-11](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver%C2%A021.0.3)
 
 - Filtering and Ordering from the context menu were added for the data editor .
 - Read-only columns and result sets were marked in the data editor. 
