@@ -3,10 +3,7 @@
 - Radio buttons are added to the Value panel to edit Boolean values.
 - Minor UI fixes and improvements are made.
 
-### CloudBeaver 21.1.1 - 2021-08-02
-- The new notification way prevents users from working after session expiration.
-- The option to skip the Easy configuration step can be configured.
-- Minor UI fixes and improvements are made.
+### [CloudBeaver 21.1.1 - 2021-08-02](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.1)
 
 ### CloudBeaver 21.1.0 - 2021-07-15
 
