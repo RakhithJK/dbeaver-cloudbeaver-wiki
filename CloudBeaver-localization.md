@@ -22,19 +22,15 @@ Create a copy of `en.ts` file in the package you want to change localization in 
 
 Example: `../repository_name/webapp/packages/core-localization/src/locales`
 
-5. Open the created file and translate tokens to your language. Change _EN_ on [locale-code] in the file here `export const defaultENLocale`.
+5. Open the created file and translate tokens to your language. Change _EN_ on [locale-code] in the top of the file. `export const defaultENLocale` => `export const defaultITLocale`.
 
-Here is the structure of the language tokens: `['token-name', 'token-value']`. You need to change only the second part: `'token-value'`. For example, if you want to translate the _Loading..._ token, which is `['ui_processing_loading', 'Loading...']`, it will look like this: `['ui_processing_loading', 'Caricamento in corso...']`. 
+Here is the structure of the language tokens: `['token-name', 'token-value']`. You need to change only the second part: `'token-value'`. For example, if you wanted to translate the _Loading..._ token, which is `['ui_processing_loading', 'Loading...']`, it would look like this: `['ui_processing_loading', 'Caricamento in corso...']`. 
 
 6. Open the branch changes and _stage_ them
 
 ![Screenshot 2021-08-12 at 15 16 59](https://user-images.githubusercontent.com/51405061/129195225-f18201dc-4323-43cb-b521-eb7a48d18152.png)
 
-7. Push 
-
-![Screenshot 2021-08-12 at 15 18 44](https://user-images.githubusercontent.com/51405061/129195503-71d05c1b-f684-4fc5-8d17-bced00e20669.png)
-
-and Commit the changes
+7. Commit the changes
 
 ![Screenshot 2021-08-12 at 15 19 08](https://user-images.githubusercontent.com/51405061/129195517-dfc52cef-e9a2-46d1-81a5-4e176f5265ac.png)
 
