@@ -22,7 +22,7 @@ Create a copy of `en.ts` file in the package you want to change localization in 
 
 Example: `../repository_name/webapp/packages/core-localization/src/locales`
 
-5. Open the created file and translate tokens to your language. Change _EN_ on [locale-code] in the top of the file. `export const defaultENLocale` => `export const defaultITLocale`.
+5. Open the created file and translate tokens to your language. Change _EN_ on [locale-code] in the top of the file `export const defaultENLocale` => `export const defaultITLocale`.
 
 Here is the structure of the language tokens: `['token-name', 'token-value']`. You need to change only the second part: `'token-value'`. For example, if you wanted to translate the _Loading..._ token, which is `['ui_processing_loading', 'Loading...']`, it would look like this: `['ui_processing_loading', 'Caricamento in corso...']`. 
 
