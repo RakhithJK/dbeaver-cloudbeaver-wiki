@@ -1,7 +1,4 @@
-### [The latest CloudBeaver 21.1.2 - 2021-08-11](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.2)
-- Option to run SQL Scripts is implemented.
-- Radio buttons are added to the Value panel to edit Boolean values.
-- Minor UI fixes and improvements are made.
+### [CloudBeaver 21.1.2 - 2021-08-11](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.2)
 
 ### [CloudBeaver 21.1.1 - 2021-08-02](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.1)
 
