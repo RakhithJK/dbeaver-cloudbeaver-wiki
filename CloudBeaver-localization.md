@@ -1,4 +1,4 @@
-Not all localization comes from the Cloudbeaver source code, some of it comes from the backend side. So, if you want to, for example, change or create localization for database objects, you need to do it in another repository, that is https://github.com/dbeaver/dbeaver. Here is a guide how you can contribute to DBeaver localization https://github.com/dbeaver/dbeaver/wiki/Localization.   To create or improve localization for Cloudbeaver interface follow these steps:
+Not all localization comes from the Cloudbeaver source code. Some of it comes from the backend side. So, if you want to, for example, to change or create localization for database objects, you need to do it in another repository, at https://github.com/dbeaver/dbeaver. Here is a guide to how you can contribute to DBeaver's localization https://github.com/dbeaver/dbeaver/wiki/Localization.   To create or improve localization for the Cloudbeaver interface, follow these steps:
 
 _Note_: The images below are taken from [Fork](https://git-fork.com/). You can use another application to create pull-requests.
 
@@ -11,20 +11,20 @@ _Note_: The images below are taken from [Fork](https://git-fork.com/). You can u
 
 ![3](https://user-images.githubusercontent.com/51405061/128645747-5d9ebd7b-1a3f-4357-adf0-01b2b82a6299.png)
 
-3. Create new branch from _devel_ branch (name it, for example, italian-localization).
+3. Create a new branch from _devel_ branch (name it, for example, italian-localization).
 
 ![4](https://user-images.githubusercontent.com/51405061/128645746-9581157f-3baa-44c7-a6b3-a25a2aa992b5.png)
 
 4. Go to the local repository and find the localization files you want to translate.
 
-In Cloudbeaver all translatable resources are located in the locales folder. The path to the folder is [package-name]\src\locales\[locale-code].ts.<br/>
-Create a copy of `en.ts` file in the package you want to change localization in and name it as [locale-code].ts (e.g. `it.ts` for Italian)
+In Cloudbeaver, all translatable resources are located in the locales folder. The path to the folder is [package-name]\src\locales\[locale-code].ts.<br/>
+Create a copy of `en.ts` file in the package you want to change the localization in and name it [locale-code].ts (e.g. `it.ts` for Italian)
 
 Example: `../repository_name/webapp/packages/core-localization/src/locales`
 
-5. Open the created file and translate tokens to your language. Change _EN_ on [locale-code] in the top of the file `export const defaultENLocale` => `export const defaultITLocale`.
+5. Open the created file and translate the tokens to your language. Change _EN_ on [locale-code] in the top of the file `export const defaultENLocale` => `export const defaultITLocale`.
 
-Here is the structure of the language tokens: `['token-name', 'token-value']`. You need to change only the second part: `'token-value'`. For example, if you wanted to translate the _Loading..._ token, which is `['ui_processing_loading', 'Loading...']`, it would look like this: `['ui_processing_loading', 'Caricamento in corso...']`. 
+Here is the structure of the language tokens: `['token-name', 'token-value']`. You only need to change the second part: `'token-value'`. For example, if you wanted to translate the _Loading..._ token, which is `['ui_processing_loading', 'Loading...']`, it would look like this: `['ui_processing_loading', 'Caricamento in corso...']`. 
 
 6. Open the branch changes and _stage_ them
 
