@@ -18,7 +18,7 @@ Administrator can create **custom roles**. To do it:
 
 
 ---
-Also connection access can be configured in ACCESS tab in Connection and User dialogs.
+Also connection access can be configured in Connection and User dialogs.
 
 **Connection dialog**
 
