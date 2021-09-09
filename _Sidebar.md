@@ -2,6 +2,7 @@ User Guide
 
 - [[Application overview|CloudBeaver-overview]]
 - [[Administration]]
+   - Role management
 - [[Supported databases]]
 - Features
    - Database browser
