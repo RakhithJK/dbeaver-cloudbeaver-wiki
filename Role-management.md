@@ -16,6 +16,8 @@ Administrator can create **custom roles**. To do it:
 
 ![Screenshot 2021-09-09 at 11 12 34](https://user-images.githubusercontent.com/51405061/132648834-284f04ea-9b9a-49c8-ada0-801b4c0fa138.png)
 
+
+---
 Also connection access can be configured in ACCESS tab in Connection and User dialogs.
 
 **Connection dialog**
