@@ -2,10 +2,10 @@ You can use roles to manage access permissions to connections in CloudBeaver. A
 
 Admin and User roles are available by default.
 
-|  Role |   Connections created in Easy Config  |  Connections created in Administration   | Administration menu |
-|:-----:|:-------------------------------------:|:----------------------------------------:|---------------------|
-| Admin | Yes                                   | Yes                                      |         Yes         |
-|  User | Available by default. Can be revoked. | Not available by default. Can be granted |          No         |
+|  Role |   Connections created in Easy Config |  Connections created in Administration   | Administration menu |
+|:-----:|:------------------------------------:|:----------------------------------------:|---------------------|
+| Admin | Yes                                  | Yes                                      |         Yes         |
+|  User | Available by default. Can be revoked | Not available by default. Can be granted |          No         |
 
 
 ---
