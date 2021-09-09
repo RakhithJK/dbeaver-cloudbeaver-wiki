@@ -1,10 +1,10 @@
-### [The latest CloudBeaver 21.1.3 - 2021-08-30](https://github.com/dbeaver/cloudbeaver/wiki/The-latest-CloudBeaver-21.1.3---2021-08-30)
+### [The latest CloudBeaver 21.1.4 - 2021-09-09](https://github.com/dbeaver/cloudbeaver/wiki/The-latest-CloudBeaver-21.1.4---2021-09-09)
 
-- Table rows can be created and deleted from the Data Editor.
-- It is possible to preview scripts in the Data Editor.
-- The dialog to enter the credentials appears when you test connections.
-- Different UI bugs have been fixed.
+-   Role management is added. 
+-   Context menu is available in the Metadata Editor.
+-   Different UI bugs have been fixed.
 
+### [CloudBeaver 21.1.3 - 2021-08-30](https://github.com/dbeaver/cloudbeaver/wiki/The-latest-CloudBeaver-21.1.3---2021-08-30)
 
 ### [CloudBeaver 21.1.2 - 2021-08-11](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.2)
 
