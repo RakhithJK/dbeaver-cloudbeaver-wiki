@@ -1,0 +1,3 @@
+-   Role management is added. 
+-   Context menu is available in the Metadata Editor.
+-   Different UI bugs have been fixed.
