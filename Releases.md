@@ -4,7 +4,7 @@
 -   Context menu is available in the Metadata Editor.
 -   Different UI bugs have been fixed.
 
-### [CloudBeaver 21.1.3 - 2021-08-30](https://github.com/dbeaver/cloudbeaver/wiki/The-latest-CloudBeaver-21.1.3---2021-08-30)
+### [CloudBeaver 21.1.3 - 2021-08-30](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.3)
 
 ### [CloudBeaver 21.1.2 - 2021-08-11](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.2)
 
