@@ -9,6 +9,7 @@ User Guide
    - Data editor
      - [[Data Filters]]
      - [[Data Ordering]]
+     - [[Value Panel]]
    - [[Data export]]
    - [[Entity Diagrams]]
    - [[Document viewer]]
