@@ -1,4 +1,4 @@
-Value panel provides additional space in the **Data editor** in which you can manipulate data. The panel is handy if you work with complex types (structures, arrays), long text data, or BLOBs.
+The Value panel provides additional space in the **Data editor** in which you can manipulate data. The panel is handy if you work with complex types (structures, arrays), long text data or BLOBs.
 
 To open the panel, click **Value** button in the right hand side of the **Data tab**. Alternatively, you can open the **Value** panel by clicking **Show in value panel** on a cell context menu.
 
