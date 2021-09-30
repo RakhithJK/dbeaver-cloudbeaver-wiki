@@ -1,4 +1,4 @@
-### The latest CloudBeaver 21.1.5 - 2021-09-30
+### [The latest CloudBeaver 21.1.5 2021 09 30](https://github.com/dbeaver/cloudbeaver/wiki/The-latest-CloudBeaver-21.1.5-2021-09-30)
 
 - Objects can be deleted and renamed via UI.
 - SQL Scripts generation is available in the objects’ context menu.
