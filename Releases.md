@@ -1,8 +1,12 @@
-### [The latest CloudBeaver 21.1.4 - 2021-09-09](https://github.com/dbeaver/cloudbeaver/wiki/The-latest-CloudBeaver-21.1.4---2021-09-09)
+### The latest CloudBeaver 21.1.5 - 2021-09-30
 
--   Role management is added. 
--   Context menu is available in the Metadata Editor.
--   Different UI bugs have been fixed.
+- Objects can be deleted and renamed via UI.
+- SQL Scripts generation is available in the objects’ context menu.
+- Connected and disconnected databases are divided into 2 groups in the SQL Editor.
+- Other UI improvements have been made.
+
+### [CloudBeaver 21.1.4 - 2021-09-09](https://github.com/dbeaver/cloudbeaver/wiki/The-latest-CloudBeaver-21.1.4---2021-09-09)
+
 
 ### [CloudBeaver 21.1.3 - 2021-08-30](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.3)
 
