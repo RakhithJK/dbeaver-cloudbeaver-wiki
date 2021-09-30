@@ -5,7 +5,7 @@
 - Connected and disconnected databases are divided into 2 groups in the SQL Editor.
 - Other UI improvements have been made.
 
-### [CloudBeaver 21.1.4 - 2021-09-09](https://github.com/dbeaver/cloudbeaver/wiki/The-latest-CloudBeaver-21.1.4---2021-09-09)
+### [CloudBeaver 21.1.4 - 2021-09-09](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.4---2021-09-09)
 
 
 ### [CloudBeaver 21.1.3 - 2021-08-30](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.3)
