@@ -10,6 +10,7 @@ User Guide
      - [[Data Filters]]
      - [[Data Ordering]]
      - [[Value Panel]]
+     - [[Working with spatial/GIS data]]
    - [[Data export]]
    - [[Entity Diagrams]]
    - [[Document viewer]]
