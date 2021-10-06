@@ -4,7 +4,7 @@ CloudBeaver's support of spatial data covers the following databases:
 - PostgreSQL (PostGIS)
 - MySQL
 - SQLite (GeoPackage)
-- H2
+- H2GIS
 - Oracle <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial_big.png" align="top" vspace="4" height="16"/>
 - SQL Server <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial_big.png" align="top" vspace="4" height="16"/>
 
