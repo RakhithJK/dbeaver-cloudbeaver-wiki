@@ -17,4 +17,4 @@ Once your session expires, you will need to authenticate again. When a user logs
 5. Go to the AWS Settings tab and enable Federated authentication.
 6. Add the Proxy User. You can set the current user or add a new one. 
 
-When an AWS user is logged into CloudBeaver using SSO, he has the Proxy User and the IAM user's identity-based permissions. The AWS User can't receive more permissions from the Proxy User, than he already has based on the IAM user's identity-based permissions.
+When an AWS user is logged into CloudBeaver using SSO, he has the Proxy User and the IAM user's identity-based permissions. The AWS User can't receive more permissions from the Proxy User than he already has based on the IAM user's identity-based permissions.
