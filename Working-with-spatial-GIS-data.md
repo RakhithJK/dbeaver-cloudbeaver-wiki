@@ -3,7 +3,7 @@ Spatial data is a geometry or geography value that can be represented on a map o
 CloudBeaver's support of spatial data covers the following databases:
 - PostgreSQL (PostGIS)
 - MySQL
-- SQLite
+- SQLite (GeoPackage)
 - H2
 - Oracle <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial_big.png" align="top" vspace="4" height="16"/>
 - SQL Server <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial_big.png" align="top" vspace="4" height="16"/>
