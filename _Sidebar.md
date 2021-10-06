@@ -40,7 +40,7 @@ CloudBeaver EE for AWS
 
 CloudBeaver Enterprise Edition
 - [[Overview|CloudBeaver-EE-Overview]]
-- [[SSO|SSO]]
+- [[Single Sign-On|Single Sign-On]]
 - [[Deployment|CloudBeaver-EE-Deployment]]
 
 Development <!--CMD:SKIP-->
