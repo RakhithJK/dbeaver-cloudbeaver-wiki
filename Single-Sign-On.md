@@ -14,6 +14,10 @@ Once your session expires, you will need to authenticate again. When a user logs
 
 #### To set up SSO authentication for AWS
 
+1. Go to the Administration menu and enable SAML in the Server configuration tab.
+2. Go to the Identity Providers tab and create a new configuration using SAML IdP (Identity Provider) details.
+3. Open the created configuration and download the metadata file.
+4. Go to SAML IdP website and add the metadata parameters from the file (entityID and Location) to SSO access settings, assign users and add attribute mappings. 
 5. Go to the AWS Settings tab and enable Federated authentication.
 6. Add the Proxy User. You can set the current user or add a new one. 
 
