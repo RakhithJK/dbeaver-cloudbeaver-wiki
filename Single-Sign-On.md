@@ -18,7 +18,7 @@ Once your session expires, you will need to authenticate again. When a user logs
 3. Open the created configuration and download the metadata file.
 4. Go to the SAML IdP website and add the metadata parameters from the file (entityID and Location) to the SSO access settings, assign users and add the attribute mappings according to the SAML IdP requirements. [More information you can find here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml_assertions.html).
 5. Go to the AWS Settings tab and enable the Federated authentication.
-6. Add [the Proxy User](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). You can set the current user or add a new one. 
+6. Add the Proxy User. You can set the current user or add a new one. 
 
-When an AWS user is logged into CloudBeaver using SSO, he has the Proxy User and the IAM user's identity-based permissions. The AWS User cannot receive further permission from the Proxy User than he already has based on the IAM user's identity-based permissions.
+When an AWS user is logged into CloudBeaver using SSO, he has [the Proxy User and the IAM user's identity-based permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). The AWS User cannot receive further permission from the Proxy User than he already has based on the IAM user's identity-based permissions.
 
