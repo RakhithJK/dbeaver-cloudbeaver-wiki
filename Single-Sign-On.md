@@ -7,10 +7,7 @@ CloudBeaver Enterprise supports Federated Authentication for SSO (Single Sign-On
 3. Open the created configuration and download the metadata file.
 4. Go to the SAML IdP website and add the metadata parameters from the file (entityID and Location) to the SSO access settings, assign users and add the attribute mappings according to the SAML IdP requirements. 
 
-The new SAML tab becomes available after creating the configuration in the CloudBeaver authentication dialogue. A user can select a configuration there and login for the application using SSO.
-
-CloudBeaver Enterprise does not keep your authentication information on the server-side and in configuration files.
-Once your session expires, you will need to authenticate again. When a user logs out from the application, CloudBeaver also performs a session logout from SAML IdP.
+The new SAML tab becomes available after creating the configuration in the CloudBeaver authentication dialogue. This is where the user can select the configuration and thereafter login into the application using SSO.
 
 ### To set up SSO authentication for AWS
 1. Go to the Administration menu and enable SAML in the Server configuration tab.
@@ -21,4 +18,8 @@ Once your session expires, you will need to authenticate again. When a user logs
 6. Add the Proxy User. You can set the current user or add a new one. 
 
 When an AWS user is logged into CloudBeaver using SSO, he has [the Proxy User and the IAM user's identity-based permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). The AWS User cannot receive further permission from the Proxy User than he already has based on the IAM user's identity-based permissions.
+
+CloudBeaver Enterprise does not keep your authentication information on the server-side and in configuration files.
+Once your session expires, you will need to authenticate again. When a user logs out from the application, CloudBeaver also performs a session logout from SAML IdP.
+
 
