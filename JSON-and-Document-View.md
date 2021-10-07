@@ -18,7 +18,7 @@ The document can be selected in order to display all available actions.
 
 
 ### Editing
-To start editing click on the _pencil icon_ in the left panel. You will have your document switched to _editing mode_.
+To start editing click on the _pencil icon_ in the left panel. You will have your document switched to _the editing mode_.
 In the editing mode, you can see a toolbar with _apply_ and _revert_ buttons.
 If the document has some unsaved changes in it it will be highlighted with an orange border.
 
