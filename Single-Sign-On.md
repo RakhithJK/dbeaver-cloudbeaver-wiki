@@ -12,7 +12,7 @@ The new SAML tab becomes available after creating the configuration in the Cloud
 CloudBeaver Enterprise does not keep your authentication information on the server-side and in configuration files.
 Once your session expires, you will need to authenticate again. When a user logs out from the application, CloudBeaver also performs a session logout from SAML IdP.
 
-#### To set up SSO authentication for AWS
+### To set up SSO authentication for AWS
 1. Go to the Administration menu and enable SAML in the Server configuration tab.
 2. Go to the Identity Providers tab and create a new configuration using the SAML IdP (Identity Provider) details.
 3. Open the created configuration and download the metadata file.
