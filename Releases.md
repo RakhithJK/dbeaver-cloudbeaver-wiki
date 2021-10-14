@@ -25,7 +25,7 @@ Changes since 21.1.0
 - A lot of small bug fixes, enhancements and improvements are made.
 
 
-### [CloudBeaver 21.1.5 2021 09 30](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.5-2021-09-30)
+### [CloudBeaver 21.1.5 - 2021-09-30](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.5-2021-09-30)
 
 ### [CloudBeaver 21.1.4 - 2021-09-09](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.1.4---2021-09-09)
 
