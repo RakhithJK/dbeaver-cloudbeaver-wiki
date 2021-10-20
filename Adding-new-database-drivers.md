@@ -13,7 +13,7 @@ Generally, adding a new driver in CB consists of two steps:
 1. Add driver in DBeaver
 2. Configure this driver in CloudBeaver
 
-If a driver ais lready included in DBeaver, then you can skip the first step. 
+If a driver is already included in DBeaver, then you can skip the first step. 
 
 ### What is special about CloudBeaver compared to DBeaver?
 
