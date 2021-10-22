@@ -18,6 +18,7 @@ CloudBeaver Enterprise supports Federated Authentication for SSO (Single Sign-On
 
 ![aws](https://user-images.githubusercontent.com/51405061/138433882-179771b6-71c3-4a79-9cab-7dcc7cf13f50.png)
 
+
 The new SAML tab becomes available after creating the configuration in the CloudBeaver authentication dialog. This is where the user can select the configuration and thereafter login into the application using SSO.
 
 ![chrome_enlTzZHaQh](https://user-images.githubusercontent.com/51405061/138428908-298910d9-0adc-4258-a59f-ac2e4b51514e.png)
