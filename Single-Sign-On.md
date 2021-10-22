@@ -4,7 +4,7 @@ CloudBeaver Enterprise supports Federated Authentication for SSO (Single Sign-On
 
 1. Go to the Administration menu and enable SAML in the Server configuration tab.
 
-![chrome_62uXodbyqY](https://user-images.githubusercontent.com/51405061/138426542-34a2ac91-0914-4dc0-8596-f90d37422656.png)
+![1](https://user-images.githubusercontent.com/51405061/138433150-8e7c23d1-36d7-427d-a7ad-47669a6f6c8b.png)
 
 2. Go to the Identity Providers tab and create a new configuration using the SAML IdP (Identity Provider) details.
 
@@ -12,11 +12,11 @@ CloudBeaver Enterprise supports Federated Authentication for SSO (Single Sign-On
 
 3. Open the created configuration and download the metadata file.
 
-![3](https://user-images.githubusercontent.com/51405061/138428588-3c7e3b02-a450-4fef-8156-d44540bf2ca7.png)
+![3](https://user-images.githubusercontent.com/51405061/138433162-816e08d2-cec3-4462-a1cd-4167e01562a2.png)
 
 4. Go to the SAML IdP website and add the metadata parameters from the file (entityID and Location) to the SSO access settings, assign users and add the attribute mappings according to the SAML IdP requirements. 
 
-![aws](https://user-images.githubusercontent.com/51405061/138431332-a516eb11-b493-487f-8ebb-b4e9a3d919f2.png)
+![aws](https://user-images.githubusercontent.com/51405061/138433882-179771b6-71c3-4a79-9cab-7dcc7cf13f50.png)
 
 The new SAML tab becomes available after creating the configuration in the CloudBeaver authentication dialog. This is where the user can select the configuration and thereafter login into the application using SSO.
 
@@ -26,7 +26,7 @@ The new SAML tab becomes available after creating the configuration in the Cloud
 More information you can find here: [Configuring SAML assertions for the authentication response](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml_assertions.html).
 1. Go to the AWS Settings tab and enable the Federated authentication.
 
-![1-2](https://user-images.githubusercontent.com/51405061/138429781-cfac4964-6f15-4b33-99fb-a8591e985463.png)
+![1-2](https://user-images.githubusercontent.com/51405061/138433651-46dba1e6-054b-42a9-b940-d65ec6eada90.png)
 
 2. Add the Proxy User on the same page. You can set the current user or add a new one. 
 
