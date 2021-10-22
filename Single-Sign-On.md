@@ -16,6 +16,8 @@ CloudBeaver Enterprise supports Federated Authentication for SSO (Single Sign-On
 
 4. Go to the SAML IdP website and add the metadata parameters from the file (entityID and Location) to the SSO access settings, assign users and add the attribute mappings according to the SAML IdP requirements. 
 
+![aws](https://user-images.githubusercontent.com/51405061/138431332-a516eb11-b493-487f-8ebb-b4e9a3d919f2.png)
+
 The new SAML tab becomes available after creating the configuration in the CloudBeaver authentication dialog. This is where the user can select the configuration and thereafter login into the application using SSO.
 
 ![chrome_enlTzZHaQh](https://user-images.githubusercontent.com/51405061/138428908-298910d9-0adc-4258-a59f-ac2e4b51514e.png)
