@@ -9,6 +9,8 @@ There is a one month trial period.
 After launching EC2 instance based on CloudBeaver IAM, open the page `http:://EE2_IP/` where `EE2_IP` is the IP address of your new EC2 machine.  
 On the first page you will see [[server configuration wizard|Administration]].  
 
+You can connect to your EC2 instance using SSH. You need to specify SSH keypair during EC2 instance launch. You can use user name `ubuntu` to connect.  
+
 ## Docker image
 
 Not yet supported. We are working on the new docker image for the AWS version of CloudBeaver.  
