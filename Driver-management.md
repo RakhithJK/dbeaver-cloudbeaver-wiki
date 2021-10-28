@@ -1,7 +1,8 @@
 CloudBeaver supports almost any database which has a JDBC driver.  
 It generally supports all drivers supported by DBeaver.  
 
-By default, do not enable all DBeaver drivers in CloudBeaver. They must be added to the server configuration on demand.  
+By default, we do not enable all DBeaver drivers in CloudBeaver. They must be added to the server configuration on demand.  
+You can patch CloudBeaver sources (pom.xml and plugin.xml), build the project and re-pack docker image.  
 
 #### Adding new driver dependencies
 
