@@ -1,4 +1,4 @@
-CloudBeaver 21.2.0 - 2021-10-14
+**CloudBeaver 21.2.0 - 2021-10-14**
 
 Changes since 21.1.0
 - The Metadata Editor and the Navigator tree:
