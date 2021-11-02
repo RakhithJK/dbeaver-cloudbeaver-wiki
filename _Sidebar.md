@@ -38,6 +38,7 @@ Configuration
 CloudBeaver EE for AWS
 - [[Overview|AWS-Overview]]
 - [[Authentication / IAM|AWS-IAM]]
+- [[Authentication / AWS SSO|Single Sign-On]]
 
 CloudBeaver Enterprise Edition
 - [[Overview|CloudBeaver-EE-Overview]]
