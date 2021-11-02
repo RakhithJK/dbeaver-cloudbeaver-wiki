@@ -31,9 +31,9 @@ More information you can find here: [Configuring SAML assertions for the authent
 
 2. Add the Proxy User on the same page. You can set the current user or add a new one. 
 
-When an AWS user is logged into CloudBeaver using SSO, he has [the Proxy User and the IAM user's identity-based permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). The AWS User cannot receive further permissions from the Proxy User than he already has based on the IAM user's identity-based permissions.
+When an AWS user is logged into CloudBeaver using SSO, it has [the Proxy User and the IAM user's identity-based permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). The AWS User cannot receive further permissions from the Proxy User than he already has based on the IAM user's identity-based permissions.
 
-CloudBeaver Enterprise does not keep your authentication information on the server-side and in configuration files.
+CloudBeaver does not keep your authentication information on the server-side and in configuration files.
 Once your session expires, you will need to authenticate again. When a user logs out from the application, CloudBeaver also performs a session logout from SAML IdP.
 
 
