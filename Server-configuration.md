@@ -2,10 +2,10 @@ There are several configuration files in CloudBeaver.
 
 ## Main server configuration 
 
-The primary configuration file is `cloudbeaver.conf`. By default it is placed in folder `/etc/cloudbeaver/`.  
+The primary configuration file is `cloudbeaver.conf`. By default it is placed in the folder `/etc/cloudbeaver/`.  
 But in most cases it is redefined for each server by the command line parameter `-web-config <config-file-path>`.  
 The server configuration is in JSONC format (JSON with comments and without redundant quotes). It can be parsed by most of the JSON parsers in lenient mode.  
-Additionally configuration parameters can be specified in the file `workspace/.data/.cloudbeaver.runtime.conf`. It is convenient because workspace can be deployed as a shared docker volume. `.cloudbeaver.runtime.conf` has the same structure as `cloudbeaver.conf` but it has higher priority than `cloudbeaver.conf`.   
+Additionally, configuration parameters can be specified in the file `workspace/.data/.cloudbeaver.runtime.conf`. It is convenient because the workspace can be deployed as a shared docker volume. `.cloudbeaver.runtime.conf` has the same structure as `cloudbeaver.conf` but it has a higher priority than `cloudbeaver.conf`.   
 
 
 Typical configuration:
@@ -54,14 +54,14 @@ develMode | When set to true extra debug, the information is printed in logs and
 anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role, 'User'.
 authenticationEnabled | Enables users' authentication. If disabled, then only anonymous access is allowed.
 supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only the CB administrator can create/edit connections.
-publicCredentialsSaveEnabled | Allows to save user database credentials in local cache
-adminCredentialsSaveEnabled | Allows to save global database credentials in local cache
+publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache
+adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache
 
 # Automatic server configuration
 
 On the first start CloudBeaver server will show administrator interface for server configuration.  
-In some cases server must be configured automatically (e.g. when it is run in Kubernetes environment).  
-Following parameters which must be specified in the configuration:
+In some cases the server must be configured automatically (e.g. when it is run in Kubernetes environment).  
+The following parameters must be specified in the configuration:
 
 Name|Description|Example
 ---|---|---
@@ -72,7 +72,7 @@ CB_ADMIN_PASSWORD | Administrator user password | `S0mePazzworD`
 
 These parameters can be specified in:
 - OS environment variables 
-- configuration file `.cloudbeaver.auto.conf` which must be placed in the same location as `cloudbeaver.conf` file.  
+- configuration file `.cloudbeaver.auto.conf` which must be placed in the same location as the `cloudbeaver.conf` file.  
 
 ## Datasources configuration 
 
