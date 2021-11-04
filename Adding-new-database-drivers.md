@@ -6,7 +6,7 @@ This instruction describes how you can do it.
 ## Introduction
 
 CB is based on the [[DBeaver |https://github.com/dbeaver/dbeaver]] platform. It reuses drivers provided by DBeaver plugins.  
-Thus, you can not add a driver which is not configured in some DBeaver plugins.
+Thus, you cannot add a driver which is not configured in some DBeaver plugins.
 
 Out of the box DBeaver supports more than 50 different database drivers. Some of them are pre-configured in CloudBeaver as well, and some are not.  
 Generally, adding a new driver in CB consists of two steps:
@@ -73,11 +73,11 @@ After that you can find you driver definition in the `drivers.xml` (see [[Admini
 ### Maven
 
 All drivers need some 3rd party jar files (actual driver executable code).  
-For CloudBeaver 3rd party jars must be in a public Maven repository (Maven Central is preferred). Line
+For CloudBeaver, 3rd party jars must be in a public Maven repository (Maven Central is preferred). Line
 ```xml
 <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.20]">
 ```
-refers to external Maven artifact which must contain driver jar files.
+refers to an external Maven artifact which must contain the driver jar files.
 
 ### Drivers and bundles
 
