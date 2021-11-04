@@ -24,14 +24,14 @@ The new SAML tab becomes available after creating the configuration in the Cloud
 ![chrome_enlTzZHaQh](https://user-images.githubusercontent.com/51405061/138428908-298910d9-0adc-4258-a59f-ac2e4b51514e.png)
 
 ### SSO configuration for AWS
-More information you can find here: [Configuring SAML assertions for the authentication response](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml_assertions.html).
+You can more information find here: [Configuring SAML assertions for the authentication response](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml_assertions.html).
 1. Go to the AWS Settings tab and enable the Federated authentication.
 
 ![1-2](https://user-images.githubusercontent.com/51405061/138433651-46dba1e6-054b-42a9-b940-d65ec6eada90.png)
 
 2. Add the Proxy User on the same page. You can set the current user or add a new one. 
 
-When an AWS user is logged into CloudBeaver using SSO, it has [the Proxy User and the IAM user's identity-based permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). The AWS User cannot receive further permissions from the Proxy User than he already has based on the IAM user's identity-based permissions.
+When an AWS user is logged into CloudBeaver using SSO, it has [the Proxy User and the IAM user's identity-based permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). The AWS User cannot receive further permission from the Proxy User than he already has based on the IAM user's identity-based permission.
 
 CloudBeaver does not keep your authentication information on the server-side and in configuration files.
 Once your session expires, you will need to authenticate again. When a user logs out from the application, CloudBeaver also performs a session logout from SAML IdP.
