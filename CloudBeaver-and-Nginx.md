@@ -1,7 +1,7 @@
 ## Configuring CloudBeaver with Nginx
 
 By default CloudBeaver listens to plain http protocol, processes all static content via the Jetty server and is not load balanced.  
-All these issues can be resolved by putting some real web server in front of CloudBeaver.  
+All these issues can be resolved by putting a real web server in front of CloudBeaver.  
 We can use Nginx as the most popular web server.
 
 ## Installing Nginx
@@ -13,8 +13,8 @@ sudo apt install nginx
 
 ## Add proxy config
 
-Open Nginx configuration in your favorite text editor.  
-Default Nginx config file is `/etc/nginx/sites-enabled/default`.  
+Open the Nginx configuration in your favorite text editor.  
+The default Nginx config file is `/etc/nginx/sites-enabled/default`.  
 
 ```
   location / {
