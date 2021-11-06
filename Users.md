@@ -1,4 +1,3 @@
-# Users
 The Administrator can create users for local name/password based authentication in the Administration menu.
 
 ## CloudBeaver CE
