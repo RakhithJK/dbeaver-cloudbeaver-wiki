@@ -3,6 +3,7 @@ User Guide
 - [[Application overview|CloudBeaver-overview]]
 - [[Administration]]
    - [[Authentication methods]]
+   - [[Users]]
    - [[Role management]]
 - [[Supported databases]]
 - Features
