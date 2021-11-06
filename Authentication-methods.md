@@ -1,5 +1,3 @@
-# Authentication methods overview
-
 CloudBeaver offers several authentication methods. The administrator can set them when configures CloudBeaver for the first time or in the Administration menu later.
 
 ## CloudBeaver CE
