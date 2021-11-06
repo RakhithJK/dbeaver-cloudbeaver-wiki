@@ -8,7 +8,7 @@ CloudBeaver offers several authentication methods. The administrator can set the
 Users can work with CloudBeaver without authorization. Connections become available for anonymous access when the administrator:
 1. creates connections in the Connection Management Menu and gives access to them for the User role (you can find more information for the roles at [Role management](https://github.com/dbeaver/cloudbeaver/wiki/Role-management) article). 
 
-2. enables the Custom connections option in the Administration. In this case connections can be configured on the main page by anonymous users and disappear after the session expirations.
+2. enables the Custom connections option in the Administration Menu. In this case connections can be configured on the main page by anonymous users and disappear after the session expirations.
 
 
 ### Local access
