@@ -10,7 +10,7 @@ Here you can setup a proxy user to be able to connect to the AWS Services via SS
 ![](images/AWS-settings-sso.png)
 
 ## Regions
-When you view your AWS Resources in the CloudBeaver, you see only the resources that are tied to the AWS Region that you specified in this step. For example, when you search for the AWS databases in [[Cloud Explorer|AWS-Cloud-explorer]], you see only the databases that exist in these specific regions. Regions can be configurated later in the [[Administration|Administration]] section.
+When you view your AWS Resources in the CloudBeaver, you see only the resources that are tied to the AWS Regions that you specified in this step. For example, when you search for the AWS databases in [[Cloud Explorer|AWS-Cloud-explorer]], you see only the databases that exist in these specific regions. Regions can be configurated later in the [[Administration|Administration]] section.
 
 ![](images/AWS-settings-regions.png)
 
