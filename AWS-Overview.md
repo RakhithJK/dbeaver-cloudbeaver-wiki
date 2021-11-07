@@ -17,6 +17,6 @@ Not yet supported. We are working on the new docker image for the AWS version of
 
 ## Cloud explorer
 
-You can use an embedded cloud explorer in order to find and add existing AWS databases:
+You can use an embedded [[Cloud explorer|AWS-Cloud-explorer]] in order to find and add existing AWS databases:
 
 ![](images/aws-explorer.png)
