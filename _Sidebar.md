@@ -40,7 +40,7 @@ Configuration
 CloudBeaver EE for AWS
 - [[Overview|AWS-Overview]]
 - [[AWS Settings|AWS-Settings]]
-- [[Cloud explorer|AWS-Cloud-explorer]]
+- [[Cloud Explorer|AWS-Cloud-explorer]]
 - [[Authentication / IAM|AWS-IAM]]
 - [[Authentication / AWS SSO|Single Sign-On]]
 
