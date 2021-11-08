@@ -13,6 +13,7 @@ The list of configurable variables are:
 | core_events.notificationsPool        | 5     | Maximum notifications                            |
 | plugin_erd_viewer.maxColumnsToDisplay| 7500  | Maximum columns in ERD                           |
 | plugin_data_export.disabled          | true  | Disable data export functionality                |
+| core.app.sqlEditor                   | 100   | Max size of sql script that can be uploaded (KB) |
 
 You can also specify these parameters in the config file `/workspace/.data/.product.runtime.conf`. These properties have a higher priority than `product.conf`.
 
