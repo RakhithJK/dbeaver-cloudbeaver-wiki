@@ -17,7 +17,7 @@ The created user can be authorized to CloudBeaver using local authentication and
 CloudBeaver Enterprise Edition also allows you to configure AWS and SSO users.
 
 ### AWS and SSO users
-When a user is authorized to CloudBeaver EE instance with AWS or SAML authentication for the first time, the appropriate user is created in the application with the User role by default. The administrator can change the user’s role after that. 
+When a user is authorized to CloudBeaver EE instance with AWS IAM or SAML authentication for the first time, the appropriate user is created in the application with the User role by default. The administrator can change the user’s role after that. 
 The creation of new AWS and SSO users is not possible by the Administrator as it only works with real AWS and SSO users. 
 
 ## CloudBeaver AWS
