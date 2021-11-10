@@ -15,11 +15,11 @@ Users can work with CloudBeaver without authorization. Connections become availa
 It is the local name/password based authentication. The administrator has to create users in the Administration and grant them a role which will define users’ permissions (more information about users can be found at [Users](https://github.com/dbeaver/cloudbeaver/wiki/Users) article).
 
 ## CloudBeaver EE
-CloudBeaver Enterprise Edition also supports AWS and SAML authentication methods.
+CloudBeaver Enterprise Edition also supports AWS IAM and SAML authentication methods.
 
-![server_config_ee](https://user-images.githubusercontent.com/51405061/140599861-91a45b4f-cb73-4c76-9d17-f98eecbd1382.png)
+![1](https://user-images.githubusercontent.com/51405061/141135303-a4890c26-7e21-4ed1-a568-c4cef7090324.png)
 
-### AWS access 
+### AWS IAM access 
 Amazon Web Services authentication allows users to authorize to CloudBeaver EE with IAM credentials. Once an IAM user is authorized to CloudBeaver instance, the appropriate user is created in the application with the User role by default (you can find more information about AWS IAM authentication at [AWS IAM](https://github.com/dbeaver/cloudbeaver/wiki/AWS-IAM) article).
 
 _Note: Local and AWS accounts, used during the first configuration of CloudBeaver EE instance, become associated with the administrator who configured it. It means that the administrator can login to the application with the local and the IAM credentials and a new user will not be created after using these IAM credentials._
@@ -28,8 +28,8 @@ _Note: Local and AWS accounts, used during the first configuration of CloudBeave
 SSO (Single Sign-On) authentication can be used for access to CloudBeaver EE. Once an SSO user is authorized to CloudBeaver instance, the appropriate user is created in the application with the User role by default (you can find more information about SSO authentication at [Single Sign On](https://github.com/dbeaver/cloudbeaver/wiki/Single-Sign-On) article).
 
 ## CloudBeaver AWS
-CloudBeaver Enterprise Edition for AWS supports AWS and SAML authentication methods, but local and anonymous authentication are not available in it.
+CloudBeaver Enterprise Edition for AWS supports AWS IAM and SAML authentication methods, but local and anonymous authentication are not available in it.
 
-![server_config_aws](https://user-images.githubusercontent.com/51405061/140599904-15d1d0ee-c732-40df-82a2-4042309f3d1f.png)
+![2](https://user-images.githubusercontent.com/51405061/141135465-810ee95a-441a-431c-836e-f46f27dc8eb7.png)
 
 
