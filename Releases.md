@@ -1,8 +1,10 @@
+### [CloudBeaver 21.2.2 - 2021-10-29](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.2.2-2021-11-11)
+- Scripts can be downloaded and uploaded in the SQL Editor.
+- The current user information is available in the Profile at the top menu.
+- Page refresh doesn't affect the navigator tree view.
+- Different bug fixes and improvements are made.
+
 ### [CloudBeaver 21.2.1 - 2021-10-29](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.2.1-2021-10-29)
-- Deletion of roles with assigned users has been prohibited.
-- “Select all” checkboxes have been added to simplify access management.
-- The SQL Editor highlighting has been improved.
-- Different bugs have been fixed.
 
 ### [CloudBeaver 21.2.0 - 2021-10-14](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.2.0-2021-10-14)
 
