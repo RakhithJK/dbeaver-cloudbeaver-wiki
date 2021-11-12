@@ -52,5 +52,6 @@ The application consists of several plugins and submodules which are located in 
 * **plugin-data-viewer** - Provides Data Table View
 * **plugin-ddl-viewer** - Provides DDL for database objects
 * **plugin-object-viewer** - Provides Object Property View
-* **plugin-sql-editor** - Provides SQL-editor tab
+* **plugin-sql-editor** - Provides SQL-editor
+* **plugin-sql-editor-navigation-tab** - Provides SQL-editor tab
 * **product-default** - Configure and build all plugins to the final application
