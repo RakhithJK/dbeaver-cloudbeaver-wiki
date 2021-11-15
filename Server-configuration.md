@@ -30,6 +30,9 @@ Typical configuration:
 
         develMode: false
     },
+    database: {
+        url: "jdbc:h2:${workspace}/.data/cb.h2.dat"
+    },
     app: {
         anonymousAccessAllowed: true,
         anonymousUserRole: "user"
