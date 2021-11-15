@@ -57,6 +57,18 @@ supportsCustomConnections | Allows users to create custom connections to any dat
 publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache
 adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache
 
+### Database configuration
+
+Configures CloudBeaver database where it keeps users, credentials and permissions.
+In the section `database`:
+
+Name|Description
+---|---
+driver | Database driver (e.g. `sqlite`, `h2_embedded`, `postgres-jdbc`, etc)
+url | Database JDBC URL (e.g. `jdbc:postgresql://localhost:5432/cb`
+user | Database user name
+password | Database user password
+
 # Automatic server configuration
 
 On the first start CloudBeaver server will show administrator interface for server configuration.  
