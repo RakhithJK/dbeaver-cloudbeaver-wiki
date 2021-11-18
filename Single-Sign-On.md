@@ -25,8 +25,21 @@ Each identity provider has its own configuration procedure, we will show how to 
 
 #### AWS SSO configuration
 
+##### Configuration
+
 ![aws](https://user-images.githubusercontent.com/51405061/138433882-179771b6-71c3-4a79-9cab-7dcc7cf13f50.png)
 
+You can upload metadata file (which you downloaded in the previous chapter) to fill parameters automatically.  
+Or you can specify parameters manually:
+
+Parameter | Value
+---|---
+Application ACS URL | https://HOST_NAME/api/saml/CONFIG_ID/acs
+Application SAML audience | https://HOST_NAME/api/saml/CONFIG_ID/metadata
+
+Where HOST_NAME is the host name of your CloudBeaver installation, CONFIG_ID is the identifier of your SAML configuration.  
+
+##### Attributes
 
 ![attribute-mappings](images/aws/aws-attribute-mappings.png)
 
