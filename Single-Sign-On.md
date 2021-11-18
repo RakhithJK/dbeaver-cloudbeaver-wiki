@@ -54,9 +54,9 @@ Subject | ${user:email} | User unique identifier (nameId). It is usually an emai
 Role is the most important attribute, it defines which IAM role will be used for user federation session.
 Role format: roleARN,idpARN  
 
-You can get role ARN in AWS IAM section https://console.aws.amazon.com/iamv2/home#/roles . Role ARN looks like this: `arn:aws:iam::123678087624:role/RoleForSAMLAccess,
+You can get role ARN in AWS IAM section https://console.aws.amazon.com/iamv2/home#/roles . Role ARN looks like this: `arn:aws:iam::123678087624:role/RoleForSAMLAccess`  
 You can get IDP ARN in AWS identity providers page https://console.aws.amazon.com/iamv2/home#/identity_providers . IDP ARN looks like this: 
-arn:aws:iam::123678087624:saml-provider/GSuiteSAML
+`arn:aws:iam::123678087624:saml-provider/GSuiteSAML`  
 
 #### Configuring AWS proxy account
 
