@@ -44,9 +44,6 @@ Actual permission set and user role are configured in attribute mappings of SAML
 
 ![attribute-mappings](images/aws/aws-attribute-mappings.png)
 
-![explorer](images/aws-explorer.png)
-XXX
-
 Attributes explanation:
 
 Attribute | Value | Meaning
