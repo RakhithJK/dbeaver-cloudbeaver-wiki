@@ -34,8 +34,8 @@ Or you can specify parameters manually:
 
 Parameter | Value
 ---|---
-Application ACS URL | https://HOST_NAME/api/saml/CONFIG_ID/acs
-Application SAML audience | https://HOST_NAME/api/saml/CONFIG_ID/metadata
+Application ACS URL | `https://HOST_NAME/api/saml/CONFIG_ID/acs`
+Application SAML audience | `https://HOST_NAME/api/saml/CONFIG_ID/metadata`
 
 Where HOST_NAME is the host name of your CloudBeaver installation, CONFIG_ID is the identifier of your SAML configuration.  
 
@@ -47,8 +47,8 @@ Attributes explanation:
 
 Attribute | Value | Meaning
 ---|---|---
-Subject | ${user:email} | User unique identifier (nameId). It is usually an email address.
-`https://aws.amazon.com/SAML/Attributes/SessionDuration` | 1800 | Session duration in seconds. 1800 (30 minutes) is the default value
+Subject | `${user:email}` | User unique identifier (nameId). It is usually an email address.
+`https://aws.amazon.com/SAML/Attributes/SessionDuration` | `1800` | Session duration in seconds. 1800 (30 minutes) is the default value
 `https://aws.amazon.com/SAML/Attributes/Role` | roleARN,idpARN | IAM role identifier
 
 Role is the most important attribute, it defines which IAM role will be used for user federation session.
