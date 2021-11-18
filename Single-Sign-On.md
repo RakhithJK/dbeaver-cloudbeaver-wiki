@@ -49,10 +49,17 @@ Attributes explanation:
 Attribute | Value | Meaning
 ---|---|---
 Subject | ${user:email} | User unique identifier (nameId). It is usually an email address.
-https://aws.amazon.com/SAML/Attributes/SessionDuration | 1800 | Session duration in seconds. 1800 (30 minutes) is the default value
-https://aws.amazon.com/SAML/Attributes/Role | roleARN,idpARN | IAM role identifier
+`https://aws.amazon.com/SAML/Attributes/SessionDuration` | 1800 | Session duration in seconds. 1800 (30 minutes) is the default value
+`https://aws.amazon.com/SAML/Attributes/Role` | roleARN,idpARN | IAM role identifier
 
+Role is the most important attribute, it defines which IAM role will be used for user federation session.
+Role format: roleARN,idpARN  
 
+You can get role ARN in AWS IAM section https://console.aws.amazon.com/iamv2/home#/roles . Role ARN looks like this: `arn:aws:iam::123678087624:role/RoleForSAMLAccess,
+You can get IDP ARN in AWS identity providers page https://console.aws.amazon.com/iamv2/home#/identity_providers . IDP ARN looks like this: 
+arn:aws:iam::123678087624:saml-provider/GSuiteSAML
+
+#### Notes 
 
 CloudBeaver does not keep your authentication information on the server-side and in configuration files.
 Once your session expires, you will need to authenticate again. When a user logs out from the application, CloudBeaver also performs a session logout from SAML IdP.
