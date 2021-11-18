@@ -42,7 +42,10 @@ Add the Proxy User on the same page. You can set the current user or add a new o
 When an AWS user is logged into CloudBeaver using SSO, it has [the Proxy User and the IAM user's identity-based permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). 
 Actual permission set and user role are configured in attribute mappings of SAML integration.  
 
-![](images/aws/aws-attribute-mappings.png)
+![attribute-mappings](images/aws/aws-attribute-mappings.png)
+
+![explorer](images/aws-explorer.png)
+XXX
 
 Attributes explanation:
 
