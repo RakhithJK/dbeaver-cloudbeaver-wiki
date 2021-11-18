@@ -27,20 +27,6 @@ Each identity provider has its own configuration procedure, we will show how to 
 
 ![aws](https://user-images.githubusercontent.com/51405061/138433882-179771b6-71c3-4a79-9cab-7dcc7cf13f50.png)
 
-#### Configuring AWS proxy account
-
-In order to provide users permission to your AWS cloud resources (RDS, DynamoDB, etc) you need to configure AWS federated access proxy user.  
-
-You can more information find here: [Configuring SAML assertions for the authentication response](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml_assertions.html).
-
-Go to the AWS Settings tab and enable the Federated authentication.
-
-![1-2](https://user-images.githubusercontent.com/51405061/138433651-46dba1e6-054b-42a9-b940-d65ec6eada90.png)
-
-Add the Proxy User on the same page. You can set the current user or add a new one. 
-
-When an AWS user is logged into CloudBeaver using SSO, it has [the Proxy User and the IAM user's identity-based permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). 
-Actual permission set and user role are configured in attribute mappings of SAML integration.  
 
 ![attribute-mappings](images/aws/aws-attribute-mappings.png)
 
@@ -58,6 +44,21 @@ Role format: roleARN,idpARN
 You can get role ARN in AWS IAM section https://console.aws.amazon.com/iamv2/home#/roles . Role ARN looks like this: `arn:aws:iam::123678087624:role/RoleForSAMLAccess,
 You can get IDP ARN in AWS identity providers page https://console.aws.amazon.com/iamv2/home#/identity_providers . IDP ARN looks like this: 
 arn:aws:iam::123678087624:saml-provider/GSuiteSAML
+
+#### Configuring AWS proxy account
+
+In order to provide users permission to your AWS cloud resources (RDS, DynamoDB, etc) you need to configure AWS federated access proxy user.  
+
+You can more information find here: [Configuring SAML assertions for the authentication response](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml_assertions.html).
+
+Go to the AWS Settings tab and enable the Federated authentication.
+
+![1-2](https://user-images.githubusercontent.com/51405061/138433651-46dba1e6-054b-42a9-b940-d65ec6eada90.png)
+
+Add the Proxy User on the same page. You can set the current user or add a new one. 
+
+When an AWS user is logged into CloudBeaver using SSO, it has [the Proxy User and the IAM user's identity-based permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getfederationtoken.html). 
+Actual permission set and user role are configured in attribute mappings of SAML integration.  
 
 #### Notes 
 
