@@ -28,14 +28,27 @@ Typical configuration:
 
         expireSessionAfterPeriod: 600000,
 
-        develMode: false
-    },
-    database: {
-        url: "jdbc:h2:${workspace}/.data/cb.h2.dat"
+        develMode: false,
+
+        database: {
+            url: "jdbc:h2:${workspace}/.data/cb.h2.dat"
+        }
     },
     app: {
         anonymousAccessAllowed: true,
-        anonymousUserRole: "user"
+        anonymousUserRole: "user",
+        supportsCustomConnections: false,
+
+        resourceQuotas: {
+            dataExportFileSizeLimit: 10000000,
+            sqlMaxRunningQueries: 3,
+            sqlResultSetRowsLimit: 100000,
+            sqlResultSetMemoryLimit: 2000000
+        },
+        plugins: {
+
+        }
+
     }
 
 }
