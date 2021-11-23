@@ -32,6 +32,13 @@ Typical configuration:
 
         database: {
             url: "jdbc:h2:${workspace}/.data/cb.h2.dat"
+            initialDataConfiguration: "conf/initial-data.conf",
+            pool: {
+                minIdleConnections: 4,
+                maxIdleConnections: 10,
+                maxConnections: 100,
+                validationQuery: "SELECT 1"
+            }
         }
     },
     app: {
@@ -84,6 +91,16 @@ driver | Database driver (e.g. `sqlite`, `h2_embedded`, `postgres-jdbc`, etc)
 url | Database JDBC URL (e.g. `jdbc:postgresql://localhost:5432/cb`
 user | Database user name
 password | Database user password
+
+### Resource quotas
+
+You can configure the following resource quotes:
+
+Name|Description
+---|---
+dataExportFileSizeLimit | Maximum file size for data export operation (in bytes)
+sqlMaxRunningQueries | Maximum number of simultaneous queries for a single user session. Includes data read queries (i.e. table data view)
+sqlResultSetRowsLimit | Maximum number of rows to select from a table or query
 
 # Automatic server configuration
 
