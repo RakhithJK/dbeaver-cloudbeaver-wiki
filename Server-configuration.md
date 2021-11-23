@@ -34,10 +34,7 @@ Typical configuration:
             url: "jdbc:h2:${workspace}/.data/cb.h2.dat"
             initialDataConfiguration: "conf/initial-data.conf",
             pool: {
-                minIdleConnections: 4,
-                maxIdleConnections: 10,
-                maxConnections: 100,
-                validationQuery: "SELECT 1"
+                maxConnections: 100
             }
         }
     },
