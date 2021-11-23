@@ -9,7 +9,7 @@ In order to build a CloudBeaver server you need to build DBeaver first. All DBea
 
 ## Java
 
-DBeaver relies on Java 8 language level and compile target.  
+DBeaver relies on Java 11 language level and compile target.  
 However, the default Java version is [OpenJDK 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot).
 Maven 3.6+ is our default Java build system.  
 
