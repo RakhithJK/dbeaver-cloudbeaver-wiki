@@ -97,7 +97,7 @@ publicCredentialsSaveEnabled | Allows you to save user database credentials in a
 adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache
 redirectOnFederatedAuth | When there is only one federation authentication configuration then redirect to it automatically
 
-### Resource quotas
+#### Resource quotas
 
 You can configure the following resource quotes:
 
