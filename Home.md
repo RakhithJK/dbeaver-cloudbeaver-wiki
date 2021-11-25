@@ -3,15 +3,23 @@
 # About CloudBeaver
 
 CloudBeaver is a web-based database management tool.  
+Main features:
 
 * Supports [[multiple databases|Supported Databases]]
 * Allows to [[manipulate with data|Data Editor]] like in a regular spreadsheet
-* Supports database structure browser
-* Supports [[data export]] and migration in multiple formats
+* Database structure browser
+* [[data export]] and migration in multiple formats
+* SSH tunnels for remote databases connectivity
+* Spatial (GIS) data viewer
+* Text/JSON/XML data viewer
+* Rich administrative interface
+* User/role-based security model
 * Written in modular architecture and allows to extend with own plugins
+* Adapted to Kubernetes infrastructure
 
 Enterprise product features:
 
+* NoSQL databases support
 * Entity relation diagrams
 * Cloud databases browser
 * Federated authentication (SAML, OpenId)
@@ -19,7 +27,7 @@ Enterprise product features:
 # Product versions
 
 - Community edition - free and open-source version
-- Enterprise Edition - commercial product. Supports NoSQL databases, cloud integrations and advanced UI tools and components 
+- Enterprise Edition - commercial product (see enterprise features above)
 - AWS version - commercial product with advanced integration with AWS cloud
 
 # Contacts
