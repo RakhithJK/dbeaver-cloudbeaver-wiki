@@ -4,11 +4,17 @@
 
 CloudBeaver is a web-based database management tool.  
 
-* Web-based application written in Java and Typescript (React)
 * Supports [[multiple databases|Supported Databases]]
 * Allows to [[manipulate with data|Data Editor]] like in a regular spreadsheet
-* Supports [[data export]]/migration in multiple formats
+* Supports database structure browser
+* Supports [[data export]] and migration in multiple formats
 * Written in modular architecture and allows to extend with own plugins
+
+Enterprise product features:
+
+* Entity relation diagrams
+* Cloud databases browser
+* Federated authentication (SAML, OpenId)
 
 # Product versions
 
