@@ -73,18 +73,7 @@ serviceURI | Services API URI prefix (relative to rootURI). `/api/` by default.
 productConfiguration | Path to product (web interface) configuration file (json)
 develMode | When set to true extra debug, the information is printed in logs and GraphQL console is enabled on the server.
 
-### Application parameters:
-
-Name|Description
----|---
-anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role, 'User'.
-authenticationEnabled | Enables users' authentication. If disabled, then only anonymous access is allowed.
-supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only the CB administrator can create/edit connections.
-publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache
-adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache
-redirectOnFederatedAuth | When there is only one federation authentication configuration then redirect to it automatically
-
-### Database configuration
+#### Database configuration
 
 Configures CloudBeaver database where it keeps users, credentials and permissions.
 In the section `database`:
@@ -95,6 +84,18 @@ driver | Database driver (e.g. `sqlite`, `h2_embedded`, `postgres-jdbc`, etc)
 url | Database JDBC URL (e.g. `jdbc:postgresql://localhost:5432/cb`
 user | Database user name
 password | Database user password
+
+
+### Application parameters:
+
+Name|Description
+---|---
+anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role, 'User'.
+authenticationEnabled | Enables users' authentication. If disabled, then only anonymous access is allowed.
+supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only the CB administrator can create/edit connections.
+publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache
+adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache
+redirectOnFederatedAuth | When there is only one federation authentication configuration then redirect to it automatically
 
 ### Resource quotas
 
