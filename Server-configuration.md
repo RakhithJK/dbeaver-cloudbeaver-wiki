@@ -75,8 +75,8 @@ develMode | When set to true extra debug, the information is printed in logs and
 
 #### Database configuration
 
-Configures CloudBeaver database where it keeps users, credentials and permissions.
-In the section `database`:
+Configures CloudBeaver database where it keeps users, credentials and permissions.  
+In the section `server.database`:
 
 Name|Description
 ---|---
@@ -87,6 +87,8 @@ password | Database user password
 
 
 ### Application parameters:
+
+In the section `app`:
 
 Name|Description
 ---|---
@@ -99,7 +101,7 @@ redirectOnFederatedAuth | When there is only one federation authentication confi
 
 #### Resource quotas
 
-You can configure the following resource quotes:
+You can configure the following resource quotes in the section `app.resourceQuotas`:
 
 Name|Description
 ---|---
