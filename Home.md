@@ -12,6 +12,7 @@ Main features:
 * SSH tunnels for remote databases connectivity
 * Spatial (GIS) data viewer
 * Text/JSON/XML data viewer
+* SQL editor with smart auto-completion and syntax highlighting
 * Rich administrative interface
 * User/role-based security model
 * Written in modular architecture and allows to extend with own plugins
