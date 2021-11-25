@@ -12,7 +12,7 @@ CloudBeaver is a web-based database management tool.
 
 # Product versions
 
-- Community edition - free and open-source
+- Community edition - free and open-source version
 - Enterprise Edition - commercial product. Supports NoSQL databases, cloud integrations and advanced UI tools and components 
 - AWS version - commercial product with advanced integration with AWS cloud
 
