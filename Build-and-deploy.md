@@ -11,7 +11,7 @@ This build process is relatively complicated (and also consists of two parts).
 
 - [Java 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot).
 - [Apache Maven](https://maven.apache.org/download.cgi)
-- [Node.js](https://nodejs.org/en/)
+- [Node.js (14.x)](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 - [NPM](https://www.npmjs.com/get-npm) + [Lerna](https://www.npmjs.com/package/lerna)
 
