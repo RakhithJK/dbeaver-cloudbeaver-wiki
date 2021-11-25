@@ -17,11 +17,11 @@ This build process is relatively complicated (and also consists of two parts).
 
 #### Install prerequisites on Ubuntu:
 
-Add Node.js and Yarn latest version repo:
+Add Node.js (version 14.x minimal version 14.17) and Yarn latest version repo:
 ```bash
   curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
   echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-  curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+  curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 ```
 Install packages:
 ```bash
