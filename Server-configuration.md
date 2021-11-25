@@ -59,7 +59,8 @@ Typical configuration:
 ```
 
 All paths can be absolute or are relative to the server start directory (or current directory).
-Parameters:
+
+### Server parameters:
 
 Name|Description
 ---|---
@@ -71,11 +72,17 @@ rootURI | Web application URI prefix. `/` by default
 serviceURI | Services API URI prefix (relative to rootURI). `/api/` by default.
 productConfiguration | Path to product (web interface) configuration file (json)
 develMode | When set to true extra debug, the information is printed in logs and GraphQL console is enabled on the server.
+
+### Application parameters:
+
+Name|Description
+---|---
 anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role, 'User'.
 authenticationEnabled | Enables users' authentication. If disabled, then only anonymous access is allowed.
 supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only the CB administrator can create/edit connections.
 publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache
 adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache
+redirectOnFederatedAuth | When there is only one federation authentication configuration then redirect to it automatically
 
 ### Database configuration
 
