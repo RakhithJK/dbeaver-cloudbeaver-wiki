@@ -8,7 +8,7 @@ Main features:
 * Supports [[multiple databases|Supported Databases]]
 * Allows to [[manipulate with data|Data Editor]] like in a regular spreadsheet
 * Database structure browser
-* [[Data export|data export]] and migration in multiple formats
+* [[Data export]] and migration in multiple formats
 * SSH tunnels for remote databases connectivity
 * Spatial (GIS) data viewer
 * Text/JSON/XML data viewer
