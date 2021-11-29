@@ -3,9 +3,10 @@ User Guide
 - [[Application overview|CloudBeaver-overview]]
 - [[Administration]]
    - [[Connection Management]]
+   - [[Access Management]]
+     - [[Users]]
+     - [[Roles]]
    - [[Authentication methods]]
-   - [[Users]]
-   - [[Role management]]
 - [[Supported databases]]
 - Features
    - Database browser
