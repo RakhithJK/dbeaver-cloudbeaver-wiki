@@ -17,7 +17,7 @@ User Guide
    - [[Data export]]
    - [[Entity Diagrams]]
    - [[Document viewer]]
-   - SQL Editor
+   - [[SQL Editor]]
      - [[Query Execution Plan]]
    - [[Cloud Explorer]]
 - [[Releases]] <!-- CMD:SKIP -->
