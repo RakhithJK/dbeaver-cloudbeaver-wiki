@@ -2,6 +2,7 @@ User Guide
 
 - [[Application overview|CloudBeaver-overview]]
 - [[Administration]]
+   - [[Server configuration overview]]
    - [[Connection Management]]
    - [[Access Management]]
      - [[Users]]
