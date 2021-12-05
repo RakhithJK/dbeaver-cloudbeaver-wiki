@@ -2,23 +2,32 @@ CloudBeaver Enterprise supports Federated Authentication for SSO (Single Sign-On
 
 ### SAML configuration
 
+
 #### Enabling SAML authentication
 
 Go to the Administration menu and enable SAML in the Server configuration tab.
 
-![1](https://user-images.githubusercontent.com/51405061/138433150-8e7c23d1-36d7-427d-a7ad-47669a6f6c8b.png)
+[[https://github.com/kseniiaguzeeva/cloudbeaver/blob/devel/1.png]]
 
 #### Configuring external identity provider
 
 Go to the Identity Providers tab and create a new configuration using the SAML IdP (Identity Provider) details.
 
-![chrome_Nmyjww6h0Q](https://user-images.githubusercontent.com/51405061/138426363-b245ce89-aaa9-4e99-9df9-de147ba27689.png)
+**Add from your SAML IdP into new configuration in CloudBeaver**
+
+`AWS SSO sign-in URL` to `IDP signon URL`
+
+`AWS SSO sign-out URL` to `IDP logout URL`
+
+`AWS SSO issuer URL` to `IDP Entity ID`
+
+[[https://github.com/kseniiaguzeeva/cloudbeaver/blob/devel/2.png]]
 
 #### Configuring CloudBeaver integration in external identity provider
 
 Open the created configuration and download the metadata file.
 
-![3](https://user-images.githubusercontent.com/51405061/138433162-816e08d2-cec3-4462-a1cd-4167e01562a2.png)
+[[https://github.com/kseniiaguzeeva/cloudbeaver/blob/devel/3.png]]
 
 Go to the SAML IdP website and add the metadata parameters from the file (entityID and Location) to the SSO access settings, assign users and add the attribute mappings according to the SAML IdP requirements.  
 Each identity provider has its own configuration procedure, we will show how to do it in AWS in the next chapter.  
@@ -68,7 +77,7 @@ You can more information find here: [Configuring SAML assertions for the authent
 
 Go to the AWS Settings tab and enable the Federated authentication.
 
-![1-2](https://user-images.githubusercontent.com/51405061/138433651-46dba1e6-054b-42a9-b940-d65ec6eada90.png)
+[[https://github.com/kseniiaguzeeva/cloudbeaver/blob/devel/4.png]]
 
 Add the Proxy User on the same page. You can set the current user or add a new one. 
 
