@@ -36,8 +36,6 @@ Each identity provider has its own configuration procedure, we will show how to 
 
 ##### Configuration
 
-[[[[https://github.com/dbeaver/cloudbeaver/wiki/images/aws/aws_sso_metadata.png]]]]
-
 You can upload metadata file (which you downloaded in the previous chapter) to fill parameters automatically.  
 Or you can specify parameters manually:
 
@@ -50,7 +48,7 @@ Where HOST_NAME is the host name of your CloudBeaver installation, CONFIG_ID is 
 
 ##### Attributes
 
-![attribute-mappings](images/aws/aws-attribute-mappings.png)
+![attribute-mappings](https://github.com/dbeaver/cloudbeaver/wiki/images/aws/aws-attribute-mappings.png)
 
 Attributes explanation:
 
@@ -94,7 +92,7 @@ Once your session expires, you will need to authenticate again. When a user logs
 
 The new SAML tab becomes available after creating the configuration in the CloudBeaver authentication dialog. This is where the user can select the configuration and thereafter login into the application using SSO.
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/auth_dialog/authetication_dialog_federated_saml.png]]
+[[https://github.com/dbeaver/cloudbeaver/wiki/images/authetication_dialog_federated_saml.png]]
 
 
 
