@@ -7,7 +7,7 @@ CloudBeaver Enterprise supports Federated Authentication for SSO (Single Sign-On
 
 Go to the Administration menu and enable SAML in the Server configuration tab.
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/server_configuration/server_cobfiguration_saml_switcher.png]]
+[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/server_configuration/server_configuration_saml_switcher.png]]
 
 #### Configuring external identity provider
 
@@ -21,7 +21,7 @@ Go to the Identity Providers tab and create a new configuration using the SAML I
 
 `AWS SSO issuer URL` to `IDP Entity ID`
 
-[[https://github.com/kseniiaguzeeva/cloudbeaver/blob/devel/2.png]]
+[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/Identify_providers_saml_configuration_creation.png]]
 
 #### Configuring CloudBeaver integration in external identity provider
 
