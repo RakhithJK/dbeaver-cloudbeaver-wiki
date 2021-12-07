@@ -21,13 +21,13 @@ Go to the Identity Providers tab and create a new configuration using the SAML I
 
 `AWS SSO issuer URL` to `IDP Entity ID`
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/Identify_providers_saml_configuration_creation.png]]
+[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/identify_providers_saml_configuration_creation.png]]
 
 #### Configuring CloudBeaver integration in external identity provider
 
 Open the created configuration and download the metadata file.
 
-[[https://github.com/kseniiaguzeeva/cloudbeaver/blob/devel/3.png]]
+[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/identify_providers_saml_configuration_metadata_file.png]]
 
 Go to the SAML IdP website and add the metadata parameters from the file (entityID and Location) to the SSO access settings, assign users and add the attribute mappings according to the SAML IdP requirements.  
 Each identity provider has its own configuration procedure, we will show how to do it in AWS in the next chapter.  
@@ -36,7 +36,7 @@ Each identity provider has its own configuration procedure, we will show how to 
 
 ##### Configuration
 
-![aws](https://user-images.githubusercontent.com/51405061/138433882-179771b6-71c3-4a79-9cab-7dcc7cf13f50.png)
+[[[[https://github.com/dbeaver/cloudbeaver/wiki/images/aws/aws_sso_metadata.png]]]]
 
 You can upload metadata file (which you downloaded in the previous chapter) to fill parameters automatically.  
 Or you can specify parameters manually:
@@ -77,7 +77,7 @@ You can more information find here: [Configuring SAML assertions for the authent
 
 Go to the AWS Settings tab and enable the Federated authentication.
 
-[[https://github.com/kseniiaguzeeva/cloudbeaver/blob/devel/4.png]]
+[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/aws_settings/administration_aws_settings.png]]
 
 Add the Proxy User on the same page. You can set the current user or add a new one. 
 
@@ -94,7 +94,7 @@ Once your session expires, you will need to authenticate again. When a user logs
 
 The new SAML tab becomes available after creating the configuration in the CloudBeaver authentication dialog. This is where the user can select the configuration and thereafter login into the application using SSO.
 
-![chrome_enlTzZHaQh](https://user-images.githubusercontent.com/51405061/138428908-298910d9-0adc-4258-a59f-ac2e4b51514e.png)
+[[https://github.com/dbeaver/cloudbeaver/wiki/images/auth_dialog/authetication_dialog_federated_saml.png]]
 
 
 
