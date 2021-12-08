@@ -62,3 +62,4 @@ Development <!--CMD:SKIP-->
 - [[Server API explorer]] <!--CMD:SKIP-->
 - [[Adding new database drivers]] <!--CMD:SKIP-->
 - [[Code of Conduct]] <!--CMD:SKIP-->
+- [[Develop in Eclipse]] <!--CMD:SKIP-->
