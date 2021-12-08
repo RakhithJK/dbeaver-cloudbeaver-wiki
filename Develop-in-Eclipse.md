@@ -5,7 +5,7 @@ The rest steps are the same from the Eclipse perspective:
 2. Update Maven project if some modules failed to build;
 3. Import Cloudbeaver launch configuration, which located at "./server/product/web-server/CloudbeaverServer.product.launch".
 
-Note for Linux users: on Ubuntu gtk plugins required for DBeaver:
+On Ubuntu gtk plugins required for DBeaver:
 - org.eclipse.e4.ui.swt.gtk;
 - org.eclipse.equinox.launcher.gtk.linux;
 - org.eclipse.swt.gtk.linux.
