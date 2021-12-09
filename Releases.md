@@ -1,9 +1,6 @@
+### [[CloudBeaver 21.2.4 - 2021-12-09]]
+
 ### [[CloudBeaver 21.2.3 - 2021-11-24]]
-- Objects DDL can be saved to an external file from the Metadata Editor.
-- The SQL Editor can be opened in a separate browser tab.
-- The possibility to edit database objects can be disabled in the configuration file.
-- DB2 iSeries driver has been added.
-- Different bug fixes and improvements have been made.
 
 ### [CloudBeaver 21.2.2 - 2021-10-29](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.2.2-2021-11-11)
 
