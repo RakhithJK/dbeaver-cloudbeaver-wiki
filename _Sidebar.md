@@ -12,7 +12,7 @@ User Guide
 - [[Supported databases]]
 - Features
    - Database browser
-   - Data editor
+   - [[Data editor]]
      - [[Data Filters]]
      - [[Data Ordering]]
      - [[Value Panel]]
