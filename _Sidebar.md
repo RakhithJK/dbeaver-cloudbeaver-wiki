@@ -11,7 +11,7 @@ User Guide
    - [[Authentication methods]]
 - [[Supported databases]]
 - Features
-   - Database navigator
+   - [[Database navigator]]
      - [[Simple and Advanced View]]
    - [[Data editor]]
      - [[Data Filters]]
