@@ -31,7 +31,7 @@ Typical configuration:
         develMode: false,
 
         database: {
-            url: "jdbc:h2:${workspace}/.data/cb.h2.dat"
+            url: "jdbc:h2:${workspace}/.data/cb.h2.dat",
             initialDataConfiguration: "conf/initial-data.conf",
             pool: {
                 maxConnections: 100
