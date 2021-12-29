@@ -41,6 +41,7 @@ Configuration
    - [[Driver managements]] 
 - [[CloudBeaver and Nginx]]
 - [[Product configuration parameters]]
+- [[Command line parameters]]
 
 CloudBeaver EE for AWS
 - [[Overview|AWS-Overview]]
