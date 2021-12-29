@@ -10,14 +10,19 @@ For example, add parameter `-Xmx2048` in server start:
 java -Xmx2048M -jar ${launcherJar} -product io.cloudbeaver.product.ce.product -web-config conf/cloudbeaver.conf -nl en -registryMultiLanguage
 ```
 
+Note: _to be able to modify run script you must build CloudBeaver from sources. It doesn't make sense to modify the script in docker container because all changes will be reset after container restart_.
+
 ### Pass parameters using the environment variable
 
-Set variable `JAVA_OPTS` to appropriate parameters value. 
-For example, add parameter `-Xmx2048` in server start: 
+Set variable `JAVA_OPTS` to appropriate parameters value. It works for manual server start and for docker container start.  
+
+#### Manual
 ```sh
 export JAVA_OPTS=-Xmx2048
 ./run-server.sh
 ```
+
+#### Docker
 You can pass JAVA_OPTS variable to docker container by using `-e` docker parameter:
 ```sh
 sudo docker run -d --restart unless-stopped -p 80:8978 \
