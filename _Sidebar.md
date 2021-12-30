@@ -53,6 +53,7 @@ CloudBeaver EE for AWS
 CloudBeaver Enterprise Edition
 - [[Overview|CloudBeaver-EE-Overview]]
 - [[SSO|Single Sign-On]]
+- [[SAML|SAML authentication]]
 - [[Deployment|CloudBeaver-EE-Deployment]]
 
 Development <!--CMD:SKIP-->
