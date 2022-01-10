@@ -39,7 +39,6 @@ Configuration
 - [[Server configuration]]
 - [[Configuring server datasources]]
    - [[Connection configuration]] 
-   - [[Driver managements]] 
 - [[CloudBeaver and Nginx]]
 - [[Product configuration parameters]]
 - [[Command line parameters]]
