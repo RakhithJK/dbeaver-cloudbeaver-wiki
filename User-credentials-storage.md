@@ -15,4 +15,5 @@ Database configurations are stored in the file `data-sources.json`, database cre
 
 User configuration are stored in workspace sub-folders `user-projects`/`USER_NAME`/`.dbeaver`.
 
-Potentially, if an intruder/malware software will get access to CloudBeaver server filesystem then it will get access to all stored user credentials.
+Potentially, if an intruder/malware software will get access to CloudBeaver server filesystem then it may get access to all stored user credentials.
+To increase security it is recommended to configure the server to keep workspace on a shared encrypted network folder (e.g. S3, see [[S3 Server-side encryption|https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingServerSideEncryption.html]]). 
