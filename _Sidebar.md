@@ -9,6 +9,7 @@ User Guide
      - [[Users]]
      - [[Roles]]
    - [[Authentication methods]]
+   - [[User credentials storage]]
 - [[Supported databases]]
 - Features
    - [[Database navigator]]
