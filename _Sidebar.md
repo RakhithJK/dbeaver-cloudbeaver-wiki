@@ -54,6 +54,7 @@ CloudBeaver Enterprise Edition
 - [[Overview|CloudBeaver-EE-Overview]]
 - [[SSO|Single Sign-On]]
 - [[SAML authentication|SAML]]
+- [[OpenID authentication|OpenID]]
 - [[Deployment|CloudBeaver-EE-Deployment]]
 
 Development <!--CMD:SKIP-->
