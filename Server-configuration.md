@@ -13,6 +13,7 @@ Typical configuration:
 {
     server: {
         serverPort: 8978,
+        serverHost: "localhost",
         serverName: "CloudBeaver Sample Server",
 
         // Paths are absolute or relative to the server root folder
@@ -64,7 +65,8 @@ All paths can be absolute or are relative to the server start directory (or curr
 
 Name|Description
 ---|---
-serverPort | Port for CloudBeaver web server
+serverPort | Port CloudBeaver server listens on
+serverHost | The network interface CloudBeaver server binds to as an IP address or a hostname.  If null or 0.0.0.0, then bind to all interfaces.
 workspaceLocation | Root folder for projects
 contentRoot | Path to directory with static content
 driversLocation | Optional path for driver jar files
