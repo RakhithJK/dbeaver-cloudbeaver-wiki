@@ -67,6 +67,7 @@ Name|Description
 ---|---
 serverPort | Port CloudBeaver server listens on
 serverHost | The network interface CloudBeaver server binds to as an IP address or a hostname.  If null or 0.0.0.0, then bind to all interfaces.
+serverURL | Server address (full URL). Used to generate links and for third-party services integration.
 workspaceLocation | Root folder for projects
 contentRoot | Path to directory with static content
 driversLocation | Optional path for driver jar files
