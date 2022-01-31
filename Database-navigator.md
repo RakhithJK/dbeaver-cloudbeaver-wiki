@@ -1,4 +1,4 @@
-The Database Navigator is the main view to work with the structure and content of databases. It is placed on the left-hand side of the page of the CloudBeaver main page.
+The Database Navigator is the main tool to work with the structure and content of databases. It is placed on the left-hand side of the page of the CloudBeaver main page.
 
 [[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/server_configuration/navigator_view.png]]
 
