@@ -6,7 +6,7 @@ The Database Navigator contains a tree of objects. Each object in the tree has i
 
 -   Folders 
 
--   Database connections - and other (icons differ depending on the database type)
+-   Database connections
 
 -   Database objects - various depending on the database type, such as Tables, Views, Columns, Indexes, etc.
 
