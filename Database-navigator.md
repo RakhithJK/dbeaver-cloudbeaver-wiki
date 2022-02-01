@@ -8,7 +8,7 @@ The Database Navigator contains a tree of objects. Each object in the tree has i
 
 -   Database connections
 
--   Database objects - various depending on the database type, such as Tables, Views, Columns, Indexes, etc.
+-   Database objects - various depending on the database type, such as Tables, Views, Indexes, etc.
 
 To open the context menu for an object, hover your cursor over the object in the Database Navigator and click the sandwich button to the right of the object.
 
