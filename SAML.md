@@ -6,13 +6,13 @@ If your Identity Provider uses SAML (Security Assertion Markup Language), follow
 
 Go to the Administration menu and enable **SAML** in the Server configuration tab.
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/server_configuration/server_configuration_saml_switcher.png]]
+![server_configuration_saml_switcher](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/server_configuration/server_configuration_saml_switcher.png)
 
 ### Configuring an external identity provider
 
 1.  Go to the Identity Providers tab and create a new configuration using the SAML IdP details.
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/identify_providers_saml_configuration_creation.png]]
+![identify_providers_saml_configuration_creation](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/identify_providers_saml_configuration_creation.png)
 
 2.  Add details from your SAML IdP into the new configuration in CloudBeaver.
 
@@ -20,7 +20,7 @@ Go to the Administration menu and enable **SAML** in the Server configuration ta
 
 1.  Open the created configuration in CloudBeaver and download the metadata file.
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/identify_providers_saml_configuration_metadata_file.png]]
+![identify_providers_saml_configuration_metadata_file](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/identify_providers_saml_configuration_metadata_file.png)
 
 2.  Go to the SAML IdP website and add the metadata parameters from the file (entityID and Location) to the SSO access settings, assign users and add the attribute mappings according to the SAML IdP requirements.
 
@@ -69,4 +69,4 @@ You can get IDP ARN in AWS identity providers page <https://console.aws.amazon.c
 
 The Federated tab becomes available in the CloudBeaver authentication dialog after creating the configuration. The user can select the configuration and thereafter login into the application using SSO.
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/authetication_dialog_federated_saml.png]]
+![authetication_dialog_federated_saml](https://github.com/dbeaver/cloudbeaver/wiki/images/authetication_dialog_federated_saml.png)
