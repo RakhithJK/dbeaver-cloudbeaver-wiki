@@ -4,6 +4,6 @@ Simple and Advanced Connection view defines what [the Database navigator](https:
 
 Users can also change the view of any connection in the connection context menu in the Database Navigator. 
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/navigator_simple_advanced_view.png]]
+![navigator_simple_advanced_view](https://github.com/dbeaver/cloudbeaver/wiki/images/navigator_simple_advanced_view.png)
 
 * **Show system objects** mode makes system schemas and tables available in the Database navigator and the Metadata Editor. It can be enabled in the connection context menu in the Database Navigator. 
