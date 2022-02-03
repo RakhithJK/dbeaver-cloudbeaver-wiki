@@ -18,7 +18,7 @@ You can configure SSO access for AWS. In order to provide users permission to yo
 
 1.  Go to the AWS Settings tab and enable the Federated authentication. 
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/aws_settings/administration_aws_settings.png]]
+![administration_aws_settings.png](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/aws_settings/administration_aws_settings.png)
 
 2.  Add the Proxy User on the same page. You can set the current user or add a new one.
 
