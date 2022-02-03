@@ -11,7 +11,7 @@ The Admin and User roles are available by default.
 ---
 The Administrator can create **custom roles** on the Roles tab of the Administration menu.
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/access_management/role_creation_dialog.png]]
+![role_creation_dialog](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/access_management/role_creation_dialog.png)
 
 
 ---
@@ -19,4 +19,4 @@ Also, connection access can be configured in the Connection and User dialogs.
 
 **Connection dialog**
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/connection_management/access_tab_of_connection_dialog.png]]
+![access_tab_of_connection_dialog.png](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/connection_management/access_tab_of_connection_dialog.png)
