@@ -14,6 +14,8 @@ The Database Navigator is the main tool to work with the structure and content o
 | Shortcut                         | Description                       |
 |----------------------------------|-----------------------------------|
 | Ctrl + F                         | Filtering elements in tree        |
+| Ctrl + Shift + ,                 | Link with Editor                  |
+| Ctrl + Shift + /                 | Collapse all                      |
 
 ### Structure
 
