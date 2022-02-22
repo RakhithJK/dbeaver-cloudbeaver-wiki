@@ -16,6 +16,7 @@ The list of configurable variables are:
 | core.app.sqlEditor.maxFileSize          | 100   | Max size of sql script that can be uploaded (KB) |
 | core.app.metadata.deleting              | true  | Allow deleting metadata objects                  |
 | core.app.metadata.editing               | true  | Allow editing metadata objects                   |
+| core.app.dataViewer.disableEdit         | false | Disable data editing inside the Data Viewer      |
 | core.authentication.primaryAuthProvider | local | Primary auth provider                            |
 
 You can also specify these parameters in the config file `/workspace/.data/.product.runtime.conf`. These properties have a higher priority than `product.conf`.
