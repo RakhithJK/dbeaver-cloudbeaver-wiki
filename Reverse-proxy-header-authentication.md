@@ -4,13 +4,13 @@ Cloudbeaver supports authorization and authentication with reverse proxy headers
 This option authenticates the user in Cloudbeaver via a HTTP header field.
 
 To enable this feature, you need to 
-1. add an application parameter _supportsReverseProxyAuth: true_ to your [server configuration](https://github.com/dbeaver/cloudbeaver/wiki/Server-configuration):
+1. add an application parameter _enableReverseProxyAuth: true_ to your [server configuration](https://github.com/dbeaver/cloudbeaver/wiki/Server-configuration):
 
        app: {
          ...
          anonymousAccessEnabled: false,
          anonymousUserRole: "user",
-         supportsReverseProxyAuth: true,
+         enableReverseProxyAuth: true,
          ...
        }
 
