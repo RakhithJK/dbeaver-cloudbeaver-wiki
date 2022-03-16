@@ -10,7 +10,6 @@ To enable this feature, you need to
          ...
          anonymousAccessEnabled: false,
          anonymousUserRole: "user",
-         supportsCustomConnections: false,
          supportsReverseProxyAuth: true,
          ...
        }
