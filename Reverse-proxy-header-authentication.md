@@ -1,5 +1,3 @@
-# Reverse proxy header authentication
-
 Cloudbeaver supports authorization and authentication with reverse proxy headers.
 This option authenticates the user in Cloudbeaver via a HTTP header field.
 
