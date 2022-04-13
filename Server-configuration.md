@@ -132,3 +132,22 @@ These parameters can be specified in:
 ## Datasources configuration 
 
 You can find a detailed description [[here|Configuring-server-datasources]]
+
+## Using environment variables
+You can use references on environment variables in most of server configuration properties.
+For example:
+
+```js
+{
+    server: {
+        serverPort: ${cb.port},
+        serverHost: "${cb.host}",
+        serverName: "CloudBeaver Server",
+
+        rootURI: "${cb.prefix}",
+        serviceURI: "/api/",
+
+        expireSessionAfterPeriod: ${cb.expire-time},
+    }
+}
+```
