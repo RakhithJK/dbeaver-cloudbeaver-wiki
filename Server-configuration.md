@@ -111,6 +111,8 @@ Name|Description
 dataExportFileSizeLimit | Maximum file size for data export operation (in bytes)
 sqlMaxRunningQueries | Maximum number of simultaneous queries for a single user session. Includes data read queries (i.e. table data view)
 sqlResultSetRowsLimit | Maximum number of rows to select from a table or query
+sqlTextPreviewMaxLength | Maximum size for text file shown in value panel (in bytes)
+sqlBinaryPreviewMaxLength| Maximum size for binary file shown in value panel (in bytes)
 
 # Automatic server configuration
 
