@@ -46,7 +46,7 @@ Like this:
                     propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
                     description="%driver.postgresql.description"
                     categories="sql">
-                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.20]" bundle="!drivers.postgresql"/>
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.25]" bundle="!drivers.postgresql"/>
                     <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
 
                     <parameter name="serverType" value="postgresql"/>
@@ -75,7 +75,7 @@ After that you can find you driver definition in the `drivers.xml` (see [[Admini
 All drivers need some 3rd party jar files (actual driver executable code).  
 For CloudBeaver, 3rd party jars must be in a public Maven repository (Maven Central is preferred). Line
 ```xml
-<file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.20]">
+<file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.25]">
 ```
 refers to an external Maven artifact which must contain the driver jar files.
 
@@ -83,7 +83,7 @@ refers to an external Maven artifact which must contain the driver jar files.
 
 In the driver definition example (see above) you can see two lines: 
 ```xml
-<file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.20]" bundle="!drivers.postgresql"/>
+<file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.2.25]" bundle="!drivers.postgresql"/>
 <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
 ```
 The first one refers to the actual Maven artifact. The Second one refers to some weird path `drivers/postgresql`. What does it mean?  
