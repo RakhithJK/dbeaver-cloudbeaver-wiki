@@ -46,6 +46,7 @@ Typical configuration:
 
         resourceQuotas: {
             dataExportFileSizeLimit: 10000000,
+            resourceManagerFileSizeLimit: 500000,
             sqlMaxRunningQueries: 3,
             sqlResultSetRowsLimit: 100000,
             sqlResultSetMemoryLimit: 2000000
@@ -109,6 +110,7 @@ You can configure the following resource quotes in the section `app.resourceQuot
 Name|Description
 ---|---
 dataExportFileSizeLimit | Maximum file size for data export operation (in bytes)
+resourceManagerFileSizeLimit | Maximum file size saved in the resource manager (in bytes)
 sqlMaxRunningQueries | Maximum number of simultaneous queries for a single user session. Includes data read queries (i.e. table data view)
 sqlResultSetRowsLimit | Maximum number of rows to select from a table or query
 sqlTextPreviewMaxLength | Maximum size for text file shown in value panel (in bytes)
