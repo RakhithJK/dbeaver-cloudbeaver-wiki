@@ -10,6 +10,7 @@ User Guide
      - [[Roles]]
    - [[Authentication methods]]
    - [[User credentials storage]]
+   - [[Query Manager]]
 - [[Supported databases]]
 - Features
    - [[Database navigator]]
@@ -26,6 +27,7 @@ User Guide
    - [[SQL Editor]]
      - [[Query Execution Plan]]
    - [[Cloud Explorer]]
+   - [[Query History]]
 - [[Releases]] <!-- CMD:SKIP -->
 
 Installation  
