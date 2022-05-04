@@ -26,6 +26,7 @@ User Guide
    - [[Document viewer]]
    - [[SQL Editor]]
      - [[Query Execution Plan]]
+   - [[Log Viewer]]
    - [[Cloud Explorer]]
    - [[Query History]]
 - [[Releases]] <!-- CMD:SKIP -->
