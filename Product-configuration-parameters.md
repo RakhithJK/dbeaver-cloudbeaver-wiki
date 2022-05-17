@@ -13,6 +13,7 @@ The list of configurable variables are:
 | core_events.notificationsPool           | 5     | Maximum notifications                            |
 | plugin_erd_viewer.maxColumnsToDisplay   | 7500  | Maximum columns in ERD                           |
 | plugin_data_export.disabled             | true  | Disable data export functionality                |
+| plugin_resource_manager.disabled        | false | Disable Resource Manager functionality           |
 | core.app.sqlEditor.maxFileSize          | 100   | Max size of sql script that can be uploaded (KB) |
 | core.app.metadata.deleting              | true  | Allow deleting metadata objects                  |
 | core.app.metadata.editing               | true  | Allow editing metadata objects                   |
