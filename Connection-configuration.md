@@ -23,3 +23,10 @@ Custom connections can be created by users (Note: configuration parameter `suppo
 
 Cloud connections cannot explicitly be created or deleted by users. Their configuration is provided by a cloud service provider (e.g. thru AWS API).
 Once CB will find such connections (by using cloud configuration specified by the server administrator) they will become visible in the navigator tree.
+
+### SSH key storage
+You can store your SSH key and SSH user in `data-sources.json`: 
+| Variable                                                                           | Value         |
+|------------------------------------------------------------------------------------|---------------|
+| connections.configuration.handlers.ssh_tunnel.properties.keyValue                  | SSH key       |
+| connections.configuration.handlers.ssh_tunnel.user                                 | SSH user name |
