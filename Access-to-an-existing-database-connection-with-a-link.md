@@ -1,4 +1,4 @@
-You can open an SQL editor with existing connection via an external link
+You can open the SQL Editor with an existing connection via an external link.
 
 All you need is to know one of these parameters:
 
@@ -8,7 +8,7 @@ id|Connection ID|http://{serverURL}/open/open?id=postgres-jdbc-00000000000-00000
 name|Connection name|http://{serverURL}/open/open?name=RandomName@localhost
 url|Connection URL|http://{serverURL}/open/open?url=jdbc:postgresql://localhost:5432/randomdb
 
-All these parameters you can find in the connection info from the context menu.
+To find these parameters open the connection Info in the Metadata Editor.
 
 ![Снимок экрана 2022-05-23 102153](https://user-images.githubusercontent.com/59531286/169770641-fab48a25-c3ac-4e56-b5aa-e89900d45bbe.png)
 
