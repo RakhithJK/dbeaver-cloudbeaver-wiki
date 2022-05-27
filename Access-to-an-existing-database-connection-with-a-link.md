@@ -4,9 +4,9 @@ All you need is to know one of these parameters:
 
 Parameter|Description|URL example
 ---|---|---
-id|Connection ID|http://{serverURL}/open/open?id=postgres-jdbc-00000000000-00000000000000000
-name|Connection name|http://{serverURL}/open/open?name=RandomName@localhost
-url|Connection URL|http://{serverURL}/open/open?url=jdbc:postgresql://localhost:5432/randomdb
+id|Connection ID|http://{serverURL}/open?id=postgres-jdbc-00000000000-00000000000000000
+name|Connection name|http://{serverURL}/open?name=RandomName@localhost
+url|Connection URL|http://{serverURL}/open?url=jdbc:postgresql://localhost:5432/randomdb
 
 To find these parameters open the connection Info in the Metadata Editor.
 
