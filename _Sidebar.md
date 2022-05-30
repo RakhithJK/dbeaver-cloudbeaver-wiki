@@ -22,7 +22,7 @@ User Guide
      - [[JSON and Document View]]
      - [[Working with spatial/GIS data]]
    - [[ERD]]
-     - [[Configuration]]
+     - [[Configuration|ee]]
    - [[Data export]]
    - [[Entity Diagrams]]
    - [[Document viewer]]
