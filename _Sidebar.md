@@ -21,7 +21,7 @@ User Guide
      - [[Value Panel]]
      - [[JSON and Document View]]
      - [[Working with spatial/GIS data]]
-   - [[ERD]]
+   - [[ERD]] <img src="images/commercial.png" align="top" vspace="4"/>
      - [[Configuration|erd-configuration]]
    - [[Data export]]
    - [[Entity Diagrams]]
