@@ -11,7 +11,6 @@ The list of configurable variables are:
 | core.app.logViewer.maxFailedRequests    | 3     | Count failed log viewer request before disabling |
 | core.app.navigationTree.childrenLimit   | 500   | Maximum children in navigation tree              |
 | core_events.notificationsPool           | 5     | Maximum notifications                            |
-| plugin_erd_viewer.maxColumnsToDisplay   | 7500  | Maximum columns in ERD                           |
 | plugin_data_export.disabled             | true  | Disable data export functionality                |
 | plugin_resource_manager.disabled        | false | Disable Resource Manager functionality           |
 | core.app.sqlEditor.maxFileSize          | 100   | Max size of sql script that can be uploaded (KB) |
