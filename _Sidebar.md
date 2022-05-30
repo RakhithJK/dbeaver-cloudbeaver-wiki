@@ -21,6 +21,8 @@ User Guide
      - [[Value Panel]]
      - [[JSON and Document View]]
      - [[Working with spatial/GIS data]]
+   - [[ERD]]
+     - [[Configuration]]
    - [[Data export]]
    - [[Entity Diagrams]]
    - [[Document viewer]]
