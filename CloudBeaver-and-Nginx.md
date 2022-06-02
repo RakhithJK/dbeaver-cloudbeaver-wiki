@@ -24,3 +24,6 @@ The default Nginx config file is `/etc/nginx/sites-enabled/default`.
     proxy_set_header Host $http_host;
   }
 ```
+
+To identify the information (_real IP address_) of client connected to the web server through NGINX, add the parameter `forwardProxy:true` into your [server configuration](https://github.com/dbeaver/cloudbeaver/wiki/Server-configuration#application-parameters).
+ 
