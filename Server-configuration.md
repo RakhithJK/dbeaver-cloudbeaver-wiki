@@ -102,6 +102,7 @@ supportsCustomConnections | Allows users to create custom connections to any dat
 publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache
 adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache
 redirectOnFederatedAuth | When there is only one federation authentication configuration then redirect to it automatically
+forwardProxy | Identifies the originating IP address and other headers of a client connecting to a web server through an HTTP proxy
 
 #### Resource quotas
 
