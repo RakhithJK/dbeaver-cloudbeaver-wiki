@@ -19,20 +19,20 @@ Go to the Administration menu and enable **Azure AD** in the Server configuratio
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_provider.png)
 ### Add details from your Azure AD application into the new configuration in CloudBeaver
 
-1. Open the application page [registered in the first step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#register-application-in-azure-active-directory) and copy the **Application (client) ID** value into the Cloudbeaver Azure AD provider **Application (client) ID** field.
-
-![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_application_page_app_id.png)
-
-2. Open Azure Active Directory/Your Directory/Overiview page and  copy the **Tenant ID** or **Primary domain** (these values are equivalent) value into the Cloudbeaver Azure AD provider **Tenant ID** field.
+1. Open Azure Active Directory/Your Directory/Overiview page and  copy the **Tenant ID** or **Primary domain** (these values are equivalent) value into the Cloudbeaver Azure AD provider **Tenant ID** field.
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_application_page_tenant_id.png)
 
-3. Copy the value ofsecret key [created in this step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#configure-application-credentials) into the **Secret Key** field.
+2. Open the application page [registered in the first step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#register-application-in-azure-active-directory) and copy the **Application (client) ID** value into the Cloudbeaver Azure AD provider **Application (client) ID** field.
+
+![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_application_page_app_id.png)
+
+3. Copy the value of secret key [created in this step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#configure-application-credentials) into the **Secret Key** field.
 
 4. Save Cloudbeaver configuration
 
 # Configure Redirect link
-1. Open **Azure AD provider configuration** in the Cloudbeaver and copy **Redirect ** link
+1. Open **Azure AD provider configuration** in the Cloudbeaver and copy **Redirect** link
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_redirect_link.png)
 
