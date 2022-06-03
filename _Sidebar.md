@@ -60,6 +60,7 @@ CloudBeaver Enterprise Edition
 - [[SSO|Single Sign-On]]
 - [[SAML authentication|SAML]]
 - [[OpenID authentication|OpenID]]
+- [[Azure AD authentication|Azure-AD-authentication]]
 - [[Deployment|CloudBeaver-EE-Deployment]]
 
 Development <!--CMD:SKIP-->
