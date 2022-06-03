@@ -36,9 +36,11 @@ Go to the Administration menu and enable **Azure AD** in the Server configuratio
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_redirect_link.png)
 
-2. Add a redirect link to the Azure AD application (select **Web **as platform) - [Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri)
+2. Add a redirect link to the Azure AD application (select **Web** as platform) - [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri)
 
 # Optional configuration
+
+Cloudbeaver supports the ability to read and display information about the user's first and last name from the OpeID token, so if you want to support this feature you need to add the **family_name** and **given_name** fields to the response token, more information on how to do this can be found in the [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-optional-claims#configuring-optional-claims) 
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_token_configuration.png)
 
