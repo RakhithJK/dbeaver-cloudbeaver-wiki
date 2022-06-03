@@ -29,5 +29,5 @@ Go to the Administration menu and enable **Azure AD** in the Server configuratio
 
 3. Copy the value ofsecret key [created in this step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#configure-application-credentials) into the **Secret Key** field.
 
-
+4. Save Cloudbeaver configuration
 
