@@ -1,5 +1,5 @@
 
-# Azure AD Configuration
+# Azure Active Directory Configuration
 ## Create and configure application in Azure Active Directory
 ### Register application in Azure Active Directory 
 Register a new application according to the [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#register-an-application).  
@@ -37,6 +37,11 @@ Go to the Administration menu and enable **Azure AD** in the Server configuratio
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_redirect_link.png)
 
 2. Add a redirect link to the Azure AD application (select **Web** as platform) - [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri)
+
+#Testing Azure AD authentication
+The new Federated tab becomes available after creating the configuration in the CloudBeaver authentication dialog. The user can select the configuration and thereafter login into the application using SSO.
+![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_login_dialog.png)
+
 
 # Optional configuration
 
