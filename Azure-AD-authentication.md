@@ -31,3 +31,14 @@ Go to the Administration menu and enable **Azure AD** in the Server configuratio
 
 4. Save Cloudbeaver configuration
 
+# Configure Redirect link
+1. Open **Azure AD provider configuration** in the Cloudbeaver and copy **Redirect ** link
+
+![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_redirect_link.png)
+
+2. Add a redirect link to the Azure AD application (select **Web **as platform) - [Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri)
+
+# Optional configuration
+
+![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_token_configuration.png)
+
