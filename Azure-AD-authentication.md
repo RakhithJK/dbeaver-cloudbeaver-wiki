@@ -23,7 +23,7 @@ Go to the Administration menu and enable **Azure AD** in the Server configuratio
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_application_page_app_id.png)
 
-2. Сopy the **Directory (tenant) ID** value into the Cloudbeaver Azure AD provider **Tenant ID** field.
+2. Open Azure Active Directory/Your Directory/Overiview page and  copy the **Tenant ID** or **Primary domain** (these values are equivalent) value into the Cloudbeaver Azure AD provider **Tenant ID** field.
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_application_page_tenant_id.png)
 
