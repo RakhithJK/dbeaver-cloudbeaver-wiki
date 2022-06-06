@@ -35,7 +35,10 @@ Typical configuration:
             url: "jdbc:h2:${workspace}/.data/cb.h2.dat",
             initialDataConfiguration: "conf/initial-data.conf",
             pool: {
-                maxConnections: 100
+                minIdleConnections: 4, 
+                maxIdleConnections: 10,
+                maxConnections: 100,
+                validationQuery: "SELECT 1"
             }
         }
     },
@@ -43,17 +46,39 @@ Typical configuration:
         anonymousAccessAllowed: true,
         anonymousUserRole: "user",
         supportsCustomConnections: false,
-
+        publicCredentialsSaveEnabled: true,
+        adminCredentialsSaveEnabled: true,
+        resourceManagerEnabled: true,
         resourceQuotas: {
             dataExportFileSizeLimit: 10000000,
             resourceManagerFileSizeLimit: 500000,
-            sqlMaxRunningQueries: 3,
+            sqlMaxRunningQueries: 100,
             sqlResultSetRowsLimit: 100000,
-            sqlResultSetMemoryLimit: 2000000
+            sqlResultSetMemoryLimit: 2000000,
+            sqlTextPreviewMaxLength: 4096,
+            sqlBinaryPreviewMaxLength: 261120
+        },
+        defaultNavigatorSettings: {
+            showSystemObjects: true,
+            showUtilityObjects: false,
+            showOnlyEntities: false,
+            mergeEntities: false,
+            hideFolders: false,
+            hideSchemas: false
         },
         plugins: {
 
         }
+        enabledAuthProviders: [
+            "local"
+        ],
+        enabledDrivers: [
+            
+        ],
+        disabledDrivers: [
+            "sqlite:sqlite_jdbc",
+            "h2:h2_embedded"
+        ]
 
     }
 
@@ -67,7 +92,7 @@ All paths can be absolute or are relative to the server start directory (or curr
 Name|Description
 ---|---
 serverPort | Port CloudBeaver server listens on
-serverHost | The network interface CloudBeaver server binds to as an IP address or a hostname.  If null or 0.0.0.0, then bind to all interfaces.
+serverHost | The network interface CloudBeaver server binds to as an IP address or a hostname. If null or 0.0.0.0, then bind to all interfaces.
 serverURL | Server address (full URL). Used to generate links and for third-party services integration.
 workspaceLocation | Root folder for projects
 contentRoot | Path to directory with static content
@@ -76,6 +101,7 @@ rootURI | Web application URI prefix. `/` by default
 serviceURI | Services API URI prefix (relative to rootURI). `/api/` by default.
 productConfiguration | Path to product (web interface) configuration file (json)
 develMode | When set to true extra debug, the information is printed in logs and GraphQL console is enabled on the server.
+expireSessionAfterPeriod | Maximum idle time after which user's session will be closed.
 
 #### Database configuration
 
@@ -88,7 +114,62 @@ driver | Database driver (e.g. `sqlite`, `h2_embedded`, `postgres-jdbc`, etc)
 url | Database JDBC URL (e.g. `jdbc:postgresql://localhost:5432/cb`
 user | Database user name
 password | Database user password
+initialDataConfiguration | Path to initial data file (json) that will be loaded on first server run
 
+#### Database connection pool configuration
+
+Configures connection pool to be used by the CloudBeaver database.  
+In the section `server.database.pool`:
+
+Name|Description
+---|---
+validationQuery | Query that will check the successful connection to the database
+minIdleConnections | Minimum number of idle connections that should be kept in the pool
+maxIdleConnections | Maximum number of idle connections that should be kept in the pool
+maxConnections | Maximum number of idle and active connections that should be kept in the pool
+
+#### Database Initial Data
+
+Configures initial data containing administrator credentials and a list of roles and their permissions.  
+Stored in a separate file, the path to which is specified in the section `server.database.initialDataConfiguration`:
+
+Name|Description
+---|---
+adminName | Username for administrator
+adminPassword  | Password for administrator
+roles  | List of initial roles
+
+Roles schema
+
+Name|Description
+---|---
+roleId | Id for the role
+name | Name for the role
+description | Role description
+permissions | Set of available permissions for the role
+
+Configuration example:
+
+```js
+{
+    adminName: "cbadmin",
+    adminPassword: "cbadmin20",
+    roles: [
+        {
+            roleId: "admin",
+            name: "Admin",
+            description: "Administrative access. Has all permissions.",
+            permissions: ["public", "admin"]
+        },
+        {
+            roleId: "user",
+            name: "User",
+            description: "Standard user",
+            permissions: ["public"]
+        }
+    ]
+}
+```
 
 ### Application parameters:
 
@@ -96,13 +177,19 @@ In the section `app`:
 
 Name|Description
 ---|---
-anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role, 'User'.
+anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role `anonymousUserRole`.
+anonymousUserRole  | Role that will be assigned to the anonymous user, `user` by default.
 authenticationEnabled | Enables users' authentication. If disabled, then only anonymous access is allowed.
 supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only the CB administrator can create/edit connections.
-publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache
-adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache
-redirectOnFederatedAuth | When there is only one federation authentication configuration then redirect to it automatically
-forwardProxy | Identifies the originating IP address and other headers of a client connecting to a web server through an HTTP proxy
+publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache.
+adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache.
+redirectOnFederatedAuth | When there is only one federation authentication configuration then redirect to it automatically.
+forwardProxy | Identifies the originating IP address and other headers of a client connecting to a web server through an HTTP proxy.
+enabledDrivers | List of drivers that are allowed to be used, if the list is empty - all drivers are allowed.
+disabledDrivers  | List of drivers that are prohibited for use, if the list is empty - all drivers are allowed.
+enableReverseProxyAuth  | Enabling the authorization mechanism for more details can be found here.
+defaultAuthProvider | Provider that will be used for authorization by default.
+enabledAuthProviders | List of allowed authorization providers, if the property is absent - all providers are allowed.
 
 #### Resource quotas
 
