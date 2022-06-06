@@ -28,6 +28,7 @@ User Guide
    - [[Document viewer]]
    - [[SQL Editor]]
      - [[Query Execution Plan]]
+     - [[Visual Query Builder]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Log Viewer]]
    - [[Cloud Explorer]]
    - [[Query History]]
