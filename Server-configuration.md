@@ -190,6 +190,7 @@ disabledDrivers  | List of drivers that are prohibited for use, if the list is e
 enableReverseProxyAuth  | Enabling reverse proxy authorization mechanism for more details can be found [here](https://github.com/dbeaver/cloudbeaver/wiki/Reverse-proxy-header-authentication).
 defaultAuthProvider | Provider that will be used for authorization by default.
 enabledAuthProviders | List of allowed authorization providers, if the property is absent - all providers are allowed.
+defaultNavigatorSettings | Default database navigator settings.
 
 #### Resource quotas
 
@@ -203,6 +204,19 @@ sqlMaxRunningQueries | Maximum number of simultaneous queries for a single user 
 sqlResultSetRowsLimit | Maximum number of rows to select from a table or query
 sqlTextPreviewMaxLength | Maximum size for text file shown in value panel (in bytes)
 sqlBinaryPreviewMaxLength| Maximum size for binary file shown in value panel (in bytes)
+
+#### Navigator settings
+
+You can configure the following properties in the section `app.defaultNavigatorSettings`:
+
+Name|Description
+---|---
+showSystemObjects | Show system objects.
+showUtilityObjects | Show "utility" objects.
+showOnlyEntities | Show only schemas and tables.
+mergeEntities | Show all types of database objects in one list (tables, sequences, etc.).
+hideFolders | Hide folders like "Tables", "Schemas", "Columns", etc.
+hideSchemas | Do not show schemas (all tables in one list).
 
 # Automatic server configuration
 
