@@ -68,7 +68,7 @@ Typical configuration:
         },
         plugins: {
 
-        }
+        },
         enabledAuthProviders: [
             "local"
         ],
