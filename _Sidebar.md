@@ -32,6 +32,7 @@ User Guide
    - [[Log Viewer]]
    - [[Cloud Explorer]]
    - [[Query History]]
+   - [[Resource Manager]]
 - [[Releases]] <!-- CMD:SKIP -->
 
 Installation  
