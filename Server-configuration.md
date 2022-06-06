@@ -4,7 +4,7 @@ There are several configuration files in CloudBeaver.
 
 The primary configuration file is `cloudbeaver.conf`. By default it is placed in the folder `/etc/cloudbeaver/`.  
 But in most cases it is redefined for each server by the command line parameter `-web-config <config-file-path>`.  
-The server configuration is in JSONC format (JSON with comments and without redundant quotes). It can be parsed by most of the JSON parsers in lenient mode.  
+The server configuration is in the JSONC format (JSON with comments and without redundant quotes). It can be parsed by most of the JSON parsers in lenient mode.  
 Additionally, configuration parameters can be specified in the file `workspace/.data/.cloudbeaver.runtime.conf`. It is convenient because the workspace can be deployed as a shared docker volume. `.cloudbeaver.runtime.conf` has the same structure as `cloudbeaver.conf` but it has a higher priority than `cloudbeaver.conf`.   
 
 
@@ -178,12 +178,12 @@ In the section `app`:
 Name|Description
 ---|---
 anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role `anonymousUserRole`.
-anonymousUserRole  | Role that will be assigned to the anonymous user, `user` by default.
+anonymousUserRole  | A role that will be assigned to the anonymous user, `user` by default.
 authenticationEnabled | Enables users' authentication. If disabled, then only anonymous access is allowed.
 supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only the CB administrator can create/edit connections.
 publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache.
 adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache.
-redirectOnFederatedAuth | When there is only one federation authentication configuration then redirect to it automatically.
+redirectOnFederatedAuth | When there is only one federation authentication configuration, then redirect to it automatically.
 forwardProxy | Identifies the originating IP address and other headers of a client connecting to a web server through an HTTP proxy.
 enabledDrivers | List of drivers that are allowed to be used, if the list is empty - all drivers are allowed.
 disabledDrivers  | List of drivers that are prohibited for use, if the list is empty - all drivers are allowed.
@@ -221,7 +221,7 @@ hideSchemas | Do not show schemas (all tables in one list).
 # Automatic server configuration
 
 On the first start CloudBeaver server will show administrator interface for server configuration.  
-In some cases the server must be configured automatically (e.g. when it is run in Kubernetes environment).  
+In some cases the server must be configured automatically (e.g. when it is run in the Kubernetes environment).  
 The following parameters must be specified in the configuration:
 
 Name|Description|Example
@@ -237,10 +237,10 @@ These parameters can be specified in:
 
 ## Datasources configuration 
 
-You can find a detailed description [[here|Configuring-server-datasources]]
+You can find a detailed description at [[here|Configuring-server-datasources]]
 
 ## Using environment variables
-You can use references on environment variables in most of server configuration properties.
+You can use references on environment variables in most server configuration properties.
 For example:
 
 ```js
