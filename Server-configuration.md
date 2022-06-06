@@ -187,7 +187,7 @@ redirectOnFederatedAuth | When there is only one federation authentication confi
 forwardProxy | Identifies the originating IP address and other headers of a client connecting to a web server through an HTTP proxy.
 enabledDrivers | List of drivers that are allowed to be used, if the list is empty - all drivers are allowed.
 disabledDrivers  | List of drivers that are prohibited for use, if the list is empty - all drivers are allowed.
-enableReverseProxyAuth  | Enabling the authorization mechanism for more details can be found here.
+enableReverseProxyAuth  | Enabling reverse proxy authorization mechanism for more details can be found [here](https://github.com/dbeaver/cloudbeaver/wiki/Reverse-proxy-header-authentication).
 defaultAuthProvider | Provider that will be used for authorization by default.
 enabledAuthProviders | List of allowed authorization providers, if the property is absent - all providers are allowed.
 
