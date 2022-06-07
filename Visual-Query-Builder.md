@@ -34,7 +34,7 @@ To open the Visual Query Builder, click the Query Builder tab in the SQL Editor 
 
 | Column name                                                                                                   | Operation Sign                                                  | Value                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| A table column name. You have to write a table alias or table name before if another column has the same name | The most common signs:  =,  >,  <,  <>,  LIKE,  ILIKE,  BETWEEN | A column value, used as a parameter. Text and time values must be rounded by single quotes, numeric values do not need any quotes |
+| A table column name. You have to write a table alias before if another column has the same name | The most common signs:  =,  >,  <,  <>,  LIKE,  ILIKE,  BETWEEN | A column value, used as a parameter. Text and time values must be rounded by single quotes, numeric values do not need any quotes |
 
 Filter example:
 
