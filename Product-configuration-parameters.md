@@ -18,6 +18,7 @@ The list of configurable variables are:
 | core.app.metadata.editing               | true  | Allow editing metadata objects                   |
 | core.app.dataViewer.disableEdit         | false | Disable data editing inside the Data Viewer      |
 | core.authentication.primaryAuthProvider | local | Primary auth provider                            |
+| core.cookies.disabled                   | false | Whether an app can use cookies or not            |
 
 You can also specify these parameters in the config file `/workspace/.data/.product.runtime.conf`. These properties have a higher priority than `product.conf`.
 
