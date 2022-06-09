@@ -1,6 +1,6 @@
 # Overview
 
-The Resource manager allows users to store and manage scripts in the CloudBeaver server file system. Each user has a personal project where saved scripts are stored. Other users do not have access to it. 
+The Resource Manager allows users to store and manage scripts in the CloudBeaver server file system. Each user has a personal project where saved scripts are stored. Other users do not have access to it. 
 The Resource Manager is only available to logged users. Anonymous users may save scripts on a local machine.
 
 Administrators can disable the feature in the Server Settings in the Administration menu.
