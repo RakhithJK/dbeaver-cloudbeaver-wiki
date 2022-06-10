@@ -34,19 +34,16 @@ Authorization to the Microsoft platform is only possible using registered applic
 so we need to create an application in the Azure AD, if it does not exist, and configure it.
 
 1. Register a new application in Azure AD according to
-   the [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#register-an-application)
-   .
+   the [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#register-an-application).
 2. Сloudbeaver uses the OpenId protocol for authorization in Azure Active Directory.  
    For this it's necessary configure application secrets - more information on how to do this can be found in
-   the [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-client-secret)
-   .  
+   the [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-client-secret).  
    Do not forget to record the value of the secret key, it can only be obtained once, otherwise delete the existing
-   secrets
-   and go through this step again.
+   secrets and go through this step again.
 
 ### Optional configuration
 
-Cloudbeaver supports the ability to read and display information about the user's first and last name from the OpeID
+Cloudbeaver supports the ability to read and display information about the user's first and last name from the OpenID
 token, so if you want to support this feature you need to add the **family_name** and **given_name** fields to the
 response token, more information on how to do this can be found in
 the [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-optional-claims#configuring-optional-claims)
@@ -65,24 +62,21 @@ To allow users to choose Azure AD as authorization method, a new identity provid
 
 ## Configure Identity Provider
 
-1. Set **Domain / Tenant ID**
+1. Set **Domain / Tenant ID**  
    Open Azure Active Directory/Your Directory/Overiview page and copy the **Tenant ID** or **Primary domain** (these
    values are equivalent) value into the Cloudbeaver Azure AD provider **Tenant ID** field.
    How to get **Tenant ID** value in other ways you can
-   read [here](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-to-find-tenant)
-   .
+   read [here](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_application_page_tenant_id.png)
 
-2. Set **Application (client) ID**
-   Open the application
-   page [registered in the first step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#register-application-in-azure-active-directory)
-   and copy the value into the Cloudbeaver Azure AD provider **Application (client) ID**
+2. Set **Application (client) ID**  
+   Open the application page [registered in the first step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#register-application-in-azure-active-directory) and copy the value into the Cloudbeaver Azure AD provider **Application (client) ID**
    field.
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_application_page_app_id.png)
 
-3. Set **Secret Key**
+3. Set **Secret Key**  
    Copy the value of secret
    key [created in this step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#configure-application-credentials)
    into the **Secret Key** field.
@@ -98,5 +92,6 @@ To allow users to choose Azure AD as authorization method, a new identity provid
 
 # Testing Azure AD authentication
 The new Federated tab becomes available after creating the configuration in the CloudBeaver authentication dialog. The user can select the configuration and thereafter login into the application using SSO.
+
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_login_dialog.png)
 
