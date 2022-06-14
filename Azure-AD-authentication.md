@@ -80,14 +80,14 @@ To allow users to choose Azure AD as authorization method, a new identity provid
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_application_page_tenant_id.png)
 
 2. Set **Application (client) ID**  
-   Open the application page [registered in the first step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#register-application-in-azure-active-directory) and copy the value into the Cloudbeaver Azure AD provider **Application (client) ID**
+   Open the application page [registered in this step point 1](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication#azure-active-directory-configuration) and copy the value into the Cloudbeaver Azure AD provider **Application (client) ID**
    field.
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_application_page_app_id.png)
 
 3. Set **Secret Key**  
    Copy the value of secret
-   key [created in this step](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/_edit#configure-application-credentials)
+   key [created in this step point 2](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication#azure-active-directory-configuration)
    into the **Secret Key** field.
 
 4. Save identity Provider configuration
