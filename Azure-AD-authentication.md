@@ -1,3 +1,12 @@
+# Table of contents: 
+1. [Overview](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#overview)
+2. [Enabling Azure AD authentication provider](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#enabling-azure-ad-authentication-provider)
+3. [Azure Active Directory Configuration](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#azure-active-directory-configuration)
+4. [Cloudbeaver Configuration](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#cloudbeaver-configuration)
+5. [Testing](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#testing-azure-ad-authentication)
+
+
+# Overview
 CloudBeaver supports authorization through Azure AD.  
 To do this, you must have:
 
