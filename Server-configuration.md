@@ -2,10 +2,10 @@ There are several configuration files in CloudBeaver.
 
 ## Main server configuration 
 
-The primary configuration file is `cloudbeaver.conf`. By default it is placed in the folder `/etc/cloudbeaver/`.  
-But in most cases it is redefined for each server by the command line parameter `-web-config <config-file-path>`.  
+The primary configuration file is `cloudbeaver.conf`. By default, it is placed in the `/etc/cloudbeaver/` folder.  
+But in most cases it is redefined for each server by the command line parameter, `-web-config <config-file-path>`.  
 The server configuration is in the JSONC format (JSON with comments and without redundant quotes). It can be parsed by most of the JSON parsers in lenient mode.  
-Additionally, configuration parameters can be specified in the file `workspace/.data/.cloudbeaver.runtime.conf`. It is convenient because the workspace can be deployed as a shared docker volume. `.cloudbeaver.runtime.conf` has the same structure as `cloudbeaver.conf` but it has a higher priority than `cloudbeaver.conf`.   
+Additionally, configuration parameters can be specified in the file `workspace/.data/.cloudbeaver.runtime.conf`. It is convenient because the workspace can be deployed as a shared docker volume. `.cloudbeaver.runtime.conf` has the same structure as `cloudbeaver.conf` however it has a higher priority than `cloudbeaver.conf`.   
 
 
 Typical configuration:
@@ -100,12 +100,12 @@ driversLocation | Optional path for driver jar files
 rootURI | Web application URI prefix. `/` by default
 serviceURI | Services API URI prefix (relative to rootURI). `/api/` by default.
 productConfiguration | Path to product (web interface) configuration file (json)
-develMode | When set to true extra debug, the information is printed in logs and GraphQL console is enabled on the server.
-expireSessionAfterPeriod | Maximum idle time after which user's session will be closed.
+develMode | When set to true extra debug, the information is printed in logs and the GraphQL console is enabled on the server.
+expireSessionAfterPeriod | Maximum idle time after which the user's session will be closed.
 
 #### Database configuration
 
-Configures CloudBeaver database where it keeps users, credentials and permissions.  
+Configures CloudBeaver database where it keeps users, credentials and permission.  
 In the section `server.database`:
 
 Name|Description
@@ -114,7 +114,7 @@ driver | Database driver (e.g. `sqlite`, `h2_embedded`, `postgres-jdbc`, etc)
 url | Database JDBC URL (e.g. `jdbc:postgresql://localhost:5432/cb`
 user | Database user name
 password | Database user password
-initialDataConfiguration | Path to initial data file (json) that will be loaded on first server run
+initialDataConfiguration | Path to initial data file (json) that will be loaded on the first server run
 
 #### Database connection pool configuration
 
@@ -130,8 +130,8 @@ maxConnections | Maximum number of idle and active connections that should be ke
 
 #### Database Initial Data
 
-Configures initial data containing administrator credentials and a list of roles and their permissions.  
-Stored in a separate file, the path to which is specified in the section `server.database.initialDataConfiguration`:
+Configures initial data containing administrator credentials and a list of roles and their permission.  
+Stored in a separate file. Thee path to which is specified in the `server.database.initialDataConfiguration` section.
 
 Name|Description
 ---|---
@@ -158,14 +158,14 @@ Configuration example:
         {
             roleId: "admin",
             name: "Admin",
-            description: "Administrative access. Has all permissions.",
-            permissions: ["public", "admin"]
+            description: "Administrative access. Has all the permission.",
+            permission: ["public", "admin"]
         },
         {
             roleId: "user",
             name: "User",
             description: "Standard user",
-            permissions: ["public"]
+            permission: ["public"]
         }
     ]
 }
@@ -188,7 +188,7 @@ forwardProxy | Identifies the originating IP address and other headers of a clie
 enabledDrivers | List of drivers that are allowed to be used, if the list is empty - all drivers are allowed.
 disabledDrivers  | List of drivers that are prohibited for use, if the list is empty - all drivers are allowed.
 enableReverseProxyAuth  | Enabling reverse proxy authorization mechanism for more details can be found [here](https://github.com/dbeaver/cloudbeaver/wiki/Reverse-proxy-header-authentication).
-defaultAuthProvider | Provider that will be used for authorization by default.
+defaultAuthProvider | The provider that will be used for authorization by default.
 enabledAuthProviders | List of allowed authorization providers, if the property is absent - all providers are allowed.
 defaultNavigatorSettings | Default database navigator settings.
 
@@ -220,7 +220,7 @@ hideSchemas | Do not show schemas (all tables in one list).
 
 # Automatic server configuration
 
-On the first start CloudBeaver server will show administrator interface for server configuration.  
+On the first start CloudBeaver server will show the administrator interface for server configuration.  
 In some cases the server must be configured automatically (e.g. when it is run in the Kubernetes environment).  
 The following parameters must be specified in the configuration:
 
