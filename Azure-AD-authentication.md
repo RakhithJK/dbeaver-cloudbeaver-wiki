@@ -16,7 +16,7 @@ To do this, you must have:
 
   Name|Description
   ---|---
-  Redirect Url | Url to which Azure AD will send a response about the authorization attempt request. Taken from the identity provider in CloudBeaver.
+  Redirect Url | Url to which Azure AD will send a response about the authorization attempt request which is taken from the identity provider in CloudBeaver.
 
 * Configured **Azure AD** identity provider in CloudBeaver.  
   You will need the following settings:
