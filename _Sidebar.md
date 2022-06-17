@@ -10,7 +10,7 @@ User Guide
      - [[Roles]]
    - [[Authentication methods]]
    - [[User credentials storage]]
-   - [[Query Manager]]
+   - [[Query Manager]] <img src="images/commercial.png" align="top" vspace="4"/>
 - [[Supported databases]]
 - Features
    - [[Database navigator]]
@@ -19,19 +19,19 @@ User Guide
      - [[Data Filters]]
      - [[Data Ordering]]
      - [[Value Panel]]
-     - [[JSON and Document View]]
+     - [[JSON and Document View]] <img src="images/commercial.png" align="top" vspace="4"/>
      - [[Working with spatial/GIS data]]
    - [[ERD]] <img src="images/commercial.png" align="top" vspace="4"/>
      - [[Configuration|erd-configuration]]
    - [[Data export]]
-   - [[Entity Diagrams]]
+   - [[Entity Diagrams]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Document viewer]]
    - [[SQL Editor]]
      - [[Query Execution Plan]]
      - [[Visual Query Builder]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Log Viewer]]
-   - [[Cloud Explorer]]
-   - [[Query History]]
+   - [[Cloud Explorer]] <img src="images/commercial.png" align="top" vspace="4"/>
+   - [[Query History]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Resource Manager]]
 - [[Releases]] <!-- CMD:SKIP -->
 
@@ -50,14 +50,14 @@ Configuration
 - [[Product configuration parameters]]
 - [[Command line parameters]]
 
-CloudBeaver EE for AWS
+CloudBeaver EE for AWS <img src="images/commercial.png" align="top" vspace="4"/>
 - [[Overview|AWS-Overview]]
 - [[AWS Settings|AWS-Settings]]
 - [[Cloud Explorer|AWS-Cloud-explorer]]
 - [[Authentication / IAM|AWS-IAM]]
 - [[Authentication / AWS SSO|Single Sign-On]]
 
-CloudBeaver Enterprise Edition
+CloudBeaver Enterprise Edition <img src="images/commercial.png" align="top" vspace="4"/>
 - [[Overview|CloudBeaver-EE-Overview]]
 - [[SSO|Single Sign-On]]
 - [[SAML authentication|SAML]]
