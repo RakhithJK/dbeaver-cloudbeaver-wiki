@@ -92,7 +92,7 @@ All paths can be absolute or are relative to the server start directory (or curr
 Name|Description
 ---|---
 serverPort | Port CloudBeaver server listens on
-serverHost | The network interface CloudBeaver server binds to as an IP address or a hostname. If null or 0.0.0.0, then bind to all interfaces.
+serverHost | The network interface CloudBeaver server binds to as an IP address or a hostname. If null or 0.0.0.0, then bind network interface to all available interfaces.
 serverURL | Server address (full URL). Used to generate links and for third-party services integration.
 workspaceLocation | Root folder for projects
 contentRoot | Path to directory with static content
@@ -177,13 +177,13 @@ In the section `app`:
 
 Name|Description
 ---|---
-anonymousAccessEnabled | Allows anonymous access. Anonymous users work with the role `anonymousUserRole`.
+anonymousAccessEnabled | Allows anonymous access. Anonymous users have a role `anonymousUserRole`.
 anonymousUserRole  | A role that will be assigned to the anonymous user, `user` by default.
 authenticationEnabled | Enables users' authentication. If disabled, then only anonymous access is allowed.
 supportsCustomConnections | Allows users to create custom connections to any databases. Otherwise only the CB administrator can create/edit connections.
 publicCredentialsSaveEnabled | Allows you to save user database credentials in a local cache.
 adminCredentialsSaveEnabled | Allows you to save global database credentials in a local cache.
-redirectOnFederatedAuth | When there is only one federation authentication configuration, then redirect to it automatically.
+redirectOnFederatedAuth | If there is only one federation authentication configuration, then login attempt will automatically be made when the application is opened.
 forwardProxy | Identifies the originating IP address and other headers of a client connecting to a web server through an HTTP proxy.
 enabledDrivers | List of drivers that are allowed to be used, if the list is empty - all drivers are allowed.
 disabledDrivers  | List of drivers that are prohibited for use, if the list is empty - all drivers are allowed.
@@ -220,7 +220,8 @@ hideSchemas | Do not show schemas (all tables in one list).
 
 # Automatic server configuration
 
-On the first start CloudBeaver server will show the administrator interface for server configuration.  
+When you start the CloudBeaver server for the first time you will see administrator interface for
+server configuration.  
 In some cases the server must be configured automatically (e.g. when it is run in the Kubernetes environment).  
 The following parameters must be specified in the configuration:
 

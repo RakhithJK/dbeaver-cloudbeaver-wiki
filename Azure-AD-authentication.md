@@ -29,7 +29,7 @@ To do this, you must have:
 
 # Enabling Azure AD authentication provider
 
-This step is necessary in order for users to be able to authorize through Azure AD, but immediately after that it will
+This step is required for users to be able to use authorization through Azure AD, but immediately after that it will
 not work, since you need to configure the provider.
 
 1. Log into CloudBeaver as an administrator
