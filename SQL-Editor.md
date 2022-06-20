@@ -20,6 +20,7 @@ SQL Editor supports autocomplete, syntax highlight, statement execution, script 
 | Alt+X                      | Execute script                          |
 | Shift+Ctrl+E               | Show exectution plan                    |
 | Alt+T                      | Open SQL Editor in separate browser tab |
+| Shift+Ctrl+F               | Format script                           |
 
 ### Statement Execution
 Place the cursor on the line with the statement or select part of the script to execute the statement. Click on the `Run` icon in the left toolbar or use the `Ctrl+Enter` shortcut. The result of the statement execution will be shown under the script editor area. Results will be grouped (`Result - 1 (1)`, `Result - 1 (2)`) if statement execution is finished with more than one result.
