@@ -203,6 +203,7 @@ resourceManagerFileSizeLimit | Maximum file size saved in the resource manager (
 sqlMaxRunningQueries | Maximum number of simultaneous queries for a single user session. Includes data read queries (i.e. table data view)
 sqlResultSetRowsLimit | Maximum number of rows to select from a table or query
 sqlTextPreviewMaxLength | Maximum size for text file shown in value panel (in bytes)
+sqlQueryTimeout| Maximum time (in seconds) for SQL query execution (including table data read)
 sqlBinaryPreviewMaxLength| Maximum size for binary file shown in value panel (in bytes)
 
 #### Navigator settings
