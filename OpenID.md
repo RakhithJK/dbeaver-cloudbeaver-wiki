@@ -20,7 +20,7 @@ Go to the Administration menu and enable **OpenID** in the Server configuration 
 | [depends on provider]                        | IDP auth endpoint URL        |
 | [depends on provider]                        | IDP token endpoint URL       |
 
-See Azure AD configuration as an example of OpenID provider  
+See [[Azure AD configuration|Azure-AD-authentication]] as an example of OpenID provider  
 
 **Testing OpenID authentication**
 
