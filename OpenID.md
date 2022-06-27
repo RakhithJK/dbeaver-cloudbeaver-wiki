@@ -13,14 +13,14 @@ Go to the Administration menu and enable **OpenID** in the Server configuration 
 
 2. Add details from your OpenId into the new configuration in CloudBeaver. 
 
-| Configuration in OpenID | Configuration in CloudBeaver |
+| Configuration in OpenID Provider | Configuration in CloudBeaver |
 |-------------------------|------------------------------|
-|                         | Client ID                    |
-|                         | Client Secret                |
-|                         | IDP auth endpoint URL        |
-|                         | IDP token endpoint URL       |
+| [depends on provider]                        | Client ID                    |
+| [depends on provider]                        | Client Secret                |
+| [depends on provider]                        | IDP auth endpoint URL        |
+| [depends on provider]                        | IDP token endpoint URL       |
 
-  
+See Azure AD configuration as an example of OpenID provider  
 
 **Testing OpenID authentication**
 
