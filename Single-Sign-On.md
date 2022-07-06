@@ -28,6 +28,27 @@ When an AWS user is logged into CloudBeaver using SSO, it has [the Proxy User an
 
 Actual permission set and user role are configured in attribute mappings of SAML integration.
 
+### Proxy user permissions
+
+Proxy use must have permissions to access you databases. Besides that it must have permission to generate federated tokens for end-users based on requested roles.
+Make sure it have following AWS policies:
+Policy name | Description
+---|---
+arn:aws:iam::aws:policy/service-role/AWSQuickSightListIAM | Allows to list IAM policies and permissions
+
+Also make sure it has following STS permissions: 
+Permission | Description
+---|---
+sts:GetSessionToken | 
+sts:TagSession | 
+sts:GetFederationToken | 
+sts:GetAccessKeyInfo | 
+sts:GetCallerIdentity | 
+sts:GetServiceBearerToken | 
+
+More info at [GetFederationToken policy](https://docs.aws.amazon.com/STS/latest/APIReference/API_GetFederationToken.html)
+
+
 ### Notes: 
 
 CloudBeaver does not keep your authentication information on the server-side and in configuration files.
