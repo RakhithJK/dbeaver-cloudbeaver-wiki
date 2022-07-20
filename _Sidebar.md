@@ -11,28 +11,42 @@ User Guide
    - [[Authentication methods]]
    - [[User credentials storage]]
    - [[Query Manager]] <img src="images/commercial.png" align="top" vspace="4"/>
+   - [[Product settings|Product-settings-administration]]
 - [[Supported databases]]
+- [[Authentication]]
+   - [[Product settings|Product-settings-authentication]]
+- [[Theming]]
+   - [[Product settings|Product-settings-theming]]
+- [[Localization]]
+   - [[Product settings|Product-settings-localization]]
 - Features
    - [[Database navigator]]
      - [[Simple and Advanced View]]
+     - [[Product settings|Product-settings-navigation-tree]]
    - [[Data editor]]
      - [[Data Filters]]
      - [[Data Ordering]]
      - [[Value Panel]]
      - [[JSON and Document View]] <img src="images/commercial.png" align="top" vspace="4"/>
      - [[Working with spatial/GIS data]]
+     - [[Product settings|Product-settings-data-spreadsheet]]
    - [[ERD]] <img src="images/commercial.png" align="top" vspace="4"/>
      - [[Configuration|erd-configuration]]
+     - [[Product settings|Product-settings-erd]]
    - [[Data export]]
+     - [[Product settings|Product-settings-data-export]]
    - [[Entity Diagrams]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Document viewer]]
    - [[SQL Editor]]
      - [[Query Execution Plan]]
      - [[Visual Query Builder]] <img src="images/commercial.png" align="top" vspace="4"/>
+     - [[Product settings|Product-settings-sql-editor]]
    - [[Log Viewer]]
+     - [[Product settings|Product-settings-log-viewer]]
    - [[Cloud Explorer]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Query History]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Resource Manager]]
+     - [[Product settings|Product-settings-log-viewer]]
 - [[Releases]] <!-- CMD:SKIP -->
 
 Installation  
