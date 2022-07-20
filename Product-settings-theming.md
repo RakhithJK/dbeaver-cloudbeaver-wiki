@@ -1,4 +1,4 @@
 [[Product configuration parameters]]
-| Variable                                | Value   | Description                              |
-|-----------------------------------------|---------|------------------------------------------|
-| core.theming.defaultTheme               | 'light' | Default application theme                |
+| Variable                     | ~~Deprecated variable~~    | Value   | Description                              |
+|------------------------------|------------------------|---------|------------------------------------------|
+| core.theming.defaultTheme    | core.user.defaultTheme | 'light' | Default application theme                |
