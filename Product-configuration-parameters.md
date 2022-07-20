@@ -44,15 +44,15 @@ example of packages:<br/>
             childrenLimit: 500,
             editing: true,
             deleting: true,
-        },
-        events: {
-            notificationsPool: 5,
-            maxPersistentAllow: 5,
         }
     },
     plugin: {
         'sql-editor': {
             maxFileSize: 100
+        },
+        notifications: {
+            notificationsPool: 5,
+            maxPersistentAllow: 5,
         },
         'data-spreadsheet': {
             hidden: false
