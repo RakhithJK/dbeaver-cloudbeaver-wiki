@@ -31,7 +31,6 @@ User Guide
      - [[Working with spatial/GIS data]]
      - [[Product settings|Product-settings-data-spreadsheet]]
    - [[ERD]] <img src="images/commercial.png" align="top" vspace="4"/>
-     - [[Configuration|erd-configuration]]
      - [[Product settings|Product-settings-erd]]
    - [[Data export]]
      - [[Product settings|Product-settings-data-export]]
