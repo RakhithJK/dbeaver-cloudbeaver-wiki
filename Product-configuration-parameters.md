@@ -46,7 +46,8 @@ example of packages:<br/>
             deleting: true,
         },
         events: {
-            notificationsPool: 5
+            notificationsPool: 5,
+            maxPersistentAllow: 5,
         }
     },
     plugin: {
