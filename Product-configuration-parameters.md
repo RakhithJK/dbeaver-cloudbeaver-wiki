@@ -126,7 +126,7 @@ listed in priority order<br/>
 
 ### Explanation
 For example, if you want to disable the data export functionality and increase refresh timeout for the [[Log Viewer|Log-viewer]], you can do it this way.
-1. Open or create .product.runtime.conf in folder .data
+1. Open or create `.product.runtime.conf`
 2. Paste the following code
 ```javascript
 {
