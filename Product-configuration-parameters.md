@@ -50,10 +50,6 @@ example of packages:<br/>
         }
     },
     plugin: {
-        notifications: {
-            notificationsPool: 5,
-            maxPersistentAllow: 5,
-        },
         'sql-editor': {
             maxFileSize: 100
         },
