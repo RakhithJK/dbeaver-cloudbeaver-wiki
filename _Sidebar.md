@@ -46,7 +46,7 @@ User Guide
    - [[Cloud Explorer]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Query History]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Resource Manager]]
-     - [[Product settings|Product-settings-log-viewer]]
+     - [[Product settings|Product-settings-resource-manager]]
 - [[Releases]] <!-- CMD:SKIP -->
 
 Installation  
