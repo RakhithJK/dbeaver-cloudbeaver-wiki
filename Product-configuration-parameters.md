@@ -103,23 +103,10 @@ listed in priority order<br/>
 
 ### Table of settings
 
-| Variable                                | Value | Description                                      |
-|-----------------------------------------|-------|--------------------------------------------------|
-| core.user.defaultTheme                  | light | Default theme (light or dark)                    |
-| core.user.defaultLanguage               | en    | Default language (language code)                 |
-| core.app.logViewer.refreshTimeout       | 3000  | Log viewer refresh interval in ms                |
-| core.app.logViewer.maxLogRecords        | 2000  | Maximum rows in log viewer                       |
-| core.app.logViewer.maxFailedRequests    | 3     | Count failed log viewer request before disabling |
-| core.app.navigationTree.childrenLimit   | 500   | Maximum children in navigation tree              |
-| core_events.notificationsPool           | 5     | Maximum notifications                            |
-| plugin_data_export.disabled             | true  | Disable data export functionality                |
-| plugin_resource_manager.disabled        | false | Disable Resource Manager functionality           |
-| core.app.sqlEditor.maxFileSize          | 100   | Max size of sql script that can be uploaded (KB) |
-| core.app.metadata.deleting              | true  | Allow deleting metadata objects                  |
-| core.app.metadata.editing               | true  | Allow editing metadata objects                   |
-| core.app.dataViewer.disableEdit         | false | Disable data editing inside the Data Viewer      |
-| core.authentication.primaryAuthProvider | local | Primary auth provider                            |
-| core.cookies.disabled                   | false | Whether an app can use cookies or not            |
+| Variable                               | ~~Deprecated~~                | Value | Description                                      |
+|----------------------------------------|-------------------------------|-------|--------------------------------------------------|
+| plugin.notifications.notificationsPool | core_events.notificationsPool | 5     | Maximum notifications                            |
+| core.browser.cookies.disabled          | core.cookies.disabled         | false | Whether an app can use cookies or not            |
 
 ### Explanation
 For example, if you want to disable the data export functionality and increase refresh timeout for the [[Log Viewer|Log-viewer]], you can do it this way.
