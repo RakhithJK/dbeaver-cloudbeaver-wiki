@@ -1,4 +1,4 @@
 [[Product configuration parameters]]
-| Variable                                | Value   | Description                              |
-|-----------------------------------------|---------|------------------------------------------|
-| core.localization.defaultLanguage       | 'en'    | Default application language             |
+| Variable                                | ~~Deprecated variable~~   | Value   | Description                              |
+|-----------------------------------------|---------------------------|---------|------------------------------------------|
+| core.localization.defaultLanguage       | core.user.defaultLanguage | 'en'    | Default application language             |
