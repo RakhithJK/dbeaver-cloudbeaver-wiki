@@ -10,7 +10,7 @@ User Guide
      - [[Roles]]
    - [[Authentication methods]]
    - [[User credentials storage]]
-   - [[Query Manager]] <img src="images/commercial.png" align="top" vspace="4"/>
+   - [[Query Manager]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
 - [[Supported databases]]
 - [[Authentication]]
 - [[Theming]]
@@ -22,18 +22,18 @@ User Guide
      - [[Data Filters]]
      - [[Data Ordering]]
      - [[Value Panel]]
-     - [[JSON and Document View]] <img src="images/commercial.png" align="top" vspace="4"/>
+     - [[JSON and Document View]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
      - [[Working with spatial/GIS data]]
-   - [[ERD]] <img src="images/commercial.png" align="top" vspace="4"/>
+   - [[ERD]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
    - [[Data export]]
-   - [[Entity Diagrams]] <img src="images/commercial.png" align="top" vspace="4"/>
+   - [[Entity Diagrams]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
    - [[Document viewer]]
    - [[SQL Editor]]
      - [[Query Execution Plan]]
-     - [[Visual Query Builder]] <img src="images/commercial.png" align="top" vspace="4"/>
+     - [[Visual Query Builder]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
    - [[Log Viewer]]
-   - [[Cloud Explorer]] <img src="images/commercial.png" align="top" vspace="4"/>
-   - [[Query History]] <img src="images/commercial.png" align="top" vspace="4"/>
+   - [[Cloud Explorer]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+   - [[Query History]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
    - [[Resource Manager]]
 - [[Releases]] <!-- CMD:SKIP -->
 
@@ -63,14 +63,14 @@ Configuration
    - [[ERD|Product-settings-erd]]
 - [[Command line parameters]]
 
-CloudBeaver EE for AWS <img src="images/commercial.png" align="top" vspace="4"/>
+CloudBeaver EE for AWS <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
 - [[Overview|AWS-Overview]]
 - [[AWS Settings|AWS-Settings]]
 - [[Cloud Explorer|AWS-Cloud-explorer]]
 - [[Authentication / IAM|AWS-IAM]]
 - [[Authentication / AWS SSO|Single Sign-On]]
 
-CloudBeaver Enterprise Edition <img src="images/commercial.png" align="top" vspace="4"/>
+CloudBeaver Enterprise Edition <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
 - [[Overview|CloudBeaver-EE-Overview]]
 - [[SSO|Single Sign-On]]
 - [[SAML authentication|SAML]]
