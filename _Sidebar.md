@@ -11,41 +11,30 @@ User Guide
    - [[Authentication methods]]
    - [[User credentials storage]]
    - [[Query Manager]] <img src="images/commercial.png" align="top" vspace="4"/>
-   - [[Product settings|Product-settings-administration]]
 - [[Supported databases]]
 - [[Authentication]]
-   - [[Product settings|Product-settings-authentication]]
 - [[Theming]]
-   - [[Product settings|Product-settings-theming]]
 - [[Localization]]
-   - [[Product settings|Product-settings-localization]]
 - Features
    - [[Database navigator]]
      - [[Simple and Advanced View]]
-     - [[Product settings|Product-settings-navigation-tree]]
    - [[Data editor]]
      - [[Data Filters]]
      - [[Data Ordering]]
      - [[Value Panel]]
      - [[JSON and Document View]] <img src="images/commercial.png" align="top" vspace="4"/>
      - [[Working with spatial/GIS data]]
-     - [[Product settings|Product-settings-data-spreadsheet]]
    - [[ERD]] <img src="images/commercial.png" align="top" vspace="4"/>
-     - [[Product settings|Product-settings-erd]]
    - [[Data export]]
-     - [[Product settings|Product-settings-data-export]]
    - [[Entity Diagrams]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Document viewer]]
    - [[SQL Editor]]
      - [[Query Execution Plan]]
      - [[Visual Query Builder]] <img src="images/commercial.png" align="top" vspace="4"/>
-     - [[Product settings|Product-settings-sql-editor]]
    - [[Log Viewer]]
-     - [[Product settings|Product-settings-log-viewer]]
    - [[Cloud Explorer]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Query History]] <img src="images/commercial.png" align="top" vspace="4"/>
    - [[Resource Manager]]
-     - [[Product settings|Product-settings-resource-manager]]
 - [[Releases]] <!-- CMD:SKIP -->
 
 Installation  
@@ -61,6 +50,17 @@ Configuration
    - [[Connection configuration]] 
 - [[CloudBeaver and Nginx]]
 - [[Product configuration parameters]]
+   - [[Administration|Product-settings-administration]]
+   - [[Authentication|Product-settings-authentication]]
+   - [[Theming|Product-settings-theming]]
+   - [[Localization|Product-settings-localization]]
+   - [[Database Navigator|Product-settings-navigation-tree]]
+   - [[Data Editor|Product-settings-data-spreadsheet]]
+   - [[SQL Editor|Product-settings-sql-editor]]
+   - [[Resource Manager|Product-settings-resource-manager]]
+   - [[Log Viewer|Product-settings-log-viewer]]
+   - [[Data Export|Product-settings-data-export]]
+   - [[ERD|Product-settings-erd]]
 - [[Command line parameters]]
 
 CloudBeaver EE for AWS <img src="images/commercial.png" align="top" vspace="4"/>
