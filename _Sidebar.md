@@ -82,6 +82,7 @@ Development <!--CMD:SKIP-->
 
 - [[Frontend technical overview|Frontend-technical-overview]] <!--CMD:SKIP-->
 - [[Plugin system|Plugin system]] <!--CMD:SKIP-->
+  - [[Plugin structure|Plugin structure]] <!--CMD:SKIP-->
 - [[Package localization|Package localization]] <!--CMD:SKIP-->
 - [[Server architecture|Server-architecture]] <!--CMD:SKIP-->
 - [[Server API explorer]] <!--CMD:SKIP-->
