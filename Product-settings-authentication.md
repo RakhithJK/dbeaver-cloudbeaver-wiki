@@ -1,4 +1,5 @@
 [[Product configuration parameters]]
+
 | Variable                                | ~~Deprecated~~                          | Value   | Description                                                                     |
 |-----------------------------------------|-----------------------------------------|---------|---------------------------------------------------------------------------------|
 | core.authentication.baseAuthProvider    | core.authentication.baseAuthProvider    |         | Used to replace "welcome" and "finish" pages in easy-config                     |
