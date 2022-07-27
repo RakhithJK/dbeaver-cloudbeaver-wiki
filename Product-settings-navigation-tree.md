@@ -1,4 +1,5 @@
 [[Product configuration parameters]]
+
 | Variable                           | ~~Deprecated~~                        | Value | Description                            |
 |------------------------------------|---------------------------------------|-------|----------------------------------------|
 | core.navigation-tree.childrenLimit | core.app.navigationTree.childrenLimit | 500   | Sets the maximum loading objects count |
