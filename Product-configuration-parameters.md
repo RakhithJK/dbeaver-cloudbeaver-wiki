@@ -103,11 +103,11 @@ listed in priority order<br/>
 
 ### Table of settings
 
-| Variable                               | ~~Deprecated~~                | Value | Description                                      |
-|----------------------------------------|-------------------------------|-------|--------------------------------------------------|
-| plugin.notifications.notificationsPool | core_events.notificationsPool | 5     | Maximum notifications                            |
-| plugin.notifications.maxPersistentAllow| core_events.maxPersistentAllow| 5     | Maximum presistent notifications                 |
-| core.browser.cookies.disabled          | core.cookies.disabled         | false | Whether an app can use cookies or not            |
+| Variable                                | ~~Deprecated~~                 | Value | Description                                      |
+|-----------------------------------------|--------------------------------|-------|--------------------------------------------------|
+| plugin.notifications.notificationsPool  | core_events.notificationsPool  | 5     | Maximum notifications                            |
+| plugin.notifications.maxPersistentAllow | core_events.maxPersistentAllow | 5     | Maximum presistent notifications                 |
+| core.browser.cookies.disabled           | core.cookies.disabled          | false | Whether an app can use cookies or not            |
 
 ### Explanation
 For example, if you want to disable the data export functionality and increase refresh timeout for the [[Log Viewer|Log-viewer]], you can do it this way.
