@@ -1,4 +1,5 @@
 [[Product configuration parameters]]
+
 | Variable                            | ~~Deprecated~~                        | Value | Description                              |
 |-------------------------------------|---------------------------------------|-------|------------------------------------------|
 | plugin.log-viewer.refreshTimeout    | core.app.logViewer.refreshTimeout     | 3000  | Timeout between requests                 |
