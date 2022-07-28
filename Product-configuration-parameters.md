@@ -66,9 +66,6 @@ example of packages:<br/>
             logBatchSize: 2000,
             maxFailedRequests: 3
         },
-        'resource-manager': {
-            disable: false
-        },
         'data-export': {
             disabled: false
         },
@@ -88,7 +85,6 @@ Config below is equivalent to example config for plugins: 'log-viewer', 'resourc
   'plugin.log-viewer.maxLogRecords': 1000,
   'plugin.log-viewer.logBatchSize': 2000,
   'plugin.log-viewer.maxFailedRequests': 3,
-  'plugin.resource-manager.disabled': false,
   'plugin.data-export.disabled': false,
   'plugin.erd-viewer.maxColumnsToDisplay': false
 }
