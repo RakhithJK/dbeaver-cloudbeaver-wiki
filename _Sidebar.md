@@ -60,7 +60,7 @@ Configuration
    - [[Resource Manager|Product-settings-resource-manager]]
    - [[Log Viewer|Product-settings-log-viewer]]
    - [[Data Export|Product-settings-data-export]]
-   - [[ERD|Product-settings-erd]]
+   - [[ERD|Product-settings-erd]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
 - [[Command line parameters]]
 
 CloudBeaver EE for AWS <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
