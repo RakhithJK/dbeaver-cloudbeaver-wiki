@@ -35,10 +35,10 @@ example of packages:<br/>
             'cookies.disabled': false
         },
         theming: {
-            defaultTheme: "light"
+            defaultTheme: 'light'
         },
         localization: {
-            defaultLanguage: "en"
+            defaultLanguage: 'en'
         },
         'navigation-tree': {
             childrenLimit: 500,
