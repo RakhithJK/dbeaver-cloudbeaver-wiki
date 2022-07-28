@@ -25,14 +25,14 @@ example of packages:<br/>
     // Global properties
     core: {
         administration: {
-            baseFeatures: [],
+            baseFeatures: []
         },
         authentication: {
             baseAuthProvider: 'local',
             primaryAuthProvider: 'local'
         },
         browser: {
-            'cookies.disabled': false,
+            'cookies.disabled': false
         },
         theming: {
             defaultTheme: "light"
@@ -43,7 +43,7 @@ example of packages:<br/>
         'navigation-tree': {
             childrenLimit: 500,
             editing: true,
-            deleting: true,
+            deleting: true
         }
     },
     plugin: {
@@ -52,7 +52,7 @@ example of packages:<br/>
         },
         notifications: {
             notificationsPool: 5,
-            maxPersistentAllow: 5,
+            maxPersistentAllow: 5
         },
         'data-spreadsheet': {
             hidden: false
@@ -64,7 +64,7 @@ example of packages:<br/>
             refreshTimeout: 3000,
             maxLogRecords: 1000,
             logBatchSize: 2000,
-            maxFailedRequests: 3,
+            maxFailedRequests: 3
         },
         'resource-manager': {
             disable: false
@@ -88,9 +88,9 @@ Config below is equivalent to example config for plugins: 'log-viewer', 'resourc
   'plugin.log-viewer.maxLogRecords': 1000,
   'plugin.log-viewer.logBatchSize': 2000,
   'plugin.log-viewer.maxFailedRequests': 3,
-  'plugin.resource-manager.disabled': fasle,
-  'plugin.data-export.disabled': fasle,
-  'plugin.erd-viewer.maxColumnsToDisplay': fasle,
+  'plugin.resource-manager.disabled': false,
+  'plugin.data-export.disabled': false,
+  'plugin.erd-viewer.maxColumnsToDisplay': false
 }
 ```
 
@@ -116,12 +116,12 @@ For example, if you want to disable the data export functionality and increase r
 ```javascript
 {
   plugin: {
-    "log-viewer": {
+    'log-viewer': {
       refreshTimeout: 7000
     },
     'data-export': {
       disabled: false
-    },
+    }
   }
 }
 ```
