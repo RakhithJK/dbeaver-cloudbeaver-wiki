@@ -77,7 +77,7 @@ example of packages:<br/>
 ```
 
 ### Shortcuts
-Config below is equivalent to example config for plugins: 'log-viewer', 'resource-manager', 'data-export', 'erd-viewer'
+Config below is equivalent to example config for plugins: 'log-viewer', 'data-export', 'erd-viewer'
 ```javascript
 {
   ...
