@@ -57,7 +57,6 @@ Configuration
    - [[Database Navigator|Product-settings-navigation-tree]]
    - [[Data Editor|Product-settings-data-spreadsheet]]
    - [[SQL Editor|Product-settings-sql-editor]]
-   - [[Resource Manager|Product-settings-resource-manager]]
    - [[Log Viewer|Product-settings-log-viewer]]
    - [[Data Export|Product-settings-data-export]]
    - [[ERD|Product-settings-erd]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
