@@ -1,10 +1,10 @@
 # Table of contents: 
 1. [Overview](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#overview)
-2. [Enabling Azure AD authentication provider](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#enabling-azure-ad-authentication-provider)
-3. [Azure Active Directory Configuration](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#azure-active-directory-configuration)
-4. [Cloudbeaver Configuration](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#cloudbeaver-configuration)
-5. [Testing](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#testing-azure-ad-authentication)
-5. [Configure databases access](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#configure-sql-server-databases-aaccess)
+2. [Enabling Azure AD authentication provider](#enabling-azure-ad-authentication-provider)
+3. [Azure Active Directory Configuration](#azure-active-directory-configuration)
+4. [Cloudbeaver Configuration](#cloudbeaver-configuration)
+5. [Testing](#testing-azure-ad-authentication)
+5. [Configure databases access](#configure-sql-server-databases-access)
 
 
 # Overview
@@ -101,7 +101,7 @@ The new Federated tab becomes available after creating the configuration in the 
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_login_dialog.png)
 
-## Configure SQL Server databases access
+# Configure SQL Server databases access
 
 You can use Azure AD authentication to gain access to SQL Server deployed in Azure Cloud.
 
