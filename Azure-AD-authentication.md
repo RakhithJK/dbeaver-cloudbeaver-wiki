@@ -11,7 +11,7 @@ CloudBeaver supports authorization through Azure AD.
 To do this, you must have:
 
 * An active Azure account.
-* A Ccnfigured application in Azure AD.  
+* A Cocnfigured application in Azure AD.  
   You will need the following settings for your application from CloudBeaver:
 
   Name|Description
@@ -41,7 +41,7 @@ This step is required for users to be able to use the authorization through Azur
 Authorization to the Microsoft platform is only possible using registered applications,
 so we need to create an application in the Azure AD, if it does not exist, and configure it.
 
-1. Register a new application in Azure AD according to
+1. Register a new Enterprise Application in Azure AD according to
    the [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#register-an-application).
 2. Сloudbeaver uses the OpenId protocol for authorization in Azure Active Directory.  
    For this it is necessary to configure the application secrets - more information on how to do this can be found at [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-client-secret).  
@@ -100,3 +100,9 @@ The new Federated tab becomes available after creating the configuration in the 
 
 ![](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/identify_providers/aad/aad_login_dialog.png)
 
+## Configure SQL Server databases access
+
+You can use Azure AD authentication to gain access to SQL Server deployed in Azure Cloud.
+
+1. On your Enterprise Application page, click API Permissions tab an add permission `user_impersonation` in `Azure SQL Database` API
+2. In your SQL Server you need to map Azure AD users into database users. See Microsoft documentation: https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-configure?view=azuresql&tabs=azure-powershell#create-contained-users-mapped-to-azure-ad-identities
