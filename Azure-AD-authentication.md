@@ -4,6 +4,7 @@
 3. [Azure Active Directory Configuration](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#azure-active-directory-configuration)
 4. [Cloudbeaver Configuration](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#cloudbeaver-configuration)
 5. [Testing](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#testing-azure-ad-authentication)
+5. [Configure databases access](https://github.com/dbeaver/cloudbeaver/wiki/Azure-AD-authentication/#configure-sql-server-databases-aaccess)
 
 
 # Overview
