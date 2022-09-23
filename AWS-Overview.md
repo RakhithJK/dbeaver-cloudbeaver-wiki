@@ -17,18 +17,18 @@ Besides AWS marketplace you can run CloudBeaver AWS from docker image.
 In this case you will need specify a license during product configuration. A license can be purchased on https://cloudbeaver.io website.  
 
 Docker images:
-dbeaver/cloudbeaver-aws:latest - latest release build.
-dbeaver/cloudbeaver-aws:dev - latest developer build.
-dbeaver/cloudbeaver-aws:[version] - image of exact version of CloudBeaver AWS.  
+- dbeaver/cloudbeaver-aws:latest - latest release build.
+- dbeaver/cloudbeaver-aws:dev - latest developer build.
+- dbeaver/cloudbeaver-aws:[version] - image of exact version of CloudBeaver AWS.  
 
 To install just run command:
 ```sh
-sudo docker pull dbeaver/cloudbeaver:latest
+sudo docker pull dbeaver/cloudbeaver-aws:latest
 ```
 
 To run cloudbaver in the terminal:
 ```
-sudo docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver:latest
+sudo docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver-aws:latest
 ```
 
 ## Cloud explorer
