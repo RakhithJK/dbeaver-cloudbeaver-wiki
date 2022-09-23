@@ -31,6 +31,17 @@ To run cloudbaver in the terminal:
 sudo docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver-aws:latest
 ```
 
+## License
+
+If you install CloudBeaver AWS from AWS Marketplace then you don't need a license as it is a part of Marketpace agreement.  
+If you install it from docker image then you need to purchase a license.  
+
+### Troubleshooting
+
+If you installed CloudBeaver AWS from Marketplace but it still asks for a license then it may be a result of problems with EC2 metadata service availability. This may happen if your AWS policy requires use of IMDSV2 and restricts use of IMDSV1.  
+As CloudBEaver runs in a docker container it has different IP address and can't connect to EC2 metadata service IMDSV2. Thus it can't determine that it was run from MArketplace installation.  
+Solution: run docker container with parameter `--network host`. Thus CloudBeaver will have the same IP address and can access EC2 metadata.  
+
 ## Cloud explorer
 
 You can use an embedded [[Cloud explorer|AWS-Cloud-explorer]] in order to find and add existing AWS databases:
