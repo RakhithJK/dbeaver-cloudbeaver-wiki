@@ -1,12 +1,12 @@
 ## Database Navigator folders
 
-Users can use folders to group and store connections in the most appropriate way in the Navigator tree.
+Users can conveniently use folders to group and store connections in the Navigator tree.
 
 Any logged user can create folders for their connections in the Private project.
 
-Administrators can also create folders for shared connections in the Shared project. Folders for connections will be available only in the Navigator tree, the Connection Management view in the Administration will remain unchanged. 
+Administrators can also create folders for shared connections in the Shared project. Folders for connections will only be available in the Navigator tree. The Connection Management view in the Administration will remain unchanged. 
 
-Both, Private and Shared, projects are completely independent and it isn't possible to move connections and folders between them.
+Both, Private and Shared, projects are completely independent and it is not possible to move connections and folders between them.
 Any number of connections and other folders can be placed in one folder.
 
 To create a folder in the Database Navigator:
@@ -18,10 +18,10 @@ To create a folder in the Database Navigator:
 
 ![new_folder_name](https://github.com/dbeaver/cloudbeaver/wiki/images/navigator_folders/new_folder_name.png)
 
-**Note**: a folder name can contain any letters, numbers and following symbols: _-$.()@. The folder name must be unique in the project. But a subfolder can have the same name as a folder at a level above.
-If a user uses unsupported characters or a non-unique name for the folder, an error message appears and the user needs to change the name in order to create or rename the folder.                                         
+**Note**: a folder name can contain letters, numbers and the following symbols: _-$.()@. The folder name must be unique in the project. But a subfolder can have the same name as a folder at a level above.
+If a user uses unsupported characters or a non-unique name for the folder, an error message will appear and the user will need to change the name in order to create or rename the folder.                                         
 
-The new empty folder will appear in the Navigator tree. You can then place connections there. Just drag and drop the connection into the folder.                          
+The new empty folder will appear in the Navigator tree. You can then place connections in this new folder. Just drag and drop the connection into it.                          
 
 ![connection_in_the_folder](https://github.com/dbeaver/cloudbeaver/wiki/images/navigator_folders/connection_in_the_folder.png)
 
@@ -44,6 +44,6 @@ If you want to rename a folder, select Rename from the folder context menu and c
 ![navigator_folder_context_menu](https://github.com/dbeaver/cloudbeaver/wiki/images/navigator_folders/navigator_folder_context_menu.png) 
 
 To delete a folder, select Delete from the folder context menu and confirm the action in the pop up dialog box. 
-**Note**: the folder and subfolders within it will only be deleted. All folder’s connections remain in the Navigator tree.
+**Note**: only the folder and subfolders in it will be deleted. All the folder’s connections remain in the Navigator tree.
 
 If you want to update a folder's content, select Refresh from the folder context menu.
