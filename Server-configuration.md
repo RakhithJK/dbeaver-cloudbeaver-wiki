@@ -219,6 +219,15 @@ mergeEntities | Show all types of database objects in one list (tables, sequence
 hideFolders | Hide folders like "Tables", "Schemas", "Columns", etc.
 hideSchemas | Do not show schemas (all tables in one list).
 
+Simple view mode properties example:
+```js
+    defaultNavigatorSettings: {
+        showOnlyEntities: true,
+        hideFolders: true,
+        hideVirtualModel: true
+    }
+```
+
 # Automatic server configuration
 
 When you start the CloudBeaver server for the first time you will see the administrator interface for
