@@ -26,7 +26,7 @@ Add Node.js (version 14.x minimal version 14.17) and Yarn latest version repo:
 Install packages:
 ```bash
 sudo apt update
-sudo apt install openjdk-11-jdk
+sudo apt install openjdk-17-jdk
 sudo apt install maven
 sudo apt install yarn
 sudo apt install nodejs
@@ -36,7 +36,7 @@ sudo npm install -g lerna
 
 #### Install prerequisites on Windows:
 
-- Download and install [AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
+- Download and install [AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk17&jvmVariant=hotspot)
 - Download and extract [Maven ](https://maven.apache.org/download.cgi). 
 - Add path to Maven bin folder in system PATH
 - Download and install [Node.js](https://nodejs.org/en/). NPM comes along with Node.js, NPX/Lerna will be installed in the build script.
