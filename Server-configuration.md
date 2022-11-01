@@ -204,7 +204,7 @@ sqlMaxRunningQueries | Maximum number of simultaneous queries for a single user 
 sqlResultSetRowsLimit | Maximum number of rows to select from a table or query
 sqlTextPreviewMaxLength | Maximum size for text file shown in value panel (in bytes)
 sqlQueryTimeout| Maximum time (in seconds) for SQL query execution (including table data read)
-sqlBinaryPreviewMaxLength| Maximum size for binary file shown in value panel (in bytes)
+sqlBinaryPreviewMaxLength| Maximum size for binary file (also affects JSON in the SQLite) shown in value panel (in bytes)
 
 #### Navigator settings
 
