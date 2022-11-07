@@ -24,7 +24,7 @@ User Guide
      - [[Data Ordering]]
      - [[Value Panel]]
      - [[JSON and Document View]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
-     - [[Working with spatial/GIS data]]
+     - [[Working with spatial/GIS data]] <!--CMD:SKIP-->
    - [[ERD]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
    - [[Data export]]
    - [[Entity Diagrams]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
@@ -33,7 +33,7 @@ User Guide
      - [[Query Execution Plan]]
      - [[Visual Query Builder]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
    - [[Log Viewer]]
-   - [[Cloud Explorer]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+   - [[Cloud Explorer]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/> <!--CMD:SKIP-->
    - [[Query History]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
    - [[Resource Manager]]
 - [[Releases]] <!-- CMD:SKIP -->
