@@ -25,7 +25,7 @@ User Guide
      - [[Value Panel]]
      - [[JSON and Document View]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
      - [[Working with spatial/GIS data]] <!--CMD:SKIP-->
-   - [[ERD]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+   - [[ERD]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/> <!--CMD:SKIP-->
    - [[Data export]]
    - [[Entity Diagrams]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
    - [[Document viewer]]
