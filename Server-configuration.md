@@ -191,6 +191,7 @@ enableReverseProxyAuth  | Enabling reverse proxy authorization mechanism for mor
 defaultAuthProvider | The provider that will be used for authorization by default.
 enabledAuthProviders | List of allowed authorization providers. If the property is absent, all providers are allowed.
 defaultNavigatorSettings | Default database navigator settings.
+showReadOnlyConnectionInfo | Enables showing the information about connection if the user has read-only permission for it.
 
 #### Resource quotas
 
