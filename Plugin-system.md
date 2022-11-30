@@ -24,10 +24,13 @@
 common folder structure:
 ```
 package_name
- |-node_modules    # dependencies
- |-lib             # after the build will contain the artifact
- |-public          # put static assets to this folder
- |-src             # keep source files here
+ |-node_modules           # dependencies
+ |-lib                    # after the build will contain the artifact
+ |-public                 # put static assets to this folder
+ |-src                    # keep source files here
+   |-index.ts             # contains re-exports
+   |-manifest.ts          # contains list of services, plugin name and description
+   |-PluginBootstrap.ts   # common plugin registration and initialization logic
  |-package.json
  |-tsconfig.json
 ```
