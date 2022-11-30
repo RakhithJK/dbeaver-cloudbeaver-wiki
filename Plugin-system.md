@@ -57,7 +57,7 @@ Lint all code and fix
 ## Build plugin
 To build a single plugin execute
 ```
-lerna run build --stream --scope=@cloudbeaver/plugin-name
+yarn lerna run build --stream --scope=@cloudbeaver/plugin-name
 ```
 
 ## Build product
@@ -78,7 +78,7 @@ The application package simple defines the list of plugins that should be includ
 ### Commands
 Execute the command to build only the application without rebuilding the plugins
 
-`lerna run build --stream --scope=@cloudbeaver/product-name`
+`yarn lerna run build --stream --scope=@cloudbeaver/product-name`
 
 ## Development
 1. To run a development build that watches file changes and rebuilds, you can use the `dev` command:
