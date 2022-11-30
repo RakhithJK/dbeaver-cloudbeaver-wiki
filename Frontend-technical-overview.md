@@ -5,7 +5,7 @@ The application is written as a set of plugins organized in [Lerna](https://gith
 
 The application uses [Reshadow](https://reshadow.dev) library and CSS modules for style incapsulation and supports light and dark themes.
 
-We use [Ag-Grid](https://www.ag-grid.com) to display big and functionally rich tables and [Codemirror](https://codemirror.net/2/) to edit SQL queries.
+We use [react-data-grid](https://github.com/adazzle/react-data-grid) to display big and functionally rich tables and [Codemirror](https://codemirror.net/2/) to edit SQL queries.
 
 ## Development
 1. Run the local server as described in the [Build and deploy](https://github.com/dbeaver/cloudbeaver/wiki/Build-and-deploy) section
