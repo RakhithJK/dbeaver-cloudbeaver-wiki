@@ -36,15 +36,10 @@ sudo apt install npm
 #### Install prerequisites on Windows:
 
 - Download and install [AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk17&jvmVariant=hotspot)
-- Download and extract [Maven ](https://maven.apache.org/download.cgi). 
+- Download and extract [Maven](https://maven.apache.org/download.cgi). 
 - Add path to Maven bin folder in system PATH
 - Download and install [Node.js](https://nodejs.org/en/). NPM comes along with Node.js, NPX/Lerna will be installed in the build script.
 - Download and install [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
-
-If lerna is not installed along with Node.js you can do it manually:
-```
-npm install -g lerna
-```
 
 ### Build and deploy
 
