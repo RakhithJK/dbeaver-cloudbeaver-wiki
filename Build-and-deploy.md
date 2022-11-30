@@ -31,7 +31,6 @@ sudo apt install maven
 sudo apt install yarn
 sudo apt install nodejs
 sudo apt install npm
-sudo npm install -g lerna
 ```
 
 #### Install prerequisites on Windows:
