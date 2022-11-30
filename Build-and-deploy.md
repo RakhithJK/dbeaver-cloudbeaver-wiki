@@ -12,7 +12,7 @@ This build process is relatively complicated (and also consists of two parts).
 - [Java 17](https://adoptium.net/)
 - [Apache Maven (3.8.6+)](https://maven.apache.org/download.cgi)
 - [Node.js (16.x)](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable) (1.22.x)
 - [NPM](https://www.npmjs.com/get-npm) + [Lerna](https://www.npmjs.com/package/lerna)
 
 #### Install prerequisites on Ubuntu:
