@@ -17,7 +17,7 @@ This build process is relatively complicated (and also consists of two parts).
 
 #### Install prerequisites on Ubuntu:
 
-Add Node.js (version 16.x minimal version 16.18) and Yarn latest version repo:
+Add Node.js (version 16.x minimal version 16.18) and Yarn 1.22.x version repo:
 ```bash
   curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
   echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
@@ -39,7 +39,7 @@ sudo apt install npm
 - Download and extract [Maven](https://maven.apache.org/download.cgi). 
 - Add path to Maven bin folder in system PATH
 - Download and install [Node.js](https://nodejs.org/en/). NPM comes along with Node.js, NPX/Lerna will be installed in the build script.
-- Download and install [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+- Download and install [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable) 1.22.x
 
 ### Build and deploy
 
