@@ -72,8 +72,8 @@ yarn lerna run build --stream --scope=@cloudbeaver/plugin-name
 ```
 The only difference in the build command is:<br>
 `"build": "core-cli-build --mode=production --config ../core-cli/configs/webpack.product.config.js",`<br>
-it uses product config, also contains `dev` command for starting development local build `"dev":<br>
-"core-cli-build serve --mode=development --progress --config=../core-cli/configs/webpack.product.dev.config.js --port=3100",`
+it uses product config, also contains `dev` command for starting development local build <br>
+`"dev": "core-cli-build serve --mode=development --progress --config=../core-cli/configs/webpack.product.dev.config.js --port=3100",`
 
 The application package simple defines the list of plugins that should be included in the build
 ### Commands
