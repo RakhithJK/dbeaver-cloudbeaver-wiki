@@ -38,20 +38,16 @@ package_name
 ```
 
 ## Commands
-Execute from `cloudbeaver/webapp`
-
+Execute from `cloudbeaver/webapp`<br>
 ```yarn run bootstrap```
 
-Load all dependencies and init workspaces
-
+Load all dependencies and init workspaces<br>
 ```yarn run build```
 
-Build all packages (plugins and the application) and the result will be placed in the `packages/{package-name}/lib` folder
-
+Build all packages (plugins and the application) and the result will be placed in the `packages/{package-name}/lib` folder<br>
 ```yarn run lint```
 
-Lint all code
-
+Lint all code<br>
 ```yarn run lint-fix```
 
 Lint all code and fix
@@ -78,8 +74,7 @@ The only difference in the build command is: `"build": "core-cli-build --mode=pr
 
 The application package simple defines the list of plugins that should be included in the build
 ### Commands
-Execute the command to build only the application without rebuilding the plugins
-
+Execute the command to build only the application without rebuilding the plugins<br>
 `yarn lerna run build --stream --scope=@cloudbeaver/product-name`
 
 ## Development
