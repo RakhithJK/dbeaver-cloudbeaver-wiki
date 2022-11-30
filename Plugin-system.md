@@ -28,6 +28,8 @@ package_name
  |-lib                    # after the build will contain the artifact
  |-public                 # put static assets to this folder
  |-src                    # keep source files here
+   |-locales              # contains localization files
+     |-en.ts              # contains array of token localizations
    |-index.ts             # contains re-exports
    |-manifest.ts          # contains list of services, plugin name and description
    |-PluginBootstrap.ts   # common plugin registration and initialization logic
