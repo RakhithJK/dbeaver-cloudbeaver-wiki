@@ -14,6 +14,9 @@ Users can work with CloudBeaver without authorization. Connections become availa
 ### Local access
 It is the local name/password based authentication. The administrator has to create users in the Administration and grant them a role which will define users’ permissions (more information about users can be found at [Users](https://github.com/dbeaver/cloudbeaver/wiki/Users) article).
 
+### Reverse proxy access
+Authentication based on headers of the HTTP request (more information about this authentication method can be found at [Reverse proxy header authentication](https://github.com/dbeaver/cloudbeaver/wiki/Reverse-proxy-header-authentication) article).
+
 ## CloudBeaver EE
 CloudBeaver Enterprise Edition also supports AWS IAM and SAML authentication methods.
 
