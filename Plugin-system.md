@@ -81,8 +81,8 @@ Execute the command to build only the application without rebuilding the plugins
 `yarn lerna run build --stream --scope=@cloudbeaver/product-name`
 
 ## Development
-1. To run a development build that watches file changes and rebuilds, you can use the `dev` command:
-`yarn lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --env server=http://backend.server:8095`
+1. To run a development build that watches file changes and rebuilds, you can use the `dev` command:<br>
+`yarn lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --env server=http://backend.server:8095`<br>
 It starts the dev server for `product-default`. It also proxies backend requests to `http://backend.server:8095`
 
 2. Navigate `localhost:3100` to open the application
