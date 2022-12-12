@@ -60,7 +60,7 @@ Configuration
    - [[SQL Editor|Product-settings-sql-editor]]
    - [[Log Viewer|Product-settings-log-viewer]]
    - [[Data Export|Product-settings-data-export]]
-   - [[ERD|Product-settings-erd]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+   - [[ERD|Product-settings-erd]]
    - [[Connections|Product-settings-connections]]
 - [[Command line parameters]]
 
