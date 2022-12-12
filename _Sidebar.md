@@ -10,7 +10,7 @@
      - [[Roles]]
    - [[Authentication methods]]
    - [[User credentials storage]]
-   - [[Query Manager]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+   - [[Query Manager]]
 - [[Supported databases]]
 - [[Authentication]]
 - [[Theming]]
@@ -23,18 +23,18 @@
      - [[Data Filters]]
      - [[Data Ordering]]
      - [[Value Panel]]
-     - [[JSON and Document View]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+     - [[JSON and Document View]] 
      - [[Working with spatial/GIS data]] <!--CMD:SKIP-->
-   - [[ERD]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/> <!--CMD:SKIP-->
+   - [[ERD]] <!--CMD:SKIP-->
    - [[Data export]]
-   - [[Entity Diagrams]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+   - [[Entity Diagrams]] 
    - [[Document viewer]]
    - [[SQL Editor]]
      - [[Query Execution Plan]]
-     - [[Visual Query Builder]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+     - [[Visual Query Builder]] 
    - [[Log Viewer]]
-   - [[Cloud Explorer]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/> <!--CMD:SKIP-->
-   - [[Query History]] <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+   - [[Cloud Explorer]]  <!--CMD:SKIP-->
+   - [[Query History]]
    - [[Resource Manager]]
 - [[Releases]] <!-- CMD:SKIP -->
 
