@@ -64,14 +64,14 @@ Configuration
    - [[Connections|Product-settings-connections]]
 - [[Command line parameters]]
 
-CloudBeaver EE for AWS <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+CloudBeaver EE for AWS
 - [[Overview|AWS-Overview]]
 - [[AWS Settings|AWS-Settings]]
 - [[Cloud Explorer|AWS-Cloud-explorer]]
 - [[Authentication / IAM|AWS-IAM]]
 - [[Authentication / AWS SSO|Single Sign-On]]
 
-CloudBeaver Enterprise Edition <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png" align="top" vspace="4"/>
+CloudBeaver Enterprise Edition
 - [[Overview|CloudBeaver-EE-Overview]]
 - [[SSO|Single Sign-On]]
 - [[SAML authentication|SAML]]
