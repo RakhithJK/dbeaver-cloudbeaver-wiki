@@ -10,7 +10,7 @@ The Administrator can create users for local name/password based authentication 
 1. Give connection access to the user in the Connection Access tab if it is necessary.
 1. Press the Create button.
 
-[[https://github.com/dbeaver/cloudbeaver/wiki/images/administration/access_management/create_user_dialog.png]]
+![Create User Dialog](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/access_management/create_user_dialog.png)
 The created user can be authorized to CloudBeaver using local authentication and has permission according to his profile.  
 
 ## CloudBeaver EE
