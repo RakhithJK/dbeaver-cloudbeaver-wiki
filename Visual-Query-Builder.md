@@ -8,7 +8,7 @@ The Visual Query Builder may be useful for:
 * complex queries analysis;
 * easy query editing.
 
-![vqb view](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_cut.png)
+![VQB Cut](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_cut.png)
 
 To open the Visual Query Builder, click the Query Builder tab in the SQL Editor right toolbar.
 
