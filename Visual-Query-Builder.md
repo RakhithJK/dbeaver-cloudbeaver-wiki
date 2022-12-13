@@ -16,17 +16,17 @@ To open the Visual Query Builder, click the Query Builder tab in the SQL Editor 
 
 1. Select tables in the Navigator tree and drag-and-drop them into the Visual Query Builder area. The existing connections between the tables will automatically be displayed. The tables will also be added to the SQL expression which can be found in the field to the right of the diagram.
 
- ![vqb dnd](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/dnd.png)
+ ![vqb dnd](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/dnd.png)
 
 2. To create a new join between tables, connect their columns holding the left mouse button. The connection between the selected columns of the tables will appear in the diagram and the Inner Join will be added to the SQL script. 
 
- ![vqb create_join](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/create_join.png)
+ ![vqb create_join](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/create_join.png)
 
 3. You can change a join type clicking the join label on the connection line.
 4. To remove a join between tables, click on the line, then press the Delete button. The connection will be removed from the diagram and the join will disappear from the SQL script.
 5. By default all tables’ columns are included in the query. If you only want to see certain columns in your query result, select the checkbox near the column name.
 
- ![vqb column checkbox](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_checkbox.png)
+ ![vqb column checkbox](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_checkbox.png)
 
 ### Filtering
 
@@ -38,7 +38,7 @@ To open the Visual Query Builder, click the Query Builder tab in the SQL Editor 
 
 Filter example:
 
- ![vqb_filter](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_filter.png)
+ ![vqb_filter](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_filter.png)
 
 ### Sorting
 
@@ -48,10 +48,10 @@ If you want to remove a condition, continue to click the sorting icon to deactiv
 Sorting can be applied to multiple columns in different tables. First, apply sorting on the first column you wish to sort, and then on the second, third and so on.
 You can sort numbers, texts, dates, time and other values.
 
- ![vqb sorting](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_sorting.png)
+ ![vqb sorting](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_sorting.png)
 
 ## Executing a Visual Query
-Use the Execute SQL statement button  ![vqb Execute SQL statement button](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/execute_statement.png) on the left pane to execute a query and get the results in the same tab. If you want to see the result in a new tab, press the Execute SQL statement in a new tab button ![vqb Execute SQL statement in a new tab button](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/execute_in_new_tab.png).
+Use the Execute SQL statement button  ![vqb Execute SQL statement button](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/execute_statement.png) on the left pane to execute a query and get the results in the same tab. If you want to see the result in a new tab, press the Execute SQL statement in a new tab button ![vqb Execute SQL statement in a new tab button](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/execute_in_new_tab.png).
 
 ### Shortcuts
 You can use the same shortcuts as in the SQL Editor to execute the Visual Query.
@@ -69,31 +69,31 @@ The Visual Query Builder uses the following visual tools to display queries on t
 
 | Symbol | Description                                                         |
 |--------|---------------------------------------------------------------------|
-|![vqb pk](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_pk.png)        | Table Primary Key is bold and displayed at the top of the table.    |
-|![vqb table alias](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_table_alias.png)        | Table Alias is used to shorten your Join Statement.                 |![vqb sorting](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_sorting.png)
-|![vqb coloured header](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_table_header.png)        | Colored table header  marks the first table in your Join Statement. |
-|![vqb colourless header](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_table_colourless_header.png)        | Colorless header  marks a joined table in your Join Statement.      |
-|![vqb line](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_line.png)        | Line goes from the joined table to the first table.                 |
+|![vqb pk](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_pk.png)        | Table Primary Key is bold and displayed at the top of the table.    |
+|![vqb table alias](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_table_alias.png)        | Table Alias is used to shorten your Join Statement.                 |![vqb sorting](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_sorting.png)
+|![vqb coloured header](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_table_header.png)        | Colored table header  marks the first table in your Join Statement. |
+|![vqb colourless header](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_table_colourless_header.png)        | Colorless header  marks a joined table in your Join Statement.      |
+|![vqb line](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_line.png)        | Line goes from the joined table to the first table.                 |
 
 ### Join symbols
 Available Join types are described in the table below. The Visual Query Builder can show results only for those types of Joins that are supported by your database.
 
 | Symbol | Description      |
 |--------|------------------|
-|![vqb Inner Join ](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/inner_join.png)        | Inner Join       |
-|![vqb Left Join](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/left_join.png)        | Left Join        |
-|![vqb Left Outer Join](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/left_outer_join.png)        | Left Outer Join  |
-|![vqb Right Join](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/right_join.png)        | Right Join       |
-|![vqb Right Outer Join](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/right_outer_join.png)        | Right Outer Join |
-|![vqb Full Join](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/full_join.png)        | Full Join        |
-|![vqb Full Outer Join](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/full_outer_join.png)        | Full Outer Join  |
-|![vqb Cross Join](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/cross_join.png)        | Cross Join       |
+|![vqb Inner Join ](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/inner_join.png)        | Inner Join       |
+|![vqb Left Join](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/left_join.png)        | Left Join        |
+|![vqb Left Outer Join](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/left_outer_join.png)        | Left Outer Join  |
+|![vqb Right Join](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/right_join.png)        | Right Join       |
+|![vqb Right Outer Join](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/right_outer_join.png)        | Right Outer Join |
+|![vqb Full Join](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/full_join.png)        | Full Join        |
+|![vqb Full Outer Join](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/full_outer_join.png)        | Full Outer Join  |
+|![vqb Cross Join](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/cross_join.png)        | Cross Join       |
 
 
 ## Settings
 You can customize the diagram view using the bottom toolbar to make the work with the diagram easier.
 
-![vqb_settings_menu](https://github.com/dbeaver/cloudbeaver-ee/wiki/images/vqb/vqb_settings_menu.png)
+![vqb_settings_menu](https://github.com/dbeaver/cloudbeaver/wiki/images/vqb/vqb_settings_menu.png)
 
 * **Layout** updates the diagram view to display all of its objects in the most optimal way.
 
