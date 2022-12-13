@@ -80,8 +80,8 @@ CloudBeaver Enterprise Edition
 - [[Deployment|CloudBeaver-EE-Deployment]]
 
 CloudBeaver Team Edition
-- [[Overview|CloudBeaver-TE-Overview]]
-- [[Installation|CloudBeaver-TE-Install]]
+- [[Team Edition Overview|CloudBeaver-TE-Overview]]
+- [[Team Edition Installation|CloudBeaver-TE-Install]]
 
 Development <!--CMD:SKIP-->
 
