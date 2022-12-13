@@ -79,6 +79,10 @@ CloudBeaver Enterprise Edition
 - [[Azure AD authentication|Azure-AD-authentication]]
 - [[Deployment|CloudBeaver-EE-Deployment]]
 
+CloudBeaver Team Edition
+- [[Overview|CloudBeaver-TE-Overview]]
+- [[Installation|CloudBeaver-TE-Install]]
+
 Development <!--CMD:SKIP-->
 
 - [[Frontend technical overview|Frontend-technical-overview]] <!--CMD:SKIP-->
