@@ -5,6 +5,7 @@ DBeaver Team Edition consists of the following components:
 ### CloudBeaver Team Edition Server installation
 
 
+
 ### DBeaver Team client installation
 
 
