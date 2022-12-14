@@ -12,8 +12,8 @@ We created a special GitHub repository with instructions and configuration: http
 Run command `git clone https://github.com/dbeaver/team-edition-deploy.git` in console before deployment.  
 
 There are two ways to run docker container:
-- [docker-compose](https://github.com/dbeaver/team-edition-deploy/compose/cbte)
-- [Kubernetes](https://github.com/dbeaver/team-edition-deploy/k8s/cbte)
+- [docker-compose](https://github.com/dbeaver/team-edition-deploy/tree/devel/compose)
+- [Kubernetes](https://github.com/dbeaver/team-edition-deploy/tree/devel/k8s)
 
 ### DBeaver Team client installation
 
