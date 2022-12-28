@@ -36,6 +36,8 @@
 
 ### [[CloudBeaver 22.0.1 - 2022-03-22]]
 
+### [[CloudBeaver 22.0 - 2022-03-09 full]]
+
 ### [[CloudBeaver 22.0.0 - 2022-03-09]]
 
 ### [[CloudBeaver 21.3.5 - 2022-02-21]]
