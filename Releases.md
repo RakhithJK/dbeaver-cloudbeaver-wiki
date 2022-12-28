@@ -86,8 +86,6 @@
 
 ### [CloudBeaver 20.0.3 - 2021-02-10](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-20.0.3)
 
-### [[CloudBeaver 20.0.1 - 2020-12-22 full]]
-
 ### [CloudBeaver 20.0.1 - 2020-12-29](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-20.0.1)
 
 ### [CloudBeaver 1.2.3 - 2020-11-25](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-1.2.3)
