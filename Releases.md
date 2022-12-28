@@ -76,6 +76,8 @@
 
 ### [CloudBeaver 21.0.1 - 2021-04-28](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.0.1)
 
+### [[CloudBeaver 21.0 - 2021-04-15 full]]
+
 ### [CloudBeaver 21.0.0 - 2021-04-15](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-21.0.0)
 
 ### [CloudBeaver 20.0.6 - 2021-03-31](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-20.0.6)
