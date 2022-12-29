@@ -1,6 +1,8 @@
-The DB Navigator contains various tools on the top toolbar. The table below contains a detailed description of each tool.
+The DB Navigator contains various tools on the top toolbar. 
 
 ![navigator_toolbar](https://github.com/dbeaver/cloudbeaver/wiki/images/navigator_toolbar/navigator_toolbar.png)
+
+The table below contains a detailed description of each tool.
 
 | Tool             | Description                                                                                                                                                                  |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
