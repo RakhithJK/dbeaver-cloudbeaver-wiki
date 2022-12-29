@@ -6,16 +6,9 @@
 ## Overview
 
 ### Description
-The Database Navigator is the main tool to work with the structure and content of databases. It is located on the left-hand side of the page.
+The Database Navigator is the main tool to work with the structure and content of databases. It is located on the left-hand side of the page and has [the toolbar](https://github.com/dbeaver/cloudbeaver/wiki/DB-Navigator-toolbar), [the Settings menu](https://github.com/dbeaver/cloudbeaver/wiki/DB-Navigator-Settings-menu) and a tree of objects.
 
 ![navigator_view](https://github.com/dbeaver/cloudbeaver/wiki/images/navigator_view.png)
-
-### Shortcuts
-| Shortcut                         | Description                       |
-|----------------------------------|-----------------------------------|
-| Ctrl + F                         | Filtering elements in tree        |
-| Ctrl + Shift + ,                 | Link with Editor                  |
-| Ctrl + Shift + /                 | Collapse all                      |
 
 ### Structure
 
@@ -51,3 +44,12 @@ The following table summarizes the context menu items for all types of objects t
 - expand the connection in the Database Navigator;
 
 - open the SQL Editor for the connection.
+
+Users can store connections in [folders](https://github.com/dbeaver/cloudbeaver/wiki/DB-Navigator-folders).
+
+### Shortcuts
+| Shortcut                         | Description                       |
+|----------------------------------|-----------------------------------|
+| Ctrl + F                         | Filtering elements in tree        |
+| Ctrl + Shift + ,                 | Link with Editor                  |
+| Ctrl + Shift + /                 | Collapse all                      |
