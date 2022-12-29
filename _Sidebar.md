@@ -17,6 +17,7 @@
 - [[Localization]]
 - Features
    - [[Database navigator]]
+     - [[DB Navigator Settings menu]]
      - [[DB Navigator folders]]
      - [[Simple and Advanced View]]
    - [[Data editor]]
