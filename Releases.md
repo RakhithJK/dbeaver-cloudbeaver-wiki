@@ -38,4 +38,4 @@
 
 ### [[CloudBeaver 22.0 - 2022-03-09]]
 
-### [[CloudBeaver 21.0_full - 2021-04-15]]
+### [[CloudBeaver 21.0 - 2021-04-15]]
