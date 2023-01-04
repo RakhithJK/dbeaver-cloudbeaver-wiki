@@ -191,6 +191,7 @@ defaultAuthProvider | The provider that will be used for authorization by defaul
 enabledAuthProviders | List of allowed authorization providers. If the property is absent, all providers are allowed.
 defaultNavigatorSettings | Default database navigator settings.
 showReadOnlyConnectionInfo | Enables showing the information about connection if the user has read-only permission for it.
+grantConnectionsAccessToAnonymousTeam | Provides access to the predefined shared connections for the "User" team.
 
 #### Resource quotas
 
