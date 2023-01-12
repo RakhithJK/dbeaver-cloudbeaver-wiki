@@ -55,3 +55,26 @@ Parameter | Explanation
 -v local_path:/opt/cloudbeaver/workspace | Mounts local folder `/var/cloudbeaver/workspace' to the server workspace. Required to keep CloudBeaver data after container restart.
 --add-host=host.docker.internal:IP address | Adds host name in the container's /etc/hosts file. This may be needed to access the database server deployed on the host machine.
 dbeaver/cloudbeaver:latest | Container ID
+
+
+### Run Cloudbeaver server with non-root user
+
+before container starts you must build your own image with an user inside.
+Create **Dockerfile** which contains:
+```
+FROM dbeaver/cloudbeaver:latest
+RUN groupadd cloudbeaver
+RUN useradd -ms /bin/bash -g cloudbeaver cloudbeaver
+RUN chown -R cloudbeaver ./
+USER cloudbeaver
+```
+
+Now run this command to build image from **Dockerfile**
+```
+docker build -t my-cloudbeaver .
+```
+
+To run cloudbaver in the terminal:
+```
+sudo docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace my-cloudbeaver
+```
