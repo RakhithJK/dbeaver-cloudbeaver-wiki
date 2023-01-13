@@ -59,7 +59,8 @@ dbeaver/cloudbeaver:latest | Container ID
 
 ### Run Cloudbeaver server with non-root user
 
-before container starts you must build your own image with an user inside.
+If you want to run CloudBeaver with a non-root user, you have to build your own image with a user inside before the container starts.
+
 Create **Dockerfile** which contains:
 ```
 FROM dbeaver/cloudbeaver:latest
@@ -69,12 +70,12 @@ RUN chown -R cloudbeaver ./
 USER cloudbeaver
 ```
 
-Now run this command to build image from **Dockerfile**
+Run this command to build the image from **Dockerfile**
 ```
 docker build -t my-cloudbeaver .
 ```
 
-To run cloudbaver in the terminal:
+To run CloudBeaver in the terminal:
 ```
 sudo docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace my-cloudbeaver
 ```
