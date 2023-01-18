@@ -37,7 +37,7 @@
    - [[Log Viewer]]
    - [[Cloud Explorer]]  <!--CMD:SKIP-->
    - [[Query History]]
-   - [[SQL scripts manager]]
+   - [[Resource Manager]]
 - [[Releases]] <!-- CMD:SKIP -->
 
 Installation  
