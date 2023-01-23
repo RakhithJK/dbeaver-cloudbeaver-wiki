@@ -1,3 +1,8 @@
+### CloudBeaver 22.3.3   2023 01 23
+* Download button is added on a Value panel of Blob and JSON data
+* The body of packages in Oracle databases now is displayed
+* Different bugs have been fixed.
+
 ### CloudBeaver 22.3.2   2023 01 09
 - Administration menu:
   - the User dialog displays available connections in alphabetical order.
