@@ -12,7 +12,7 @@ We use [react-data-grid](https://github.com/adazzle/react-data-grid) to display 
 2. Execute
 ```
 cd webapp/
-lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --env server=localhost:8978
+yarn lerna run dev --stream --scope=@cloudbeaver/product-default -- -- --env server=localhost:8978
 ```
 to run Webpack dev server
 
