@@ -1,41 +1,5 @@
 ## Folder structure
-```
-|-cloudbeaver
-  |-webapp                 # all frontend codes are here
-    |-packages             # yarn workspaces managed by lerna
-      |-core               # core package with common modules like GraphQL, 
-        |                    dependency injection, and common app services
-        |-cli              # core/plugin/product build configs (webpack, babel)
-        |-administration   # administration API
-        |-di               # dependency injection module
-        |-blocks           # the module with basic components - buttons, tabs, tables, lists
-        |-sdk              # GraphQL wrapping services
-        |-dialogs          # menus, context menus, modal windows
-        |-...              # other modules
-      |-plugin
-        |-authentication
-        |-connection-custom
-        |-connection-template
-        |-data-export
-        |-etc...            # other plugins
-      |-product-default     # default application product package (with all plugins)
-```
-### Plugin folder structure
-common folder structure:
-```
-package_name
- |-node_modules           # dependencies
- |-lib                    # after the build will contain the artifact
- |-public                 # put static assets to this folder
- |-src                    # keep source files here
-   |-locales              # contains localization files
-     |-en.ts              # contains array of token localizations
-   |-index.ts             # contains re-exports
-   |-manifest.ts          # contains list of services, plugin name and description
-   |-PluginBootstrap.ts   # common plugin registration and initialization logic
- |-package.json
- |-tsconfig.json
-```
+Plugin structure can be found on [[Frontend development guidelines]]
 
 ## Commands
 Execute from `cloudbeaver/webapp`<br>
@@ -59,17 +23,7 @@ yarn lerna run build --stream --scope=@cloudbeaver/plugin-name
 ```
 
 ## Build product
-### Product folder structure is the same as for plugin
-```
-|-packages
-  |-cloudbeaver
-    |-node_modules     # dependencies
-    |-lib              # after the build will contain the artifact
-    |-public           # put static assets to this folder
-    |-src              # keep source files here
-    |-package.json
-    |-tsconfig.json
-```
+Product folder structure can be found on [[Frontend development guidelines]]<br/>
 The only difference in the build command is:<br>
 `"build": "core-cli-build --mode=production --config ../core-cli/configs/webpack.product.config.js",`<br>
 it uses product config, also contains `dev` command for starting development local build <br>
