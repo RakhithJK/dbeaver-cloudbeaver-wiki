@@ -18,6 +18,8 @@ to run Webpack dev server
 
 3. Open `localhost:3100` in web browser
 
+## [[Frontend development guidelines]]
+
 ## Plugins
 The application consists of several plugins and submodules which are located in the `webapp\packages` folder.
 * **core-administration** - Administration API
