@@ -1,3 +1,9 @@
+### CloudBeaver 22.3.4   2023-02-06
+
+* "SQL script manager" in Tools menu is renamed to "Display Script".
+* Every enabled user has permissions to log in.
+* Different bugs have been fixed.
+
 ### CloudBeaver 22.3.3   2023 01 23
 * Download button is added on a Value panel of Blob and JSON data
 * The body of packages in Oracle databases now is displayed
