@@ -1,4 +1,4 @@
-This instructin explain how to configure and deploy DBeaver Team Edition.  
+This instruction explains how to configure and deploy DBeaver Team Edition.  
 It is supposed to be read by system administrators and/or devops engineers.  
 
 DBeaver Team Edition consists of the following components:
