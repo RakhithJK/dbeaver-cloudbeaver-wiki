@@ -85,6 +85,7 @@ Team Edition
 
 - [[Team Edition Overview|DBeaver-TE-Overview]]
 - [[Team Edition Installation|DBeaver-TE-Install]]
+- [[Team Edition Configuration|DBeaver-TE-Configuration]]
 
 Development <!--CMD:SKIP-->
 
