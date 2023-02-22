@@ -75,6 +75,7 @@ CloudBeaver EE for AWS
 
 CloudBeaver Enterprise Edition
 - [[Overview|CloudBeaver-EE-Overview]]
+- [[Licnese Management|CloudBeaver-License-Management]]
 - [[SSO|Single Sign-On]]
 - [[SAML authentication|SAML]]
 - [[OpenID authentication|OpenID]]
