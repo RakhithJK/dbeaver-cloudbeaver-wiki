@@ -1,0 +1,1 @@
+[CloudBeaver - Web Database Manager](https://cloudbeaver.io)
