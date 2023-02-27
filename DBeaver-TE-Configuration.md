@@ -13,7 +13,7 @@ You can use different ways to manage and authenticate your users.
 
 Local users are stored in CloudBeaver internal database. You need to create local users manually and specify username and password for them.  
 User can change its password later.
-See <a href="#creating_users">creating users</a> for more details.
+See <a href="#creating-users">creating users</a> for more details.
 
 ### Azure AD
 
