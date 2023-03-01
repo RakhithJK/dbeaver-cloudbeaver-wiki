@@ -18,7 +18,7 @@ SQL Editor supports autocomplete, syntax highlight, statement execution, script 
 | Ctrl+Enter                 | Execute SQL statement                   |
 | Ctrl+\ or Ctrl+Shift+Enter | Execute SQL statement in new tab        |
 | Alt+X                      | Execute script                          |
-| Shift+Ctrl+E               | Show exectution plan                    |
+| Shift+Ctrl+E               | Show execution plan                     |
 | Alt+T                      | Open SQL Editor in separate browser tab |
 | Shift+Ctrl+F               | Format script                           |
 
