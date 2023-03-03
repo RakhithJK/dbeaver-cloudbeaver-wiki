@@ -50,5 +50,5 @@ As our web application contains numerous packages, it's crucial to debug the cod
 <img width="878" alt="image" src="https://user-images.githubusercontent.com/48489896/222736503-2f2bdc92-e8f7-4a89-837d-6bb19cf4e230.png">
 
 ### Internal packages validation
-Each package comes with a package.json file that lists its internal dependencies. These dependencies are those utilized within the package. Therefore, whenever you import a package into the code, you should add it to the package.json file. You can accomplish this manually or by running the validation task ```lerna run validate-dependencies```. If you're importing only types from a package, you can move this package dependency to devDependencies instead of dependencies. Additionally, you should exclude packages that are imported in the .test files.
+Each package comes with a package.json file that lists its internal dependencies. These dependencies are those utilized within the package. Therefore, whenever you import a package into the code, you should add it to the package.json file. You can accomplish this manually or by running the validation task ```lerna run validate-dependencies```. If you're importing only types from a package, you should move this package dependency to devDependencies instead of dependencies. Additionally, you should exclude packages that are imported in the .test files.
 
