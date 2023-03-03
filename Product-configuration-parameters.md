@@ -94,7 +94,7 @@ Config below is equivalent to example config for plugins: 'log-viewer', 'data-ex
 ### Configuration file locations
 `webapp/packages/product-default/src/config.json5` (webapp)<br/>
 `conf/product.conf` (server)<br/>
-`workspace/.data/.product.runtime.conf` (runtime)<br/>
+`workspace/.data/.product.runtime.conf` (runtime, highest priority)<br/>
 listed in priority order<br/>
 
 ### Table of settings
