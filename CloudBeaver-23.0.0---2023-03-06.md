@@ -5,14 +5,26 @@ Changes since 22.0.0
   - The auto-refresh tool has been added to update table data automatically;
   - Big values can be saved to an external file;
   - The Value panel supports BLOB images.
+  - edit shortcuts are no longer available for read-only tables.
+  - non-editable tables are marked;
+  - users can change the coordinate system for spatial data in the Value panel.
 - SQL Editor:
   - Object names can be added to the SQL Editor field by dragging them from the Navigator Tree;
   - The SQL Editor for a connection can be opened via URL.
+  - "Link with Editor" tool is now available for the SQL Editor and synchronizes it with the element in the Database Navigator; 
+  - script formatting can be undone.
 - Metadata Editor:
   - Objects DDL can be opened in the SQL Editor.
 - Authentication:
+  - Administrators can enable a reverse proxy for user authentication in the Server Settings.
   - Users can login to the application via Nginx.
 - Connection:
+  - new filter in connection driver properties simplifies search for driver settings;
+  - the connection configuration through URL has been added for drivers, that support it;
+  - only administrators have:
+    - access to the connection edit dialog of shared connections,
+    - permission to create connections in both projects, Shared and Private, when it’s restricted for other users,
+    - the search tool for local connections in the Connection menu on the public page.
   - Keep-Alive interval and Connect timeout parameters can be configured for an SSH Tunnel;
   - SQL Server supports NTLM authentication;
   - Administrators can use PgPass authentication for PostgreSQL.
@@ -23,6 +35,16 @@ Changes since 22.0.0
   - The size limit of the Resource Manager scripts and the Value panel files can be configured to improve CloudBeaver performance;
   - SSH key value for a connection can be stored in the configuration file.
   - Application fields can be returned to a default size by double-clicking on the field's separator.
+  - the application language can be set;
+  - the number of table rows to load can be configured to prevent the application from slowing down in the following cases:
+    - the default number of loaded rows when users open a table and then scroll it,
+    - the minimum and maximum number of rows, which users can load at once when scrolling the table;
+  - SQL query execution time limit can be changed;
+  - the application language can be set;
+  - the number of table rows to load can be configured to prevent the application from slowing down in the following cases:
+    - the default number of loaded rows when users open a table and then scroll it,
+    - the minimum and maximum number of rows, which users can load at once when scrolling the table;
+  - SQL query execution time limit can be changed;
 - Public page:
   - administrators can create shared connections via the Connection menu.
 - Resource Manager:
@@ -32,12 +54,6 @@ Changes since 22.0.0
   - users can rename scripts. 
 - Database Navigator:
   - users can group connections into folders. 
-- SQL Editor:
-  - "Link with Editor" tool is now available for the SQL Editor and synchronizes it with the element in the Database Navigator; 
-  - script formatting can be undone.
-- The Data Editor:
-  - non-editable tables are marked;
-  - users can change the coordinate system for spatial data in the Value panel. 
 - Local configuration:
   - the application language can be set;
   - the number of table rows to load can be configured to prevent the application from slowing down in the following cases:
@@ -65,8 +81,6 @@ Changes since 22.0.0
     - access to the connection edit dialog of shared connections,
     - permission to create connections in both projects, Shared and Private, when it’s restricted for other users,
     - the search tool for local connections in the Connection menu on the public page.
-- Authentication:
-  - Administrators can enable a reverse proxy for user authentication in the Server Settings.
 - User administration:
   - administrators can filter enabled and disabled users on the Access Management tab;
   - the application saves all user history: users can be deactivated, but not deleted.
@@ -92,8 +106,6 @@ Changes since 22.0.0
   - the User dialog displays available connections in alphabetical order.
 - Connection dialog:
   - users can now add new driver properties with the applied filter in the Driver Properties tab.
-- Data Editor:
-  - edit shortcuts are no longer available for read-only tables.
 - Administrators can grant access to all shared connections to the User team by changing one parameter in the configuration file;
 - The shared project is now selected by default in the Create connection dialog in the Administration;
 - Different bug fixes and enhancements have been made.
