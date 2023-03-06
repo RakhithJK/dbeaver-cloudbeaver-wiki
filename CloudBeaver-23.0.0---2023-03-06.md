@@ -1,37 +1,99 @@
-### CloudBeaver 23.0.0 - 2023-03-06
+Changes since 22.0.0
 
+- The new Resource Manager allows users to store and manage scripts in CloudBeaver.
+- Data Editor:
+  - The auto-refresh tool has been added to update table data automatically;
+  - Big values can be saved to an external file;
+  - The Value panel supports BLOB images.
+- SQL Editor:
+  - Object names can be added to the SQL Editor field by dragging them from the Navigator Tree;
+  - The SQL Editor for a connection can be opened via URL.
+- Metadata Editor:
+  - Objects DDL can be opened in the SQL Editor.
+- Authentication:
+  - Users can login to the application via Nginx.
+- Connection:
+  - Keep-Alive interval and Connect timeout parameters can be configured for an SSH Tunnel;
+  - SQL Server supports NTLM authentication;
+  - Administrators can use PgPass authentication for PostgreSQL.
+- Administration:
+  - The Resource Manager can be disabled;
+  - Administrators can revoke and return permissions to a user with a single click in the user's dialog.
+- Local configuration:
+  - The size limit of the Resource Manager scripts and the Value panel files can be configured to improve CloudBeaver performance;
+  - SSH key value for a connection can be stored in the configuration file.
+  - Application fields can be returned to a default size by double-clicking on the field's separator.
+- Public page:
+  - administrators can create shared connections via the Connection menu.
+- Resource Manager:
+  - users can group scripts into folders; 
+  - when internet connection is lost, script editing is disabled to prevent users from losing data;
+  - users can refresh all scripts by clicking one button; 
+  - users can rename scripts. 
+- Database Navigator:
+  - users can group connections into folders. 
+- SQL Editor:
+  - "Link with Editor" tool is now available for the SQL Editor and synchronizes it with the element in the Database Navigator; 
+  - script formatting can be undone.
+- The Data Editor:
+  - non-editable tables are marked;
+  - users can change the coordinate system for spatial data in the Value panel. 
+- Local configuration:
+  - the application language can be set;
+  - the number of table rows to load can be configured to prevent the application from slowing down in the following cases:
+    - the default number of loaded rows when users open a table and then scroll it,
+    - the minimum and maximum number of rows, which users can load at once when scrolling the table;
+  - SQL query execution time limit can be changed;
+- The cookies can be disabled.
+- The product upgrade scripts were improved to avoid possible UI issues.
+- Users receive notifications about any changes in:
+  - the server configuration,
+  - connections and scripts they are currently working with.
+- The main menu has become more compact thanks to the new design.
+- SQL scripts Manager:
+  - Users can specify the connection for the saved script. This connection will be selected by default when a user opens this script next time.
+  - The Settings button opens the new menu that allows users to:
+    - filter scripts,
+    - collapse all expanded folders,
+    - keep the tree view after refreshing the browser page,
+    - show the tree view as the path to the script,
+    - remove grouping of scripts by projects.
+- Connections:
+  - new filter in connection driver properties simplifies search for driver settings;
+  - the connection configuration through URL has been added for drivers, that support it;
+  - only administrators have:
+    - access to the connection edit dialog of shared connections,
+    - permission to create connections in both projects, Shared and Private, when it’s restricted for other users,
+    - the search tool for local connections in the Connection menu on the public page.
+- Authentication:
+  - Administrators can enable a reverse proxy for user authentication in the Server Settings.
+- User administration:
+  - administrators can filter enabled and disabled users on the Access Management tab;
+  - the application saves all user history: users can be deactivated, but not deleted.
+- The Value Panel:
+  - the size of displayed JSON values is limited to improve CloudBeaver performance;
+  - big JSON values can be saved to an external file.
+- Table data export:
+  - character encoding can be changed for table data;
+  - the new setting (BOM) allows users to export specific Unicode characters correctly.
+- Update to SSHJ library allows users to use more private key formats for SSH authentication.
+- Local configuration:
+  - changing of a default view of the Navigation tree, Simple or Advanced, can be restricted;
+  - the edit connection dialog of shared connections can be made visible to all users;
+  - the size limit of displayed JSON values can be changed.
 - Fixed a problem with using Chinese characters in SQL Editor.
 - SQL editor keeps focus inside even in case of errors.
-- Different bugs have been fixed.
-
-### CloudBeaver 22.3.5 - 2023-02-20
-
 - Added formatting for execution plan for easy reading.
-- Different bugs have been fixed.
-
-### CloudBeaver 22.3.4 - 2023-02-06
-
 - "SQL script manager" in Tools menu is renamed to "Display Script".
 - Every enabled user has permissions to log in.
-- Different bugs have been fixed.
-
-### CloudBeaver 22.3.3 - 2023-01-23
-
 - Download button is added on a Value panel of Blob and JSON data
 - The body of packages in Oracle databases now is displayed
-- different bugs have been fixed.
-
-### CloudBeaver 22.3.2 - 2023-01-09
-
 - Administration menu:
   - the User dialog displays available connections in alphabetical order.
 - Connection dialog:
   - users can now add new driver properties with the applied filter in the Driver Properties tab.
 - Data Editor:
   - edit shortcuts are no longer available for read-only tables.
-
-### CloudBeaver 22.3.1 - 2022-12-26
-
 - Administrators can grant access to all shared connections to the User team by changing one parameter in the configuration file;
 - The shared project is now selected by default in the Create connection dialog in the Administration;
-- Different bugs have been fixed.
+- Different bug fixes and enhancements have been made.
