@@ -50,6 +50,16 @@ Note: users will be created in CloudBeaver automatically on first login.
 
 ![](images/te/gsuite-ip-config.png)
 
+You need to specify following parameters:
+
+Name | Description
+---|---
+Client ID | Client ID from GSuite OpenID credentials
+Client Secret | Client secret from GSuite OpenID credentials
+IDP auth endpoint | `https://accounts.google.com/o/oauth2/auth`
+IDP token endpoint | `https://oauth2.googleapis.com/token`
+
+<!--
 #### AWS SSO
 
 #### OpenId
@@ -62,3 +72,4 @@ Note: users will be created in CloudBeaver automatically on first login.
 
 ## Managing projects
 
+-->
