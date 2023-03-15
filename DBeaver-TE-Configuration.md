@@ -28,10 +28,27 @@ Below is the list of supported identity providers:
 
 #### Azure AD
 
-You can configure Azure AD integration so users will bne stored in AD. There is not need to manage their credentials or teams manually.
+You can configure Azure AD integration so users will be stored in AD. There is no need to manage their credentials or teams manually.
 ![](images/te/azure-ad-ip-config.png)
 
+You need to specify following parameters:
+
+Name | Description
+---|---
+Domain / Tenant ID | Azure AD domain name or tenant ID
+Application ID | Azure AD enterprise application ID (the same as client ID in OpenID auth)
+Secret Key | Azure AD enterprise application client secret key
+Database authentication provider | If checked then access to SQL Server will be claimed along with user information. Open ID scope = `https://database.windows.net//.default`
+Read AD group information | If checked then user AD groups information will be claimed. It is needed to associate AD user with CludBeaver roles. Open ID scope = `groups`.
+AD Group: Administrators | AD group identitiers (coma separated). Users from these groups will be granted with Administrator role
+AD Group: Developers | AD group identitiers (coma separated). Users from these groups will be granted with Developer role
+AD Group: Managers | AD group identitiers (coma separated). Users from these groups will be granted with Manager role
+
+Note: users will be created in CloudBeaver automatically on first login.
+
 #### Google GSuite
+
+![](images/te/gsuite-ip-config.png)
 
 #### AWS SSO
 
