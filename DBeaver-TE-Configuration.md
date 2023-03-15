@@ -45,6 +45,7 @@ AD Group: Developers | AD group identitiers (coma separated). Users from these g
 AD Group: Managers | AD group identitiers (coma separated). Users from these groups will be granted with Manager role
 
 Note: users will be created in CloudBeaver automatically on first login.
+User ID will the same as user email in Azure AD.
 
 #### Google GSuite
 
@@ -58,6 +59,9 @@ Client ID | Client ID from GSuite OpenID credentials
 Client Secret | Client secret from GSuite OpenID credentials
 IDP auth endpoint | `https://accounts.google.com/o/oauth2/auth`
 IDP token endpoint | `https://oauth2.googleapis.com/token`
+
+Note: users will be created in CloudBeaver automatically on first login.
+User ID will the same as user email in GSuite.
 
 <!--
 #### AWS SSO
