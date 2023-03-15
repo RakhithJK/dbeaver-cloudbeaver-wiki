@@ -1,5 +1,3 @@
-# DBeaver Team Edition configuration
-
 ## License import
 
 You need a license in order to start working with CloudBeaver.  
