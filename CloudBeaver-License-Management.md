@@ -1,13 +1,13 @@
 ## CloudBeaver Licenses
 
-Following prodcts need a license:
+Following products need a license:
 - CloudBeaver EE
 - CloudBeaver AWS in a custom host
 - CloudBeaver Team Edition
 
 ## License installation
 
-On you first application open it will ask you for a lucense.  
+On you first application open it will ask you for a license.  
 You need to get a license from your profile on https://dbeaver.com web site.  
 You can use a commercial or trial license. All licenses work the same way.  
 
