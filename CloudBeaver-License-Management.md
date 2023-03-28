@@ -11,7 +11,7 @@ On you first application open it will ask you for a license.
 You need to get a license from your profile on https://dbeaver.com web site.  
 You can use a commercial or trial license. All licenses work the same way.  
 
-Once you have a license text you can go to the administration panel, copy-paste license text in correponding text field and click "Import license".  
+Once you have a license text you can go to the administration panel, copy-paste license text in corresponding text field and click "Import license".  
 
 ## License upgrade
 
