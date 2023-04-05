@@ -44,7 +44,6 @@
 Installation  
 
 - [[Running from Docker|run-docker-container]]
-- [[Build and deploy|build-and-deploy]]
 - [[Version upgrade|CloudBeaver-EE-Upgrade]]
 - [[Workspace backup|CloudBeaver-Workspace-Backup]]
 
@@ -92,6 +91,7 @@ Team Edition
 
 Development <!--CMD:SKIP-->
 
+- [[Build and deploy from sources|build-and-deploy]]
 - [[Frontend technical overview|Frontend-technical-overview]] <!--CMD:SKIP-->
 - [[Frontend development guidelines]] <!--CMD:SKIP-->
 - [[Plugin system|Plugin system]] <!--CMD:SKIP-->
