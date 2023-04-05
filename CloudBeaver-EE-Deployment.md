@@ -55,3 +55,43 @@ Parameter | Explanation
 -v local_path:/opt/cloudbeaver-ee/workspace | Mounts local folder `/var/cloudbeaver-ee/workspace' to the server workspace. Required to keep CloudBeaver EE data after container restart.
 --add-host=host.docker.internal:IP address | Adds host name in the container's /etc/hosts file. This may be needed to access the database server deployed on the host machine.
 dbeaver/cloudbeaver-ee:latest | Container ID
+
+
+### Offline upgrading method
+
+On host with internet access you need to download and archve image:
+
+Note: you can change `latest` tag to desired version
+```
+docker pull dbeaver/cloudbeaver-ee:latest
+docker save dbeaver/cloudbeaver-ee | gzip > cloudbeaver-ee.latest.tar.gz
+```
+
+Check that na archive exist:
+```
+ls -lah
+```
+
+Output should looks like:
+```
+-rw-r--r-- 1 user users 444M may 5 17:32 cloudbeaver-ee.latest.tar.gz
+```
+
+Now copy file `cloudbeaver-ee.latest.tar.gz` to some external drive and put to server with running cloudbeaver server.
+
+Load image from archve:
+```
+docker load < cloudbeaver-ee.latest.tar.gz
+```
+You will see next output
+```
+Loaded image: dbeaver/cloudbeaver-ee:<VERSION>
+```
+
+Upgrade your cloudbeaver-ee server:
+```
+docker stop cloudbeaver-ee
+docker rm cloudbeaver-ee
+docker run -d --restart unless-stopped -p 8978:8978 -v /var/cloudbeaver-ee/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver-ee:<VERSION>
+```
+> Note: some of docker args may differ from your environment.
