@@ -81,6 +81,7 @@ CloudBeaver Enterprise Edition
 - [[OpenID authentication|OpenID]]
 - [[Azure AD authentication|Azure-AD-authentication]]
 - [[Deployment|CloudBeaver-EE-Deployment]]
+- [[Version upgrade|CloudBeaver-EE-Upgrade]]
 
 Team Edition
 
