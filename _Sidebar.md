@@ -1,6 +1,7 @@
 #### User Guide  
 
 - [[Application overview|CloudBeaver-overview]]
+- [[Demo Server]]
 - [[Administration]]
    - [[Overview]]
    - [[Server configuration|Server-configuration-administration]]
@@ -44,7 +45,8 @@ Installation
 
 - [[Running from Docker|run-docker-container]]
 - [[Build and deploy|build-and-deploy]]
-- [[Demo Server]]
+- [[Version upgrade|CloudBeaver-EE-Upgrade]]
+- [[Workspace backup|CloudBeaver-Workspace-Backup]]
 
 Configuration   
 
@@ -65,8 +67,6 @@ Configuration
    - [[ERD|Product-settings-erd]]
    - [[Connections|Product-settings-connections]]
 - [[Command line parameters]]
-- [[Version upgrade|CloudBeaver-EE-Upgrade]]
-- [[Workspace backup|CloudBeaver-Workspace-Backup]]
 
 CloudBeaver EE for AWS
 - [[Overview|AWS-Overview]]
