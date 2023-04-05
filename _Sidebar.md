@@ -65,6 +65,8 @@ Configuration
    - [[ERD|Product-settings-erd]]
    - [[Connections|Product-settings-connections]]
 - [[Command line parameters]]
+- [[Version upgrade|CloudBeaver-EE-Upgrade]]
+- [[Workspace backup|CloudBeaver-Workspace-Backup]]
 
 CloudBeaver EE for AWS
 - [[Overview|AWS-Overview]]
@@ -81,7 +83,6 @@ CloudBeaver Enterprise Edition
 - [[OpenID authentication|OpenID]]
 - [[Azure AD authentication|Azure-AD-authentication]]
 - [[Deployment|CloudBeaver-EE-Deployment]]
-- [[Version upgrade|CloudBeaver-EE-Upgrade]]
 
 Team Edition
 
