@@ -11,7 +11,7 @@ Each image has following tags:
 Tag | Description
 ---|---
 latest | The latest stable product release
-&lt;version-number&gt;, 22.1.2, 23.0.1, etc | Exact product version
+22.1.2, 23.0.1, etc | Exact product version
 ea | Early Accesss version
 devel | Development version, unstable
 
