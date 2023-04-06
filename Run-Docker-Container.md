@@ -1,3 +1,5 @@
+### Docker repositories
+
 CloudBeaver container images are on DockerHub: 
 
 Product | Docker repository | URL
@@ -26,6 +28,7 @@ Notes:
 - To run docker commands your user must be in proper user group or run it as root (e.g. `sudo docker ps`).
 
 #### Installation 
+
 To install the latest version of CloudBeaver use the following script:
 
 ```sh
@@ -102,3 +105,43 @@ To run CloudBeaver in the terminal:
 ```
 docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace my-cloudbeaver
 ```
+
+
+### Offline install
+
+On a host with no internet access you need to download and archve image:
+
+Note: <TAG> is a tag name for docker image (see above). `latest` is the default.  
+```
+docker pull dbeaver/cloudbeaver-ee:<TAG>
+docker save dbeaver/cloudbeaver-ee | gzip > cloudbeaver-ee.latest.tar.gz
+```
+
+Check that the archive exist:
+```
+ls -lah
+```
+
+Output should looks like:
+```
+-rw-r--r-- 1 user users 444M may 5 17:32 cloudbeaver-ee.latest.tar.gz
+```
+
+Now copy file `cloudbeaver-ee.latest.tar.gz` to some external drive and put to server with running cloudbeaver server.
+
+Load image from archve:
+```
+docker load < cloudbeaver-ee.latest.tar.gz
+```
+You will see next output
+```
+Loaded image: dbeaver/cloudbeaver-ee:<TAG>
+```
+
+Upgrade your cloudbeaver-ee server:
+```
+docker stop cloudbeaver-ee
+docker rm cloudbeaver-ee
+docker run -d --restart unless-stopped -p 8978:8978 -v /var/cloudbeaver-ee/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver-ee:<TAG>
+```
+Note: some of docker args may differ from your environment.
