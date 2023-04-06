@@ -13,7 +13,6 @@
    - [[User credentials storage]]
    - [[Query Manager]]
 - [[Supported databases]]
-- [[Authentication]]
 - [[Theming]]
 - [[Localization]]
 - Features
