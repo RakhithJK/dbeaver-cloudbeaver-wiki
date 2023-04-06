@@ -111,7 +111,7 @@ docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspac
 
 On a host with no internet access you need to download and archve image:
 
-Note: <TAG> is a tag name for docker image (see above). `latest` is the default.  
+Note: `<TAG>` is a tag name for docker image (see above). `latest` is the default.  
 ```
 docker pull dbeaver/cloudbeaver-ee:<TAG>
 docker save dbeaver/cloudbeaver-ee:<TAG> | gzip > cloudbeaver-ee.latest.tar.gz
