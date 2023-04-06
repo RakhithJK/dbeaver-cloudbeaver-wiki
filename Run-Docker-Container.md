@@ -1,6 +1,25 @@
-CloudBeaver container image is on DockerHub: https://hub.docker.com/r/dbeaver/cloudbeaver.  
-- `dbeaver/cloudbeaver:latest` - latest release build.
-- `dbeaver/cloudbeaver:dev` - latest developer build.
+CloudBeaver container images are on DockerHub: 
+
+Product | Docker repository | URL
+---|---
+CloudBeaver Community | dbeaver/cloudbeaver | https://hub.docker.com/r/dbeaver/cloudbeaver
+CloudBeaver EE | dbeaver/cloudbeaver-ee | https://hub.docker.com/r/dbeaver/cloudbeaver-ee  
+CloudBeaver AWS | dbeaver/cloudbeaver-aws | https://hub.docker.com/r/dbeaver/cloudbeaver-aws
+
+Each image has following tags:
+
+Tag | Description
+---|---
+latest | The latest stable product release
+&lt;version-number&gt;, 22.1.2, 23.0.1, etc | Exact product version
+ea | Early Accesss version
+devel | Development version, unstable
+
+Examples:
+
+- `dbeaver/cloudbeaver:latest` - latest community release
+- `dbeaver/cloudbeaver-ee:23.0.0` - CloudBeaver EE version 23.0
+- `dbeaver/cloudbeaver-aws:ea` - CloudBeaver AWS Early Access version
 
 #### Installation 
 To install the latest version of CloudBeaver use the following script:
@@ -10,6 +29,8 @@ sudo docker pull dbeaver/cloudbeaver:latest
 ```
 
 #### Running 
+
+We will use repository `cloudbeaver` as an example in the following instructions. Replace it with proper product repository (see above).  
 
 To run cloudbaver in the terminal:
 ```
