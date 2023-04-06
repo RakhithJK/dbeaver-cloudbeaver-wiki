@@ -21,20 +21,22 @@ Examples:
 - `dbeaver/cloudbeaver-ee:23.0.0` - CloudBeaver EE version 23.0
 - `dbeaver/cloudbeaver-aws:ea` - CloudBeaver AWS Early Access version
 
+Notes:
+- We will use repository `cloudbeaver` as an example in the following instructions. Replace it with proper product repository (see above).  
+- To run docker commands your user must be in proper user group or run it as root (e.g. `sudo docker ps`).
+
 #### Installation 
 To install the latest version of CloudBeaver use the following script:
 
 ```sh
-sudo docker pull dbeaver/cloudbeaver:latest
+docker pull dbeaver/cloudbeaver:latest
 ```
 
 #### Running 
 
-We will use repository `cloudbeaver` as an example in the following instructions. Replace it with proper product repository (see above).  
-
 To run cloudbaver in the terminal:
 ```
-sudo docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver:latest
+docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver:latest
 ```
 
 Then switch to the browser and open http://localhost:8080/
@@ -98,5 +100,5 @@ docker build -t my-cloudbeaver .
 
 To run CloudBeaver in the terminal:
 ```
-sudo docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace my-cloudbeaver
+docker run --name cloudbeaver --rm -ti -p 8080:8978 -v /var/cloudbeaver/workspace:/opt/cloudbeaver/workspace my-cloudbeaver
 ```
