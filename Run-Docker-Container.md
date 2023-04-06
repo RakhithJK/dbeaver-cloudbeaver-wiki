@@ -1,7 +1,7 @@
 CloudBeaver container images are on DockerHub: 
 
 Product | Docker repository | URL
----|---
+---|---|---
 CloudBeaver Community | dbeaver/cloudbeaver | https://hub.docker.com/r/dbeaver/cloudbeaver
 CloudBeaver EE | dbeaver/cloudbeaver-ee | https://hub.docker.com/r/dbeaver/cloudbeaver-ee  
 CloudBeaver AWS | dbeaver/cloudbeaver-aws | https://hub.docker.com/r/dbeaver/cloudbeaver-aws
