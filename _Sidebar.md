@@ -28,7 +28,6 @@
      - [[Value Panel]]
      - [[JSON and Document View]] 
      - [[Working with spatial/GIS data]] <!--CMD:SKIP-->
-   - [[ERD]] <!--CMD:SKIP-->
    - [[Data export]]
    - [[Entity Diagrams]] 
    - [[Document viewer]]
