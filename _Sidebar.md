@@ -35,7 +35,7 @@
      - [[Query Execution Plan]]
      - [[Visual Query Builder]] 
    - [[Log Viewer]]
-   - [[Cloud Explorer]]  <!--CMD:SKIP-->
+   - [[Cloud Explorer|AWS Cloud Explorer]]  <!--CMD:SKIP-->
    - [[Query History]]
    - [[Resource Manager]]
 - [[Releases]] <!-- CMD:SKIP -->
