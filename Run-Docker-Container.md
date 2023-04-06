@@ -114,7 +114,7 @@ On a host with no internet access you need to download and archve image:
 Note: <TAG> is a tag name for docker image (see above). `latest` is the default.  
 ```
 docker pull dbeaver/cloudbeaver-ee:<TAG>
-docker save dbeaver/cloudbeaver-ee | gzip > cloudbeaver-ee.latest.tar.gz
+docker save dbeaver/cloudbeaver-ee:<TAG> | gzip > cloudbeaver-ee.latest.tar.gz
 ```
 
 Check that the archive exist:
