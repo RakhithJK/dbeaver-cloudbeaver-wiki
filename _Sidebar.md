@@ -81,7 +81,6 @@ CloudBeaver Enterprise Edition
 - [[SAML authentication|SAML]]
 - [[OpenID authentication|OpenID]]
 - [[Azure AD authentication|Azure-AD-authentication]]
-- [[Deployment|CloudBeaver-EE-Deployment]]
 
 Team Edition
 
