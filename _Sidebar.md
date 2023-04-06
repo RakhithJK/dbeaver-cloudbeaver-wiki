@@ -43,7 +43,7 @@
 
 Installation  
 
-- [[Running from Docker|run-docker-container]]
+- [[Installation|run-docker-container]]
 - [[Version upgrade|CloudBeaver-EE-Upgrade]]
 - [[Workspace backup|CloudBeaver-Workspace-Backup]]
 
