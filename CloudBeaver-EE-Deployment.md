@@ -1,3 +1,7 @@
+### See [[Running from Docker|Run-Docker-Container]]
+
+<!--
+
 The CloudBeaver EE container image is at DockerHub: https://hub.docker.com/r/dbeaver/cloudbeaver-ee.  
 - `dbeaver/cloudbeaver-ee:latest` - latest release build.
 - `dbeaver/cloudbeaver:x.y.z` - particular product version.
@@ -95,3 +99,5 @@ docker rm cloudbeaver-ee
 docker run -d --restart unless-stopped -p 8978:8978 -v /var/cloudbeaver-ee/workspace:/opt/cloudbeaver/workspace dbeaver/cloudbeaver-ee:<VERSION>
 ```
 > Note: some of docker args may differ from your environment.
+
+-->
