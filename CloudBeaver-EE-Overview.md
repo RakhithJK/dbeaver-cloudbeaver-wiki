@@ -7,17 +7,43 @@ It contains all features of the CloudBeaver Community plus:
 ### Enterprise database drivers:
 
 - Relational databases
-   - Microsoft SQL Server
+   - Apache Calcite
+   - Apache Drill
+   - Apache Ignite
+   - Apache Phoenix
+   - SQL Server
    - Sybase, SAP ASE
+   - DB2
    - Snowflake
+   - Databricks
    - Vertica
    - Netezza
    - Hive
+   - Google Bigquery
+   - Intersystems Cache
+   - Clickhouse
+   - CockroachDB
+   - Dremio
+   - DuckDB
+   - EnterpriseDB
+   - Informix
+   - MaxDB
+   - Neo4j
+   - Oceanbase
+   - Opensearch (Elasticsearch)
+   - SAP HANA
+   - Teradata
+   - Timescale
+   - Trino
+   - Yellowbrick
+   - Yugabyte
 - NoSQL databases
    - MongoDB
    - Cassandra
    - InfluxDB
    - Couchbase
+   - CouchDB
+   - Redis
 - AWS databases
    - RDS/Aurora
    - Athena
@@ -25,3 +51,4 @@ It contains all features of the CloudBeaver Community plus:
    - DynamoDB
    - DocumentDB
    - Keyspaces
+   - Timestream
