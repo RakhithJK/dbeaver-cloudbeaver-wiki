@@ -77,7 +77,8 @@ Typical configuration:
         ],
         disabledDrivers: [
             "sqlite:sqlite_jdbc",
-            "h2:h2_embedded"
+            "h2:h2_embedded",
+            "h2:h2_embedded_v2"
         ]
 
     }
