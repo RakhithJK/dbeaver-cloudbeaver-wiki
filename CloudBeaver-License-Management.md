@@ -6,12 +6,16 @@ Following products need a license:
 - CloudBeaver Team Edition
 
 ## License installation
-
-On you first application open it will ask you for a license.  
+  
 You need to get a license from your profile on https://dbeaver.com web site.  
 You can use a commercial or trial license. All licenses work the same way.  
 
-Once you have a license text you can go to the administration panel, copy-paste license text in corresponding text field and click "Import license".  
+You add your license when you first start CloudBeaver during [Server configuration](https://github.com/dbeaver/cloudbeaver/wiki/Server-configuration-administration). Also, it's possible to return to the [Administration panel](https://github.com/dbeaver/cloudbeaver/wiki/Administration) anytime and import the license. This can be done in two ways: by adding the license text or by uploading the license file. In the first case, please note that you need to copy-paste the full license text (not just the license ID). The license text starts with '–' and ends with '==' characters.
+
+![license](https://user-images.githubusercontent.com/49681450/231415076-a5f8ce8d-d13d-4dcf-8adc-5cf0511e27e5.png)
+
+
+Once you have the license text in the filed, click 'Import'.  
 
 ## License upgrade
 
