@@ -1,9 +1,9 @@
 ### CloudBeaver 23.0.4 - 2023-05-08
 
 -  Improvements based on GitHub user requests have been added:
- - error when running SQL with semicolon has been fixed;
- - option to increase the maximum size of text files displayed in the value panel (using the sqlTextPreviewMaxLength parameter) has been added;
- - support for custom logging configuration has been added. An external configuration file can be used instead of the default configuration.
+  - error when running SQL with semicolon has been fixed;
+  - option to increase the maximum size of text files displayed in the value panel (using the sqlTextPreviewMaxLength parameter) has been added;
+  - support for custom logging configuration has been added. An external configuration file can be used instead of the default configuration.
 -  Different bugs have been fixed.
 
 ### CloudBeaver 23.0.3 - 2023-04-24
