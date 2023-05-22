@@ -1,3 +1,13 @@
+
+### CloudBeaver 23.0.5 - 2023-05-22
+
+- We improved the performance of the SQL-editor - as a result, handling scripts with up to 10 000 lines does not present any challenges.
+- Improvements requested by GitHub users are available:
+  - the URL-configuration for PostgreSQL now correctly displays only a single database;
+  - in the SQL-editor, pressing Tab/Space followed by Enter now causes the cursor to move to a new line;
+  - the CE version now offers the updated sqlite-jdbc driver, version 3.41.2.
+- Different bugs have been fixed.
+
 ### CloudBeaver 23.0.4 - 2023-05-08
 
 - Improvements based on GitHub user requests have been added:
