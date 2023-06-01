@@ -12,6 +12,7 @@
    - [[Authentication methods]]
    - [[User credentials storage]]
    - [[Query Manager]]
+   - [[Drivers Management]]
 - [[Supported databases]]
 - [[Theming]]
 - [[Localization]]
