@@ -11,19 +11,26 @@ You can add, edit, or remove shared database connections or database connection 
 ![Connection Management](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/connection_management/connection-management.png)
 
 ### Creation
-Click the `Add` button in the top toolbar to open the connection creation form.
-
-![Search](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/connection_management/new_search.png)
-You can use the `Search` tab to find databases on the cloudbeaver host machine or provided host. You can choose database type if several databases can be hosted on the same port. You can write several hosts to search on: `localhost yourhost.com` or `localhost, yourhost.com`. Click on the connection in the list to open the creation form (You can also select database type there).
 
 ![Custom](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/connection_management/new_custom.png)
-You can use the `Custom` tab to create a connection for the specified database or driver. You can search databases by name.
+
+To establish a new connection, follow the steps below:
+
+1. Click the `Add` button located on the top toolbar. This will open the connection creation form.
+2. Fill out the fields in the form with the appropriate information.
+3. Once all fields are completed, click `Create`.
+
+Your new connection should be successfully created and it will appear at the top of the connection table.
 
 ### Connection Form
-You can set base connection parameters, driver settings, SSH tunnel, and access in the connection form.
-A connection template will be created if the `Template` checkbox is checked.
-To check the connection to the database, click on the `Test connection` button; if SSH is configured, it will be used to test the connection.
-Users will be asked to enter credentials if the connection requires authentication. An administrator can set authentication parameters and save them (`Save credentials` checkbox in `Authentication` section); in that case, any user that has access to a connection will be able to connect without entering credentials.
+Below are the detailed steps to set the connection parameters:
+
+1. Open the connection form. This can be done by clicking the `Add` button in the toolbar.
+2. Fill in the appropriate information in the base connection parameters, driver settings, SSH tunnel, and access fields.
+3. If you want to create a connection template, check the `Template` checkbox.
+4. To verify the database connection, click the `Test Connection` button. If SSH is configured, the test will use it to establish the connection.
+5. If the connection requires authentication, users will be prompted to enter their credentials. 
+6. As an administrator, you can set and save these authentication parameters by checking the `Save Credentials` checkbox in the `Authentication` section. Doing so will allow any user with access to the connection to connect without needing to enter their credentials.
 
 ![Connection Form](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/connection_management/new_form.png)
 
