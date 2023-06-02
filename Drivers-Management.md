@@ -4,6 +4,8 @@ This wiki guide provides a step-by-step instruction for managing drivers using t
 
 ## Creating a Custom Driver
 
+![Custom Driver](https://github.com/dbeaver/cloudbeaver/wiki/images/drivers_management/administration-drivers-management.png)
+
 Follow the steps below to create a new custom driver:
 
 1. Navigate to the `Administration` page of the interface.
@@ -15,6 +17,8 @@ Follow the steps below to create a new custom driver:
 Your new custom driver should now be successfully created.
 
 ## Uploading Binary Files
+
+![Binary Files](https://github.com/dbeaver/cloudbeaver/wiki/images/drivers_management/driver-libraries.png)
 
 In order to make your new driver functional, you will need to upload `.jar` binary files. Here's how:
 
@@ -29,6 +33,8 @@ In order to make your new driver functional, you will need to upload `.jar` bina
 Once the binary files are uploaded, your custom driver is ready to use. It can be selected from the driver list when required.
 
 ## Editing an Existing Driver
+
+![Editing Driver](https://github.com/dbeaver/cloudbeaver/wiki/images/drivers_management/driver-editing.png)
 
 You can also edit any existing driver. Here are the steps:
 
