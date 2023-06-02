@@ -100,3 +100,5 @@ Development <!--CMD:SKIP-->
 - [[Adding new database drivers]] <!--CMD:SKIP-->
 - [[Code of Conduct]] <!--CMD:SKIP-->
 - [[Develop in Eclipse]] <!--CMD:SKIP-->
+- API <!--CMD:SKIP-->
+  - [[Resource Loading]] <!--CMD:SKIP-->
