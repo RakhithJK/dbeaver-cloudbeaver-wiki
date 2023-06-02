@@ -11,8 +11,8 @@
      - [[Teams]]
    - [[Authentication methods]]
    - [[User credentials storage]]
-   - [[Query Manager]]
-   - [[Drivers Management]]
+   - [[Query Manager]] ![Query Manager](https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png)
+   - [[Drivers Management]] ![Drivers Management](https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png)
 - [[Supported databases]]
 - [[Theming]]
 - [[Localization]]
@@ -33,10 +33,10 @@
    - [[Document viewer]]
    - [[SQL Editor]]
      - [[Query Execution Plan]]
-     - [[Visual Query Builder]] 
+     - [[Visual Query Builder]] ![Visual Query Builder](https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png)
    - [[Log Viewer]]
-   - [[Cloud Explorer|AWS Cloud Explorer]]  <!--CMD:SKIP-->
-   - [[Query History]]
+   - [[Cloud Explorer|AWS Cloud Explorer]]  <!--CMD:SKIP--> ![Cloud Explorer](https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png)
+   - [[Query History]] ![Query History](https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png)
    - [[Resource Manager]]
 - [[Releases]] <!-- CMD:SKIP -->
 
