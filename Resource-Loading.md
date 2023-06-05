@@ -32,6 +32,6 @@ export const ExtendedDDLViewerTabPanel: NavNodeTransformViewComponent = observer
 The closest `Loader` will display states of loading.
 
 ### useResource(component, resource, key)
-component - can be React Component, React Functional Component or React Hook
-resource - resource instance or class
-key - null (skip resource loading) or any other valid value
+component - can be React Component, React Functional Component or React Hook<br>
+resource - resource instance or class<br>
+key - null (skip resource loading) or any other valid value<br>
