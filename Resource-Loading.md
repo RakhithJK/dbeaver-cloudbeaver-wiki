@@ -32,6 +32,27 @@ export const ExtendedDDLViewerTabPanel: NavNodeTransformViewComponent = observer
 The closest `Loader` will display states of loading.
 
 ### useResource(component, resource, key)
-component - can be React Component, React Functional Component or React Hook<br>
-resource - resource instance or class<br>
-key - null (skip resource loading) or any other valid value<br>
+**component** - can be React Component, React Functional Component, or React Hook<br>
+**resource** - resource instance or class<br>
+**key** - null (skip resource loading) or any other valid value
+
+#### useResource.**data**
+Returns `undefined` or loaded data (observable, suspense)
+
+#### useResource.**tryGetData**
+Returns `undefined` or loaded data (observable). Accessing this method will not trigger React Suspense.
+
+#### useResource.**exception**`: Error | Error[] | null`
+
+#### useResource.**.isLoading()**
+Returns `true` when the resource is in the progress of loading data.
+
+#### useResource.**isOutdated()**
+Returns `true` when the resource is outdated.
+
+#### useResource.**isLoaded()**
+Returns `true` when data is loaded and can be accessed via `.data` or `.tryGetData`. New data can be in the progress of loading or be outdated at the same time.
+
+#### useResource.**isError()**
+Returns `true` when an error occurred when loading.
+
