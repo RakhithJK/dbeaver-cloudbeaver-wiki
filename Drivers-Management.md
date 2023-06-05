@@ -2,6 +2,8 @@
 
 This wiki guide provides a step-by-step instruction for managing drivers using the product interface, including creating a new custom driver and editing an existing one.
 
+Before you start managing drivers, it is important to note that administrative privileges are required. Only users with administrator rights can perform actions such as creating, editing, or deleting drivers.
+
 ## Creating a Custom Driver
 
 ![Custom Driver](https://github.com/dbeaver/cloudbeaver/wiki/images/drivers_management/administration-drivers-management.png)
@@ -10,7 +12,7 @@ Follow the steps below to create a new custom driver:
 
 1. Navigate to the `Administration` page of the interface.
 2. Select the `Driver Management` tab.
-3. Click on the `Create` button.
+3. Click on the `Add` button.
 4. A form will appear. Fill in the necessary fields with the appropriate information.
 5. Once completed, click `Create`.
 
