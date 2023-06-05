@@ -1,0 +1,20 @@
+
+Changes since 23.0.0
+
+- Data viewer:
+  - New grouping panel menu was added in the Data Viewer. This panel extracts unique values from the database column for count. Users can drag and drop the column to the grouping panel and get the results immediately. Sorting, filtering and exporting of the results are available on the Grouping panel. 
+- SQL Editor:
+  - We improved the performance of the SQL-editor - as a result, handling scripts with up to 10 000 lines does not present any challenges;
+  - In the SQL-editor, pressing Tab/Space followed by Enter now causes the cursor to move to a new line;
+  - In the SQL editor, when the cursor goes back on the query, the previous hints are displayed;
+  - Error when running SQL with semicolon has been fixed.
+- Connections:
+  - If there is an error in saving the data, the tab for the chosen connection dialog will stay open to allow corrections;
+  - The URL-configuration for PostgreSQL now correctly displays only a single database.
+- Driver management:
+  - The CE version now offers the updated sqlite-jdbc driver, version 3.41.2;
+  - CloudBeaver has the option to connect to H2 database version 2;
+  - The internal CloudBeaver database is upgraded to the newest H2 version 2 to avoid vulnerability issues. The database will be safely upgraded automatically for the servers with default configurations. You can perform this upgrade manually if you have a custom configuration for this database in your infrastructure.
+- Connections:
+  - Option to increase the maximum size of text files displayed in the value panel (using the sqlTextPreviewMaxLength parameter) has been added;
+  - Support for custom logging configuration has been added. An external configuration file can be used instead of the default configuration.
