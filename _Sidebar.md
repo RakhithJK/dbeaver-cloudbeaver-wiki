@@ -94,6 +94,7 @@ Development <!--CMD:SKIP-->
 - [[Frontend development guidelines]] <!--CMD:SKIP-->
 - [[Plugin system|Plugin system]] <!--CMD:SKIP-->
   - [[Plugin structure|Plugin structure]] <!--CMD:SKIP-->
+  - [[Styling components|CloudBeaver: Styling components]] <!--CMD:SKIP-->
 - [[Package localization|Package localization]] <!--CMD:SKIP-->
 - [[Server architecture|Server-architecture]] <!--CMD:SKIP-->
 - [[Server API explorer]] <!--CMD:SKIP-->
