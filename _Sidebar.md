@@ -90,16 +90,17 @@ Team Edition
 Development <!--CMD:SKIP-->
 
 - [[Build and deploy from sources|build-and-deploy]]
-- [[Frontend technical overview|Frontend-technical-overview]] <!--CMD:SKIP-->
-- [[Frontend development guidelines]] <!--CMD:SKIP-->
-- [[Plugin system|Plugin system]] <!--CMD:SKIP-->
-  - [[Plugin structure|Plugin structure]] <!--CMD:SKIP-->
+- Frontend
+  - [[Frontend technical overview|Frontend-technical-overview]] <!--CMD:SKIP-->
+  - [[Frontend development guidelines]] <!--CMD:SKIP-->
   - [[Styling components|CloudBeaver: Styling components]] <!--CMD:SKIP-->
-- [[Package localization|Package localization]] <!--CMD:SKIP-->
+  - [[Plugin system|Plugin system]] <!--CMD:SKIP-->
+    - [[Plugin structure|Plugin structure]] <!--CMD:SKIP-->
+  - [[Package localization|Package localization]] <!--CMD:SKIP-->
+  - API <!--CMD:SKIP-->
+    - [[Resource Loading]] <!--CMD:SKIP-->
 - [[Server architecture|Server-architecture]] <!--CMD:SKIP-->
 - [[Server API explorer]] <!--CMD:SKIP-->
 - [[Adding new database drivers]] <!--CMD:SKIP-->
 - [[Code of Conduct]] <!--CMD:SKIP-->
 - [[Develop in Eclipse]] <!--CMD:SKIP-->
-- API <!--CMD:SKIP-->
-  - [[Resource Loading]] <!--CMD:SKIP-->
