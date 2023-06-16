@@ -84,8 +84,10 @@ CloudBeaver Enterprise Edition
 Team Edition
 
 - [[Team Edition Overview|DBeaver-TE-Overview]]
+- [[Getting started with DBeaver Team Edition|Getting-started-with-DBeaver-Team-Edition]]
 - [[Team Edition Installation|DBeaver-TE-Install]]
 - [[Team Edition Configuration|DBeaver-TE-Configuration]]
+
 
 Development <!--CMD:SKIP-->
 
