@@ -17,13 +17,17 @@ _Please refer to DBeaver products description for more [details](https://dbeaver
 
 To start working with Team Edition, go through the following steps:
 
-1. Server cluster deployment. At this step, decide whether it will be _**Docker Compose**_ or _**Kubernetes**_. Detailed instructions for these methods can be found [here](https://github.com/dbeaver/team-edition-deploy/). If you want another technology to run containers and need assistance, please inform us in our [online technical support system](https://dbeaver.com/support/).  We managed to successfully set up _**ECS + Fargate + EFS**_, _**OpenShift**_, and other services.
+## Step 1. Server cluster deployment
 
-2. Team Edition CloudBeaver setup in the browser. Here you need to switch to the browser. 
+At this step, decide whether it will be _**Docker Compose**_ or _**Kubernetes**_. Detailed instructions for these methods can be found [here](https://github.com/dbeaver/team-edition-deploy/). If you want another technology to run containers and need assistance, please inform us in our [online technical support system](https://dbeaver.com/support/).  We managed to successfully set up _**ECS + Fargate + EFS**_, _**OpenShift**_, and other services.
+
+## Step 2. Team Edition CloudBeaver setup in the browser
+
+Here you need to switch to the browser. 
 
 For _**Docker Compose**_:
 
-In the adrress bar, type the URL configured in the **_.env_** file. For example, for the: 
+In the address bar, type the URL configured in the **_.env_** file. For example, for: 
 
 
 `CLOUDBEAVER_DOMAIN=localhost`
@@ -53,13 +57,11 @@ After that, you will be prompted to insert your license:
 
 Continue Team Edition DBeaver configuration using the [tabs](https://github.com/dbeaver/cloudbeaver/wiki/DBeaver-TE-Configuration) in the administration panel. 
 
-3. Setting up Team Edition DBeaver desktop client.
+## Step 3. Setting up Team Edition DBeaver desktop client
 
 Download the installation files from the [website](https://dbeaver.com/download/team-edition/).
 
 When you run Team Edition DBeaver for the first time, enter the domain controller URL. It is **the same** as the URL you enter in **step 2** in the address bar to access Team Edition CloudBeaver:
-
-
 
 
 ![TEDB](https://github.com/dbeaver/cloudbeaver/assets/49681450/fdaed67c-7b2f-4bc8-9b36-d70e6b45d67b)
@@ -70,5 +72,5 @@ Login with the default **User name** and **User password**:
 ![TEDB1](https://github.com/dbeaver/cloudbeaver/assets/49681450/56b334b4-b257-496f-ac65-2eecd6fabf87)
 
 
-You will be able to login using the preferred authentication mechanisms afterward.
+You will be able to log in using the preferred authentication mechanisms afterward.
 
