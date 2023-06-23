@@ -13,10 +13,4 @@ The Administrator can create **custom teams** on the Teams tab of the Administra
 
 ![role_creation_dialog](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/access_management/role_creation_dialog.png)
 
-
----
 Also, connection access can be configured in the Connection and User dialogs.
-
-**Connection dialog**
-
-![access_tab_of_connection_dialog.png](https://github.com/dbeaver/cloudbeaver/wiki/images/administration/connection_management/access_tab_of_connection_dialog.png)
