@@ -7,7 +7,7 @@ The Administrator can create users for local name/password based authentication 
 1. **Navigating to the Access Management Tab:** Within the Administration Menu, find and select the `Access Management` tab.
 2. **Initiating the Creation of a New User:** To begin the process of creating a new user, click on the `Add` button located within the `Access Management` tab.
 3. **Entering User Details:** Here, you will be required to input a username and password. These credentials will be used by the new user for logging into the system.
-4. **Assigning a Team to the New User:** A team will define the permissions the user has within the system. For additional information regarding teams and their definitions, please refer to the [Team management](https://github.com/dbeaver/cloudbeaver/wiki/Role-management) article.
+4. **Assigning a Team to the New User:** A team will define the permissions the user has within the system. For additional information regarding teams and their definitions, please refer to the [Team management](https://github.com/dbeaver/cloudbeaver/wiki/Teams) article.
 5. **Setting Connection Access:** If necessary, you can provide the user with connection access. This setting can be found and adjusted within the `Connection Access` tab.
 6. **Finalizing User Creation:** To complete the process and create the new user, click on the `Create` button.
 
