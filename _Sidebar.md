@@ -8,7 +8,7 @@
    - [[Connection Management]]
    - [[Access Management]]
      - [[Users]]
-     - [[Roles]]
+     - [[Teams]]
    - [[Authentication methods]]
    - [[User credentials storage]]
    - [[Query Manager]] ![Query Manager](https://github.com/dbeaver/cloudbeaver/wiki/images/commercial.png)
