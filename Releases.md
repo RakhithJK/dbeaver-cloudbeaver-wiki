@@ -1,4 +1,4 @@
-### [[CloudBeaver 23.1.. - 2023-06-05|CloudBeaver-23.1.1--2023-06-05]]
+### [[CloudBeaver 23.1.. - 2023-06-26|CloudBeaver-23.1.1--2023-06-05]]
 
 ### [[CloudBeaver 23.1 - 2023-06-05|CloudBeaver-23.1.0--2023-06-05]]
 
