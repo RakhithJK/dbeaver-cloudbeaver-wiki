@@ -91,8 +91,8 @@ Team Edition
 
 Development <!--CMD:SKIP-->
 
-- [[Build and deploy from sources|build-and-deploy]]
-- Frontend
+- [[Build and deploy from sources|build-and-deploy]] <!--CMD:SKIP-->
+- Frontend <!--CMD:SKIP-->
   - [[Frontend technical overview|Frontend-technical-overview]] <!--CMD:SKIP-->
   - [[Frontend development guidelines]] <!--CMD:SKIP-->
   - [[Styling components|CloudBeaver: Styling components]] <!--CMD:SKIP-->
