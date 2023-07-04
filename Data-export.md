@@ -8,7 +8,7 @@ You can also export data from the Data Editor and the ResultSet in the SQL Edito
 
 2. Choose your export format. CloudBeaver supports different output formats:
 - CSV
-- DBUbit
+- DBUnit
 - JSON
 - Markdown
 - Source code
