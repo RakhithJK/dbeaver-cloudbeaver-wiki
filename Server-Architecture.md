@@ -31,4 +31,4 @@ In the CloudBeaver Community we support only free and open-source databases. Suc
 - SQLite
 - Firebird
 
-We will add more database drivers support in future versions.
+We will add [more database drivers](https://github.com/dbeaver/cloudbeaver/wiki/Supported-databases)  support in future versions.
