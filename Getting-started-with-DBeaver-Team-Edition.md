@@ -8,18 +8,14 @@
 
 To start working with Team Edition, go through the following steps:
 
-## Step 1. Server deployment
+### Step 1. Server deployment
 
 The server part consists of several docker containers.
-We offer instructions for two most common orchestration technologies: Docker Compose and Kubernetes.
+We offer instructions for the two most common orchestration technologies: Docker Compose and Kubernetes.
 You can find these instructions [in our public git repository](https://github.com/dbeaver/team-edition-deploy/).
 If these instructions don't suit your environment or if you need any other help,
 please don't hesitate to contact our [technical support](https://dbeaver.com/support/).
 
-## Step 2. Initial server setup
+### Step 2. [Initial server setup](TE-Server-Configuration)
 
-Please refer to [the corresponding article](TE-Server-Configuration).
-
-## Step 3. Download and use the desktop client (optional)
-
-Please refer to [the corresponding article](DBeaver-TE-Install.md).
+### Step 3. [Download and use the desktop client (optional)](DBeaver-TE-Install.md)
