@@ -1,3 +1,10 @@
+## Initial login
+
+Use the default credentials to login:
+
+**User name**: `cbadmin`
+**User password**: `cbadmin20`
+
 ## License import
 
 You need a license in order to start working with CloudBeaver.  
